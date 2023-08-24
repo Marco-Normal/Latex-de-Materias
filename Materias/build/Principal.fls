@@ -1,0 +1,792 @@
+PWD c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias
+INPUT C:\Users\Marco Tulio\AppData\Local\MiKTeX\miktex\data\le\pdftex\latex.fmt
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\Principal.tex
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.log
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\ifthen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memoir.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memoir.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memoir.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memoir.cls
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\etoolbox\etoolbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem10.clo
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem10.clo
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem10.clo
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\mem10.clo
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\array.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\dcolumn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\delarray.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\delarray.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\delarray.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\delarray.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\tabularx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\textcase\textcase.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\infwarerr\infwarerr.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\keyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hycolor\hycolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\letltxmacro\letltxmacro.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\auxhook\auxhook.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\nameref.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\refcount\refcount.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pd1enc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\intcalc\intcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\puenc.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\url\url.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bitset\bitset.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\bigintcalc\bigintcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\atbegshi\atbegshi.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atbegshi-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hdvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hdvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hdvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\hdvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pdfmark.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pdfmark.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pdfmark.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\hyperref\pdfmark.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\rerunfilecheck\rerunfilecheck.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\atveryend\atveryend.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\atveryend-ltx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\memoir\memhfixc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bookmark.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\bookmark\bkm-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\babel.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\txtbabel.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel-french\french.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel-french\french.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-english\english.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel-french\french.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel-french\french.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel-french\french.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel-french\french.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-portuges\brazil.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-portuges\brazil.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-portuges\brazil.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\babel-portuges\brazil.ldf
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\fr\babel-french.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\fr\babel-fr.ini
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-english.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\babel\locale\en\babel-en.ini
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\carlisle\scalefnt.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\calc.sty
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.idx
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\inputenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\graphics.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\trig.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-def\dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\float\float.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amssymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\import\import.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\import\import.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\import\import.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\import\import.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\pgf.revision.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeyslibraryfiltered.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-common-postscript.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgffor.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgf\math\pgfmath.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\math\pgfmath.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\booktabs\booktabs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\chemformula\chemformula.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\chemformula\chemformula.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\chemformula\chemformula.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\chemformula\chemformula.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xfrac\xfrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xfrac\xfrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xfrac\xfrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xfrac\xfrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3kernel\expl3.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\l3keys2e\l3keys2e.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\textcomp.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xparse\xparse.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xtemplate\xtemplate.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xtemplate\xtemplate.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xtemplate\xtemplate.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\l3packages\xtemplate\xtemplate.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\units\nicefrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\units\nicefrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\units\nicefrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\units\nicefrac.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.meta.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\pgfplots\pgfplots.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\systemlayer\pgfsys-luatex.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotscore.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\sys\pgfplotssysgeneric.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgfplotslibrary.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryfpu.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructure.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsliststructureext.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsarray.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsmatrix.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\numtable\pgfplotstableshared.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\liststructure\pgfplotsdeque.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsbinary.data.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotsutil.verb.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\pgflibrarypgfplots.surfshading.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\sys\pgflibrarypgfplots.surfshading.pgfsys-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotscolormap.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\util\pgfplotscolor.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsstackedplots.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsplothandlers.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplothandler.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsmeshplotimage.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.scaling.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotscoordprocessing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.errorbars.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.markers.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplotsticks.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\pgfplots.paths.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\modules\pgfmoduledecorations.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathmorphing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\decorations\pgflibrarydecorations.pathreplacing.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgfplots\libs\tikzlibrarypgfplots.contourlua.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryplotmarks.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\pgf\libraries\pgflibraryplotmarks.code.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\gensymb\gensymb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\mathrsfs.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjustbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\adjcalc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\trimclip.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\collectbox\collectbox.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\adjustbox\tc-dvips.def
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifoddpage\ifoddpage.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\varwidth\varwidth.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\minted\minted.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fvextra\fvextra.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\fancyvrb\fancyvrb.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\upquote\upquote.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\lineno\lineno.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\tools\shellesc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\ifplatform\ifplatform.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\catchfile\catchfile.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\etexcmds\etexcmds.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\iftex\ifluatex.sty
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\nul:.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\xstring\xstring.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\generic\xstring\xstring.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\framed\framed.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\framed\framed.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\framed\framed.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\framed\framed.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\fontenc.sty
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1000.tfm
+INPUT Principal.aex
+INPUT .\Principal.aex
+INPUT Principal.aex
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.aux
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmss.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1000.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1095.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1095.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1440.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1095.tfm
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.dvi
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1000.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsx1200.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0700.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0500.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss2074.tfm
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.toc
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.toc
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.toc
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+INPUT .\OP2.tex
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT .\OP2.tex
+INPUT .\OP2.tex
+INPUT OP2.tex
+INPUT OP2.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecss1200.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1000.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1000.tfm
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT .\_minted-Principal\default.pygstyle
+INPUT _minted-Principal\default.pygstyle
+INPUT .\_minted-Principal\default.pygstyle
+INPUT _minted-Principal\default.pygstyle
+INPUT _minted-Principal\default.pygstyle
+INPUT .\_minted-Principal\default.pygstyle
+INPUT _minted-Principal\default.pygstyle
+INPUT _minted-Principal\default.pygstyle
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1000.tfm
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT .\Bioquimica.tex
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT .\Bioquimica.tex
+INPUT .\Bioquimica.tex
+INPUT Bioquimica.tex
+INPUT Bioquimica.tex
+INPUT .\Fentran3.tex
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT .\Fentran3.tex
+INPUT .\Fentran3.tex
+INPUT Fentran3.tex
+INPUT Fentran3.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0700.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0500.tfm
+INPUT .\Cinetica.tex
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+INPUT .\Cinetica.tex
+INPUT .\Cinetica.tex
+INPUT Cinetica.tex
+INPUT Cinetica.tex
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0800.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0800.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0600.tfm
+INPUT C:\Users\Marco Tulio\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.out.ps
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+OUTPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.toc
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\OP2.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Bioquimica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Fentran3.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Cinetica.aux
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg
+INPUT c:\Users\Marco Tulio\Desktop\Programacao\Latex de Materias\Materias\build\Principal.pyg

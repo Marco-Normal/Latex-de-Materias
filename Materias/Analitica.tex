@@ -1,0 +1,172 @@
+\chapter{Química Analítica}
+\section{Mediadas de Concentração}
+Claramente se faz muito importante sabermos calcular as concentrações de soluções. Precisamos então
+de uma medida padrão para conseguirmos padronizar isso. Uma das mais uteis é a normalidade de forma 
+\begin{equation}
+    N=\frac{m}{EqV}
+\end{equation}
+onde o \(Eq\) é o equivalente grama, de formula 
+\begin{equation}
+    Eq=\frac{MM}{x}
+\end{equation}
+Onde \(MM\) é a massa molar e x pode ser calculado por uma regra de mão
+\begin{itemize}
+    \item ácidos: x= numero de hidrogênios ionizáveis
+    \item Bases: x = numero de hidroxilas
+    \item Sais: x= numero de cargas positivas ou negativas
+    \item Elementos químicos: x=Valência
+    \item Oxidantes e redutores: x= Variação do nox
+\end{itemize}
+Ex: Qual a massa necessária e \(H_2SO_4\) \(d=1,836 gmL^{-1}\) 98 \% para prepararmos uma sol de 250
+mL de uma solução 0,1N de ácido. \(MM=98g Mol^ {-1}\)
+\begin{align}
+    Eq&=\frac{MM}{x}, x=2\\
+    &=\frac{98}{2}\\
+    N&=\frac{m}{EqV}\\
+    0.1&=\frac{m}{49*0,250}\\
+    m&=1.225 g\\
+    v&=\frac{1.225}{1,836*0.98}\\
+    &=0.68 mL
+\end{align}
+A unidade usada no S.I é a molaridade, que é o numero de mols por volume da sol, ou seja
+\begin{equation}
+    M=\frac{m}{MM V}
+\end{equation}
+ Partes por milhão (ppm), por sua vez, é muito utilizada quanto trabalhamos com concentrações muito
+ baixas, ou seja, dentro da nossa solução existe uma quantidade quase ínfima de determinado
+ composto. Um exemplo, é medições na atmosfera, por exemplo, onde vamos ter, por exemplo, partes por
+ milhão de chumbo. Similarmente temos a parte por bilhão (ppb).
+
+ \subsection{Equilíbrio Iônico}
+ Se faz de muita impotência a analise de equilíbrio químico e seu funcionamento. Na pratica de
+ engenharia química, a analise de equilíbrio, em principal na síntese de algum produto ou em
+ reatores, pode ser de fundamental importância para otimizações e corte de custos além de ser a
+ diferença quanto a possibilidade ou nao de uma reação acontecer. \par
+
+ Nosso foco maior sera em equilíbrio iônico, em especifico reações reversíveis. O equilibro químico
+ é característico de reações reversíveis, ou seja:
+ \begin{align}
+ \ch{
+ aA + bB <=> [v1][v2] cC + dD}
+ \end{align}
+ se \(v_1=v_2\), temos
+ \begin{align}
+     \ch{k1 [A]^a [B]^b <=> k2 [C]^c [D]^d}
+ \end{align}
+ No equilíbrio:
+ \begin{equation}
+     \frac{[C]^c[D]^d}{[A]^a[B]b}=\frac{k_1}{k_2}=\mathbf{k}
+ \end{equation}
+ Pelo principio de Le Chatelier, se uma reação for perturbada por algum fator externo, ela tende a
+ espontaneamente se mover para um equilíbrio que tende a anular essa pertubação, procurando
+ restaurar esse equilíbrio. Alguns efeitos que levam a essa pertubação envolvem
+ \begin{itemize}
+     \item Mudança de pressão do sistema
+     \item Mudança de temperatura do sistema
+     \item Adição ou remoção de produtos ou reagente do sistema
+ \end{itemize}
+ Ex:
+ \begin{align}
+     \ch{
+     PbCl2_{(s)} &<=> Pb_{(aq)}^{2+} +  2 Cl^-_{(aq)}
+     }\\
+     K&=\frac{\ch{[Pb^{2+}][Cl^-]^2}}{\ch{[PbCl2]}}
+ \end{align}
+ 
+ Adicionando \ch{Cl-} o equilíbrio vai para o reagente.
+ 
+ \subsection{Constantes importantes}
+ Ionização da água
+ \begin{align}
+     \ch{
+     H2O + H2O &<=>H3O+ + OH- 
+     }\\
+     K&=\frac{\ch{[H3O^+][OH^-]}}{\ch{[H2O][H2O]}}\\
+     Kw&=\ch{[H^+][OH^-]}=1 \cdot 10^{-14}\\
+     pH&=-\log \ch{[H^+]}\\
+     pOH&= -\log \ch{[OH^- ]}\\
+     pOH+pH&=14  
+\end{align}
+Mas por que se deu um salto onde se perdeu as concentrações da água? O mais correto de se analisar na
+equação de k, o ideal seria analisar as atividades das especies químicas, pois imagine que temos uma
+concentração muito baixa no denominado, nosso k iria pro infinito, caso o numerador não acompanhe.
+Ent~ai, levando em conta a atividade, temos
+\begin{equation}
+    k=\frac{aA aB}{aC aD}
+\end{equation}
+onde \(a\) é a atividade da especie,onde ela esta relacionado com o coeficiente de atividade
+\(f[i]\). para substancias pura, \(a=1\), para ions \(a=[ion]\) e para gases \(a=\text{Pressão
+parcial do gas}\). Voltando a questão do pH, so faz sentido pensar numa escala de 0 a 14. Não esta
+errado o pH ser errado, mas na nossa escala não faz sentido usa-la. Quando vamos calcular o pH temos
+de tomar um certo cuidado, pois para concentrações muito pequenas de ácido, vindo de outros meios,
+como ácidos, se a concentração de ácido for muito pequeno, teremos de considerar o \ch{[H^+]} da
+água. Para uma concentração de \ch{HCl} de \(5 \cdot 10^-8\), usando puramente o log, nosso pH daria
+cerca de 7.3. Mas independente da concentração, adicionar ácido sempre tem que diminuir o pH.
+Quando consideramos o \ch{[H^+]} da água, que é\(1 \times 10^-7\), teremos um pH de 6.8, que é o esperado,
+pois reduziu-se o pH
+\subsection{Constante para ácido fraco}
+Considerando um ácido fraco, como o acético, vamos ter
+\begin{align}
+    \ch{
+    HAc_{(aq)}&<=>H+ _{(aq)} + Ac- _{(aq)}
+    }\\
+    K_a&=\frac{\ch{[H^+][Ac^-]}}{\ch{[HAc]}}\\
+    K_a &\approx \frac{\ch{[H^+]^2}}{\ch{[HAc]}}\\
+    \ch{[HAc]_0} &\approx \ch{[HAc]_1}
+\end{align}
+Onde o termo final diz que a concentração antes e depois do equilíbrio sao próximas. Isso é devido
+que ele nao consegue se dissociar completamente, em fato ele se ioniza muito pouco, então pode ser
+feita essa aproximação sem um erro muito grande.
+
+\subsection{Hidrolise de Sais}
+Considerando a formação de um sal feito por uma recão de uma base forte e um ácido fraco. Como
+exemplo sera o acetato de sódio
+\begin{align}
+    \ch{NaAc_{(s)} &<=> Na+ _{(aq)} + Ac- _{(aq)}}\\
+    \ch{Ac-_{(aq)} + H2O &<=> HAc + OH-}\\
+    K&=\frac{\ch{[HAc][OH^-]}}{\ch{[Ac^-][H2O]}}, a_{\ch{H2O}}=1\\
+    Kh&=\frac{\ch{[HAc][OH^-]}}{\ch{[Ac^-]}}\\
+    Kh &\approx \frac{\ch{[OH^-]^2}}{\ch{[Ac^-]}}\\
+    Kh&=\frac{Kw}{Ka}
+\end{align}
+\(Ka\) é a constante do ácido que esta sendo formado. Se mantém a consideração sobre \ch{[Ac]^-},
+que antes e depois do equilíbrio sao aproximadamente iguais.
+\subsection{Solução Tampão}
+Inicialmente vamos supor que voce precise fazer uma reação tal que ela é extremamente sensível a
+mudanças de pH. Voce ja fez um teste e viu que ao longo da reação ela varia de pH. Então é
+necessário que se mantenha o pH estável. \par
+
+Para isso se tem a solução tampão, tal que sua ideia principal é que com a adição de ácidos ou
+bases, se tenha uma variação nula ou quase zero do pH da solução. Um jeito fácil de preparar é
+colocando o par ácido ou base fraca e seu ion. Isso acontece por causa do efeito do ion comum, onde
+tendo uma especie comum se manipula o equilíbrio tendendo a manter o pH. Ex:
+\begin{align}
+    \ch{
+    NaAc_{(s)} &<=> Na- _{(aq)} + Ac- _{(aq)}\\
+    HAc _{(aq)} &<=> H+ _{(aq)} + Ac- _{(aq)}
+    }\\
+    Ka&=\frac{\ch{[ H+ ][ Ac- ]}}{\ch{[HAc]}}\\
+    \ch{[ H+ ]}&=\frac{\ch{Ka[HAc]}}{\ch{[ Ac- ]}}\\
+    \intertext{Aplicando o log e nomeando, temos}\notag \\
+    pH&=pKa + \log \frac{\text{[Sal]}}{\text{[ácido]}}
+\end{align}
+Vamos ver o que acontece se colocarmos um ácido nela
+\begin{align}
+    \ch{
+    NaAc_{(s)} &<=> Na- _{(aq)} + Ac- _{(aq)}\\
+    HAc_{(aq)} &<=> H+ _{(aq)} + Ac- _{(aq)}\\
+    HCl_{(aq)}&<=> H+ _{(aq)} + Cl- _{(aq)}
+    }\\
+\end{align}
+Temos uma fonte introduzindo \ch{H+} que é o ácido e uma fonte retirando que é a formação do ácido
+fraco então o pH permanece aproximadamente constante. Vamos ver adicionando uma base forte
+\begin{align}
+    \ch{
+    NaAc_{(s)} &<=> Na- _{(aq)} + Ac- _{(aq)}\\
+    HAc_{(aq)} &<=> H+ _{(aq)} + Ac- _{(aq)}\\
+    NaOH &<=> Na+ + OH-\\
+    H2O &<=> H+ + OH-
+    }
+\end{align}
+Havendo uma dissociação do ácido acético para se manter o pH do meio.
+ 

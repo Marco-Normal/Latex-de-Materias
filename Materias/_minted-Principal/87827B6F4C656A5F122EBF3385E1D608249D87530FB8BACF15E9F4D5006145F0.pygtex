@@ -1,0 +1,22 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+    \PYG{k+kn}{import} \PYG{n+nn}{numpy} \PYG{k}{as} \PYG{n+nn}{np}
+    \PYG{k+kn}{from} \PYG{n+nn}{scipy.optimize} \PYG{k+kn}{import} \PYG{n}{curve\PYGZus{}fit}
+
+    \PYG{n}{T} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{l+m+mi}{10}\PYG{p}{,} \PYG{l+m+mf}{15.6}\PYG{p}{,} \PYG{l+m+mf}{21.1}\PYG{p}{,} \PYG{l+m+mf}{26.7}\PYG{p}{,} \PYG{l+m+mf}{32.2}\PYG{p}{,} \PYG{l+m+mf}{37.8}\PYG{p}{,} \PYG{l+m+mf}{43.3}\PYG{p}{,}
+        \PYG{l+m+mf}{48.9}\PYG{p}{,} \PYG{l+m+mf}{54.4}\PYG{p}{,} \PYG{l+m+mi}{60}\PYG{p}{,} \PYG{l+m+mf}{65.6}\PYG{p}{,} \PYG{l+m+mf}{71.1}\PYG{p}{,} \PYG{l+m+mf}{76.7}\PYG{p}{,} \PYG{l+m+mf}{82.2}\PYG{p}{,} \PYG{l+m+mf}{87.8}\PYG{p}{,} \PYG{l+m+mf}{93.3}\PYG{p}{])}
+    \PYG{n}{alpha} \PYG{o}{=} \PYG{n}{np}\PYG{o}{.}\PYG{n}{array}\PYG{p}{([}\PYG{l+m+mf}{1.31}\PYG{p}{,} \PYG{l+m+mf}{1.34}\PYG{p}{,} \PYG{l+m+mf}{1.38}\PYG{p}{,} \PYG{l+m+mf}{1.41}\PYG{p}{,} \PYG{l+m+mf}{1.44}\PYG{p}{,} \PYG{l+m+mf}{1.46}\PYG{p}{,} \PYG{l+m+mf}{1.49}\PYG{p}{,} \PYG{l+m+mf}{1.51}\PYG{p}{,}
+        \PYG{l+m+mf}{1.54}\PYG{p}{,} \PYG{l+m+mf}{1.55}\PYG{p}{,} \PYG{l+m+mf}{1.57}\PYG{p}{,} \PYG{l+m+mf}{1.59}\PYG{p}{,} \PYG{l+m+mf}{1.61}\PYG{p}{,} \PYG{l+m+mf}{1.62}\PYG{p}{,} \PYG{l+m+mf}{1.64}\PYG{p}{,} \PYG{l+m+mf}{1.65}\PYG{p}{,} \PYG{l+m+mf}{1.66}\PYG{p}{,} \PYG{l+m+mf}{1.67}\PYG{p}{])}
+
+    \PYG{k}{def} \PYG{n+nf}{func}\PYG{p}{(}\PYG{n}{T}\PYG{p}{,} \PYG{n}{a}\PYG{p}{,} \PYG{n}{b}\PYG{p}{,} \PYG{n}{c}\PYG{p}{):}
+        \PYG{k}{return} \PYG{n}{a} \PYG{o}{*} \PYG{n}{T}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{b} \PYG{o}{*} \PYG{n}{T} \PYG{o}{+} \PYG{n}{c}
+
+    \PYG{n}{popt}\PYG{p}{,} \PYG{n}{pcov} \PYG{o}{=} \PYG{n}{curve\PYGZus{}fit}\PYG{p}{(}\PYG{n}{func}\PYG{p}{,} \PYG{n}{T}\PYG{p}{,} \PYG{n}{alpha}\PYG{p}{)}
+    \PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{popt}\PYG{p}{)}
+
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{T}\PYG{p}{,} \PYG{n}{alpha}\PYG{p}{,} \PYG{l+s+s1}{\PYGZsq{}o\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{plot}\PYG{p}{(}\PYG{n}{T}\PYG{p}{,} \PYG{n}{func}\PYG{p}{(}\PYG{n}{T}\PYG{p}{,} \PYG{o}{*}\PYG{n}{popt}\PYG{p}{),} \PYG{l+s+s1}{\PYGZsq{}r\PYGZhy{}\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{xlabel}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s1}{\PYGZsq{}Temperatura (\PYGZdl{}\PYGZbs{}degree C)\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{ylabel}\PYG{p}{(}\PYG{l+s+sa}{r}\PYG{l+s+s1}{\PYGZsq{}Difusividade Térmica \PYGZdl{} \PYGZbs{}alpha \PYGZbs{}; (\PYGZbs{}frac\PYGZob{}\PYGZob{}m\PYGZca{}2\PYGZcb{}\PYGZcb{}\PYGZob{}\PYGZob{}s\PYGZcb{}\PYGZcb{})\PYGZdl{}\PYGZsq{}}\PYG{p}{)}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{grid}\PYG{p}{()}
+    \PYG{n}{plt}\PYG{o}{.}\PYG{n}{show}\PYG{p}{()}
+\end{Verbatim}

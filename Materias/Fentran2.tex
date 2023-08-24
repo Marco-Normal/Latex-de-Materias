@@ -1,0 +1,1574 @@
+\chapter{Fenômenos de Transporte II}
+\section{Equação de calor}
+O escopo dessa disciplina vai ser nas formas de troca e passagem de calor por meio da irradiação,
+convecção e condução. Vamos iniciar diretamente com a primeira lei da termodinâmica na forma
+diferencial
+\begin{equation}\label{eq:Primeira lei termo diferencial}
+    \mathrm{d}E=\delta Q-\delta W
+\end{equation}
+Mas em um sistema a energia pode estar disponível em diversas formas, as mais importantes sendo a
+mecânica, que é a soma da potencial mais cinética, e interna.
+\begin{align}
+    \mathrm{d}E&=E_2-E_1\\
+    E&=E_c + E_p + E_i 
+\end{align}
+Substituindo uma na outra
+\begin{equation}
+    \mathrm{d}E=E_{c2}  + E_{p2}  + E_{i2}- (E_{c1}  + E_{p1}  + E_{i1} )   
+\end{equation}
+\[
+    \therefore
+\]
+\begin{align}
+    \mathrm{d} E&=(\frac{\delta m \upsilon ^{2}_2 }{2}+ \delta mgz_2 +U_2)-(\frac{\delta m \upsilon ^{2}_1 }{2}+ \delta mgz_1 +U_1)\\
+    &=\delta m(\frac{ \upsilon ^{2}_2 }{2}+ gz_2 +U_2)-(\frac{ \upsilon ^{2}_1 }{2}+ gz_1 +U_1)\\
+    \label{eq:primeira lei antes sub}
+    &=\delta m(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2}+ g(z_{2}-z_1)  +(U_2-U_1))
+\end{align}
+\eqref{eq:primeira lei antes sub} em \eqref{eq:Primeira lei termo diferencial}
+\begin{align}\label{eq:primeira lei pt 3}
+    \delta Q - \delta W =\delta m(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2}+ g(z_{2}-z_1)  +(U_2-U_1))\\
+    \intertext{Definindo as operações sinais}\notag 
+    \text{sinal}(Q)
+    \begin{dcases}
+        -1, & \text{se sai da vizinhança e vai para o sistema} ;\\
+        1, & \text{se sai do sistema e vai para a vizinhança};\\
+    \end{dcases}\notag \\
+    \text{sinal}(W)
+    \begin{dcases}
+        -1, & \text{se sai da vizinhança e vai para o sistema} ;\\
+        1, & \text{se sai do sistema e vai para o vizinhança};\\
+    \end{dcases}\notag 
+\end{align}
+O trabalho pode ser de dois tipos \(\delta W_f\) que é o trabalho de fluxo de formula:
+\begin{equation}
+    \delta W_f=\sum_{i} P_i V_i \text{sinal}(W) 
+\end{equation}
+E trabalho de eixo, denominado por \(\delta W_s\). Nosso trabalho final fica então na forma:
+\begin{equation}\label{eq:trabalhos}
+    \delta  W=\delta W_s + \delta W_f
+\end{equation}
+\eqref{eq:trabalhos} em \eqref{eq:primeira lei pt 3}
+\begin{align}
+    \delta Q \text{sinal}(Q)-(\delta W_s + \delta W_f)=\delta m(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2})+ g(z_{2}-z_1)  +(U_2-U_1)\\
+    \delta Q \text{sinal}(Q)=\delta m(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2}+ g(z_{2}-z_1)  +(U_2-U_1))+(\delta W_s + \delta W_f)
+\end{align}
+Dividindo-se tudo por \(\delta m\)
+\begin{equation}\label{eq:Primeira lei forma geral}
+    \delta^\prime  Q \text{sinal}(Q)=(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2})+ g(z_{2}-z_1)  +(U_2-U_1)+(\delta^\prime  W_s + \delta^\prime  W_f)
+\end{equation}
+Onde o \(\delta ^\prime \) indica 'por quantidade de massa', ou especifico. Para um caso em que
+\(W_2\) vai para a vizinhança e \(W_1\) é feito sobre o sistema, com \(\delta^\prime  W_s=0\)  nossa
+equação fica:
+\begin{align}\label{eq:Primeira lei para quase trocadores}
+    \delta^\prime  Q \text{sinal}(Q)&=(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2}+ g(z_{2}-z_1)  +(U_2-U_1))+(W_2 - W_1)\\
+    &=(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2})+ g(z_{2}-z_1)  +(U_2-U_1)+(P_2 V_2  - P_1 V_1)\\
+    &=(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2})+ g(z_{2}-z_1) +(P_2 V_2 +U_2)  - (P_1 V_1 + U_1)\\
+    &=(\frac{ \upsilon ^{2}_2-\upsilon ^{2}_1 }{2})+ g(z_{2}-z_1) +(H_2 - H_1)
+\end{align}
+Onde H é a entropia do sistema. Para trocadores de calor, onde EM=0, nossa lei colapsa para
+\begin{equation}\label{eq:Primeira lei para trocadores de calor}
+    \delta^\prime  Q \text{sinal}(Q)=(H_2 - H_1)+\delta^\prime W_f
+\end{equation}
+Para gases ideal, nossa lei fica:
+\begin{equation}\label{eq:Primeira lei para gases ideais}
+    \delta^\prime  Q \text{sinal}(Q)=C_p (T_2 - T_1)+\delta^\prime W_f
+\end{equation}
+Onde \(C_p\) é a constante à pressão constante. Para líquidos incompressíveis:
+\begin{equation}\label{eq:Primeira lei para liquidos incompressiveis}
+    \delta^\prime  Q \text{sinal}(Q)=C(T_2 - T_1)+\delta^\prime W_f
+\end{equation}
+Como uma ultima arrumação na nossa equação, multiplicaremos \eqref{eq:Primeira lei para gases
+ideais} por \(\delta m\) nos restando com:
+\begin{equation}\label{eq:Primeira lei para gases ideais não por massa}
+    \delta  Q \text{sinal}(Q)=\delta m C_p (T_2 - T_1)+\delta W_f
+\end{equation}
+E em trocadores, geralmente \(\delta W_f\) é nulo, logo:
+\begin{equation}\label{eq:Primeira lei para gases ideais não por massa trocador}
+    \delta  Q \text{sinal}(Q)=\delta m C_p (T_2 - T_1)
+\end{equation}
+
+\section{Transferências de calor}
+Transferências de calor e definida como a energia em transito por causa de um gradiente de
+temperatura que cocore, seja entre 2 meios, seja entre objeto e o meio, etc. A temperatura, por sua
+vez, pode ser definida como a medida da agitação das moléculas, ou seja, sua energia cinteira. Na
+industria química, isso e mais importante no sentido dos trocadores de calor,logo me desdobarei mais
+sobre isso. Tais trocadores de calor podem ser distinguidos em dois, aqueles que tem contato com, os
+de contato direto e os sem contato. Os sem contatos são aqueles que não tem contato físico entre o
+produto e o meio aquecedor, ou refrigerante, de forma que são separados por alguma membrana ou
+parede fina. Os com contado,por sua vez, tem o contato direto entre o produto e o meio
+aquecedor/refrigerador. Fica a curiosidade do leitor olhar exemplos sobre cada um.
+\subsection{Processo de transferência de calor}
+
+O foco maior, nessa disciplina,vem na parte da energia térmica, em especifico, na energia
+calorifica. Essa energia pode ser considerada como a energia interna na sua forma latente e
+sensível. Para um processo em que ha troca de calor, sem mudança de fase, o calor pode ser
+determinado por:
+\begin{equation}
+    Q=\delta mc(T_s-T_e)
+\end{equation}
+onde \(\dot{m}\) e o fluxo mássico, \(c\) e uma constante especifica par cada material e \(T_s,T_e\)
+são as temperaturas de Saida e entrada respectivamente. Não so de calculo vive a engenharia,
+conhecer como ela é transmitida, e seus mecanismos físicos ainda se mostra vital, tanto para analise
+de custo, quanto par projetar, quanto para calcular as taxas de transferências. Como j`a foi dito,
+temos 3 grandes formas de transmissão, a condução, convecção e irradiação. Vamos nos destrinchar um
+pouco sobre cada uma.
+\section{Condução}
+O calor nessa forma de transmissão é transmitido necessariamente pelo contato e a nível molecular Ele
+é transmitido majoritariamente por meio da transmissão das vibrações das moléculas do material mais
+"quente". é importante a ressalva que ela é majoritária em principal em solido opacos. Ela ocorre em
+líquidos e gases e em sólidos translúcidos ocorre, mas não é majoritária. Em um exemplo, em um dia
+quente, numa casa a condução vai ocorrer através da espessura das paredes. Sob uma analise
+matemática
+\begin{align}\label{eq:equacao de conducao}
+    q_{cond} &\propto A\frac{\mathrm{d}T}{\mathrm{d}x}\\
+    q_{cond}&=-KA\frac{\mathrm{d}T}{\mathrm{d}x}
+\end{align}
+onde\(K\) é uma constante de proporcionalidade relacionada ão material, suas unidades são
+\([\frac{W}{mk}]\). \(A [m^2]\) é a area transversal \(T [K]\) é a temperatura\(x [m]\) é a espessura
+da parede \(q_{cond}\) é o calor conduzido em \(W\). O menos surge por causa que o calor "flui" do
+que tem maior temperatura para o de menor temperatura.
+ \par
+ Ex: Se temos uma placa de aco-inox de 1 cm de espessura, \(k=\frac{17 W}{mC}\). \(\Delta T=-30 C\)
+ Calcule \(q_{cond}/A\):
+ \begin{align}
+     \frac{q_{cond}}{A}&=\frac{-K \Delta T}{\Delta x}\\
+     &=\frac{-17 (30)}{0.01}\\
+     &=34 \frac{kW}{m^2}
+ \end{align}
+ \subsection{Convecção}
+ é a transferência de calor dado o movimento macroscópico da substancia indo de uma região quente
+ para uma fria. Sua formula pode ser dada como:
+ \begin{align}
+     q_{conv} &\propto A(T_s-T_{\infty})\\
+     q_{conv}& =hA(T_S-T_{\infty})
+ \end{align}
+Onde \(h= [\frac{W}{m^3K}]\) é o coeficiente de transferência de calor, \(A= [m^3]\) é a area de
+contato do fluido com a superfície, \(T\) é a temperatura da superfície, \(T_{\infty}\) é a
+temperatura do fluido. \(h\) é determinado empiricamente. Ex: determine \(q_{conv}/A\) para uma
+placa com \(T_{\infty}=20,T_s=120,h=10\),
+\begin{align}
+    q_{conv}/A&=h(T_s-T_{\infty})\\
+    &=10(120-20)\\
+    &=1\frac{kW}{m^2}
+\end{align}
+\section{Radiação}
+A sua principal diferença entre as duas outras é o fato de ela não precisar de meio físico, ou seja,
+ela se propaga por meio do vacuo através de ondas eletromagnéticas. Qualquer corpo sempre esta
+irradiando, então se faz sim de absoluta importância o estudo desse processo para a engenharia.
+Quando recebemos a radiação, pode-se ter 4 formas de interação.
+\begin{itemize}
+    \item Absorvida: O meio tem interação com a radiação aumentando sua energia interna \(\rho\)
+    \item Transmissão: A radiação atravessa o meio \(\alpha\)
+    \item Reflexão: radiação n tem interação mas reflete do meio \(\tau\)
+\end{itemize}
+Num meio semi-transparente
+\begin{equation}
+    G=G_r+G_a+G_t
+\end{equation}
+
+\begin{equation}
+    \rho + \alpha + \tau =1
+\end{equation}
+
+Num meio opaco
+
+\begin{equation}\label{eq:irradiacao corpo opaco}
+    \rho + \alpha =1
+\end{equation}
+
+Com esse informação,podemos definir \(J\) como a radiosidade, que é a taxa que radiação deixa a
+superfície, por area
+\begin{equation}
+    J=E+\rho G
+\end{equation}
+Onde
+\begin{equation}
+    E=\varepsilon \sigma T^4_A
+\end{equation}
+\(\sigma\) é uma constante com valor \(5.669 10^-8 W/(m^2K^4)\) \(\varepsilon\) é a constante de
+permissividade do meio. Definindo o fluxo termo radiação que é a taxa liquida de radiação deixando
+uma superfície por unidade de area, para um corpo opaco, temos
+\begin{align}
+    q^{\prime \prime}_{rad}&=J-G\\
+    &=E+\rho G-G\\
+    &=E-G(1-\rho)\\
+    &=E-\alpha G\\
+    &=\varepsilon \sigma T^4_s - \alpha G
+\end{align}
+Conseguimos substituir\(1-\rho\) por \(\alpha\), pois num corpo opaco, que é o caso do nosso estudo,
+temos como referencia \eqref{eq:irradiacao corpo opaco} Ex: calcule \(q^{\prime \prime}\) dado
+\(A=100 m^2\), \(\varepsilon=0.06\) \(T=37 C\)
+\begin{align}
+    q^{\prime \prime}&=\sigma \varepsilon A T^4_A\\
+    &=5.669 \cdot 10^-8 \cdot 0.06 \cdot 100 \cdot (37+273)^4 \cdot\\
+    &=3141.2643 W
+\end{align}
+\section{Equação geral da condução}
+\subsection{Geometria plana}
+Essa equação é a geral para todos os sólidos a qual podemos calcular o fluxo calorifico que 
+tem por condução.para deriva-la, podemos realizar o balanco de energia para um solido que 
+esta apenas sobre efeito de condução. Considerando um elemento de volume com lados 
+\(\delta x, \delta y, \delta z\). A analise de energia é dado por 
+\begin{equation}\label{eq: balanco de energia}
+\begin{split}
+    \textit{Taxa de condução dentro do v.c + taxa de geração dentro do v.c.}=\\
+    \textit{taxa de condução fora d v.c. + taxa de armazenamento dentro do v.c}
+\end{split}
+\end{equation}
+Vamos representar cada termo dentro de \eqref{eq: balanco de energia}
+\begin{equation}\label{eq: calor gerado v.c.}
+    \textit{taxa de geração de calor no v.c.}=\dot{q_{GER}}\delta x \delta y \delta z
+\end{equation}
+
+\begin{equation}\label{eq: calor armazenado v.c.}
+    \textit{taxa de armazenamento no v.c.}=\frac{\partial}{\partial t}(\rho c T) \delta x \delta y \delta z
+\end{equation}
+
+\begin{equation}\label{eq: taxa de conducao dentro v.c.}
+    \textit{taxa de condução dentro do v.c.}=q^{\prime \prime}_x \delta y \delta z
+\end{equation}
+
+\begin{equation}\label{eq: taxa de conducao fora v.c.}
+    \textit{taxa de condução para fora do v.c.}= q^{\prime \prime}_{x+\delta x}\delta y \delta z
+\end{equation}
+
+\begin{align}
+    q^{\prime \prime}_{x+\delta x}=q^{\prime \prime}|_x + \frac{\partial}{\partial}[q^{\prime \prime}|_x \delta x]
+\end{align}
+
+ Fazendo \eqref{eq: taxa de conducao dentro v.c.} - \eqref{eq: taxa de conducao fora v.c.}
+
+ \begin{align}\label{eq: diferenca conducao x}
+     \eqref{eq: taxa de conducao dentro v.c.}_x - \eqref{eq: taxa de conducao fora v.c.}_{x+ \delta x} &= q^{\prime \prime}_x \delta y \delta z - (q^{\prime \prime}_x + \frac{\partial}{\partial x}[q^{\prime \prime}_x\delta x] \delta  y \delta  z) \\
+     &=-\frac{\partial}{\partial x} [q^{\prime \prime}_x\delta x] \delta y \delta z
+ \end{align}
+
+ Similarmente para y
+
+ \begin{align}\label{eq: diferenca conducao y}
+     \eqref{eq: taxa de conducao dentro v.c.}_y - \eqref{eq: taxa de conducao fora v.c.}_{y+ \delta y} &= q^{\prime \prime}_y \delta x \delta z - (q^{\prime \prime}_y + \frac{\partial}{\partial y}[q^{\prime \prime}_y\delta y] \delta  x \delta  z) \\
+     &=-\frac{\partial}{\partial y} [q^{\prime \prime}_y\delta y] \delta x \delta z
+ \end{align}
+
+E para z
+
+ \begin{align}
+     \eqref{eq: taxa de conducao dentro v.c.}_z - \eqref{eq: taxa de conducao fora v.c.}_{z+ \delta z} &= q^{\prime \prime}_z \delta x \delta y - (q^{\prime \prime}_z + \frac{\partial}{\partial z}[q^{\prime \prime}_z\delta z] \delta  x \delta  y)\\
+     &=-\frac{\partial}{\partial z} [q^{\prime \prime}_z\delta z] \delta x \delta y
+ \end{align}
+
+ Substituindo \eqref{eq: taxa de conducao fora v.c.},\eqref{eq: taxa de conducao dentro v.c.}, \eqref{eq: calor armazenado v.c.}, \eqref{eq: calor gerado v.c.} em \eqref{eq: balanco de energia} e isolando \eqref{eq: calor armazenado v.c.}
+
+\begin{flalign}
+    \begin{split}
+        \frac{\partial}{\partial t}(\rho \cdot c \cdot T) \ \delta x \delta y \delta z &= \dot{q}_{GER} \ \delta x \delta y \delta z  \\ 
+        &-(\frac{\partial}{\partial x} [q^{\prime \prime}_x\delta x] \delta y \delta z +
+        \frac{\partial}{\partial y} [q^{\prime \prime}_y\delta y] \delta x \delta z  +\frac{\partial}{\partial z} [q^{\prime \prime}_z\delta z] \delta x \delta y)
+    \end{split} 
+\end{flalign}
+Dividindo toda equação por \(\delta x \delta y \delta z\)
+\begin{equation}\label{eq: fentran2 desenvolvimento conducao}
+    \frac{\partial}{\partial t}(\rho \cdot c \cdot T) = \dot{q}_{GER}-(\frac{\partial}{\partial x} [q^{\prime \prime}_x]+ \frac{\partial}{\partial y} [q^{\prime \prime}_y] +\frac{\partial}{\partial z} [q^{\prime \prime}_z])
+\end{equation}
+
+ Lembrando da lei de Fourier para condução:
+ \begin{equation}
+     q^{\prime \prime}_x=-k \frac{\partial T}{\partial x}
+ \end{equation}
+ Similarmente para as outras coordenadas. Substituindo  em \eqref{eq: fentran2 desenvolvimento conducao}
+
+ \begin{equation}
+     \frac{\partial}{\partial t}(\rho \cdot c \cdot T)=-[\frac{\partial}{\partial x}(-k \frac{\partial T}{\partial x})+ \frac{\partial}{\partial y}(-k \frac{\partial T}{\partial y})+ \frac{\partial}{\partial z}(-k \frac{\partial T}{\partial z})] + \dot{q}_{GER}
+ \end{equation}
+ Dividindo toda equação por k e ajeitando os termos das parciais, vamos ter
+
+ \begin{align}
+     \frac{\rho c}{k}\frac{\partial T}{\partial t}&= [\frac{\partial^2 T}{\partial x^2}+ \frac{\partial^2 T}{\partial y^2}+ \frac{\partial^2 T}{\partial z^2}]+\frac{\dot{q}_{GER}}{k} \\
+     \label{eq: fentran2 equacao geral de conducao para paredes planas}
+     \frac{1}{\alpha}\frac{\partial T}{\partial t}&= [\frac{\partial^2 T}{\partial x^2}+ \frac{\partial^2 T}{\partial y^2}+ \frac{\partial^2 T}{\partial z^2}]+\frac{\dot{q}_{GER}}{k}
+ \end{align}
+
+ Para um caso permanente, onde a temperatura nao varia com o tempo, nossa equação se reduz a:
+
+ \begin{equation}\label{eq: fentran2 equacao conducao permanente}
+     [\frac{\partial^2 T}{\partial x^2}+ \frac{\partial^2 T}{\partial y^2}+ \frac{\partial^2 T}{\partial z^2}]+\frac{\dot{q}_{GER}}{k}=0
+ \end{equation}
+
+ Similarmente, para geometrias infinitas, ou seja, onde podem ser deprecadas outras dimensões,
+ como placas, cilindros infinitos e esferas, nossa equação se reduz a:
+ \begin{equation}\label{eq:fentran2 eq conducao geometria infinita}
+     \frac{\partial^2 T}{\partial x^2}+\frac{\dot{q}_{GER}}{k}=0
+ \end{equation}
+ Para uma placa sem geração de calor, nossa equação colapsa para
+ \begin{equation}
+     \frac{\partial^2 T}{\partial x^2}=0
+ \end{equation}
+Se fossemos fazer uma analise para uma placa plana, ate mesmo pela própria equação, sua temperatura é 
+exclusivamente função da sua coordenada, e sua transferência de calor é exclusivamente por essa
+coordenada. Logo, conseguimos descobrir sua função e consequentemente sua taxa de transferência.
+Partindo de \eqref{eq: fentran2 equacao geral de conducao para paredes planas} e integrando-a duplamente, temos
+\begin{align}
+    \frac{\partial ^2 T}{\partial x^2}&=0
+    \begin{dcases}
+    x=0 &, T=T_{s1}\\
+    x=L &, T=T_{s2}
+    \end{dcases}\\
+    \int \frac{\partial ^2 T}{\partial x^2}&=\int 0\\
+    \frac{\partial T}{\partial x}&=C_1\\
+    \int \frac{\partial T}{\partial x}&=\int C_1\\
+    T&=C_1x+C_2
+    \intertext{Colocando nossas condicoes de contorno}
+    C_2&=T_{s1}\\
+    C_1&=\frac{(T_{s2}-T_{s1})}{L}\\
+    & \therefore \notag\\
+    T&=\frac{x}{L}(T_{s2}-T_{s1}+T_{s1})\\
+    \intertext{Colocando na equacao de fourier para calor}\notag\\
+    q_x&=-KA\frac{\mathrm{d}T}{\mathrm{d}x}\\
+    &=-KA \frac{\mathrm{d}}{\mathrm{d}x}[\frac{x}{L}(T_{s2}-T_{s1})+T_{s1}]\\
+    &=-KA\frac{(T_{s2}-T_{s1})}{L}
+\end{align}
+Podemos então fazer uma relação dessa equação com circuitos elétricos, em que a nossa corrente seria
+a taxa de condução, nossa ddp a diferença de temperatura e nossa resistência nossa parede, podemos
+escrever então
+\begin{align}
+    q_x &= \frac{T_{s1} - T_{s2}  }{\left[ \frac{L}{KA} \right] }\\
+    &= \frac{T_{s1} T_{s2} }{R_T}
+\end{align}
+Onde \(R_T\) é
+\begin{equation}
+    R_T = \frac{L}{KA}
+\end{equation}
+Portanto, podemos relacionar associação de paredes, tanto em serie, quanto em paralelo, assim como
+fazíamos em circuitos elétricos. Se tivermos uma associação em serie, somamos nossas resistências,
+ou seja
+\begin{align}
+    R_T &= \sum_{i} \frac{L_i}{K_i A}\\
+    &= \sum_{i} \frac{\Delta x_i}{K_i A}
+\end{align}
+Assumindo que a area que atravesse seja a mesma e todas estejam na mesma direção do calor. Em
+paralelo, por sua vez, vamos ter
+\begin{align}
+    R_T &= \sum_{i} \frac{1}{R_i}\\
+    &= \sum_{i} \frac{K_i A}{\Delta x_i}
+\end{align}
+\subsection{Equações da Condução para geometria Cilíndrica}
+A ideia da demonstração é a mesma, então ressaltando os pontos diferentes. As coordenadas, sendo
+cilíndricas, são \(r \delta \phi, \delta r, \delta z\). Portanto, nossas equações ficam
+\begin{equation}\label{eq: calor gerado v.c. cilindrica}
+    \textit{taxa de geração de calor no v.c.}=\dot{q_{GER}}r \delta \phi \delta r \delta z
+\end{equation}
+\begin{equation}\label{eq: calor armazenado v.c. cilindrica}
+    \textit{taxa de armazenamento no v.c.}=\frac{\partial}{\partial t}(\rho c T) r \delta \phi \delta r \delta z
+\end{equation}
+
+\begin{equation}\label{eq: taxa de conducao dentro v.c. cilindrica}
+    \textit{taxa de condução dentro do v.c.}=q^{\prime \prime}_z r \delta \phi \delta r
+\end{equation}
+
+\begin{equation}\label{eq: taxa de conducao fora v.c. cilindrica}
+    \textit{taxa de condução para fora do v.c.}= q^{\prime \prime}_{r + \delta r} r \delta \phi \delta r
+\end{equation}
+Fazendo a mesma expansão, temos
+\begin{equation}
+    q^{\prime \prime}_{z+\delta z}=q^{\prime \prime}|_z + \frac{\partial}{\partial}[q^{\prime \prime}|_z \delta z]
+\end{equation}
+
+Fazendo \eqref{eq: taxa de conducao dentro v.c. cilindrica} - \eqref{eq: taxa de conducao fora v.c. cilindrica}
+
+\begin{align}
+    \eqref{eq: taxa de conducao dentro v.c. cilindrica}_z - \eqref{eq: taxa de conducao fora v.c. cilindrica}_{z+ \delta z}  &= q^{\prime \prime}_z r \delta \phi \delta r - \left[ q^{\prime \prime}_z + \frac{\partial}{\partial z}q^{\prime \prime}_z \delta z \right] r \delta \phi \delta r\\
+    &= - \frac{\partial}{\partial z}q^{\prime \prime}_z \delta z r \delta \phi \delta r
+\end{align}
+
+Similarmente para \(r\)
+
+\begin{equation}
+    q^{\prime \prime}_{r+\delta r}=q^{\prime \prime}|_r + \frac{\partial}{\partial}[q^{\prime \prime}_r|_r \delta r]
+\end{equation}
+
+\begin{align}
+    \eqref{eq: taxa de conducao dentro v.c. cilindrica}_r - \eqref{eq: taxa de conducao fora v.c. cilindrica}_{r+ \delta r} &= q^{\prime \prime}_r r \delta \phi \delta r - \left[ q^{\prime \prime}_r + \frac{\partial}{\partial r}q^{\prime \prime}_r \delta r \right] r \delta \phi \delta r\\
+    &= - \frac{\partial}{\partial r}\left( r q^{\prime \prime}_r \right)  \delta r \delta \phi \delta z
+\end{align}
+
+E para \(\phi \) 
+
+\begin{equation}
+    q^{\prime \prime}_{\phi+\delta \phi}=q^{\prime \prime}|_\phi + \frac{\partial}{\partial}[q^{\prime \prime}|_\phi  r \delta \phi]
+\end{equation}
+
+\begin{align}
+    \eqref{eq: taxa de conducao dentro v.c. cilindrica}_{\phi }  - \eqref{eq: taxa de conducao fora v.c. cilindrica}_{\phi + \delta \phi }  &= q^{\prime \prime}_\phi r \delta \phi \delta r - \left[ q^{\prime \prime}_\phi + \frac{\partial}{\partial}q^{\prime \prime}_\phi r \delta \phi \right] r \delta \phi \delta r\\
+    &= - \frac{\partial}{\partial \phi }q^{\prime \prime}_\phi  \delta \phi \delta r  \delta z
+\end{align}
+
+Logo, substituindo nossa equação na forma mais geral e isolando para o armazenamento, vamos ter
+\begin{equation}
+    \eqref{eq: calor armazenado v.c. cilindrica} = \eqref{eq: calor gerado v.c. cilindrica} + \eqref{eq: taxa de conducao dentro v.c. cilindrica} - \eqref{eq: taxa de conducao fora v.c. cilindrica}
+\end{equation}
+\begin{flalign}
+        \frac{\partial}{\partial t}(\rho c T) r \delta \phi \delta r \delta z = \dot{q}_{GER}r \delta \phi \delta r \delta z - \left( \frac{\partial}{\partial z}q^{\prime \prime}_z \delta z r \delta \phi \delta r + \frac{\partial}{\partial r}\left( r q^{\prime \prime}_r \right)  \delta r \delta \phi \delta z
+        + \frac{\partial}{\partial \phi }q^{\prime \prime}_\phi r  \delta \phi \delta r  \delta z \right)  
+\end{flalign}
+Fazendo o mesmo desenvolvimento chegamos em
+
+\begin{equation}
+    \frac{1}{\alpha }  \frac{\partial T}{\partial t} = \frac{\dot{q}_{GER} }{k} + \left[ \frac{\partial ^{2}  T }{\partial z ^{2} } + \frac{1}{r} \frac{\partial }{\partial r} \left( r \frac{\partial T}{\partial r}  \right) + \frac{1}{r^{2} } \frac{\partial ^{2}  T }{\partial \phi  ^{2} } \right] 
+\end{equation}
+Fazendo as mesmas considerações que foram feitas para o caso retangular, vamos considerar regime
+estacionário, sem geração de calor e um caso com condução unidimensional, apenas na direção radial.
+Assim, temos
+\begin{equation}\label{eq: conducao unidemensional cilindrica}
+    \frac{1}{r} \frac{\partial }{\partial r}  \left(r \partial\frac{\partial T}{\partial r} \right) = 0
+\end{equation}
+Vamos resolver essa equação por meio das nossas condições de contorno.
+\begin{equation}\label{eq: condicoes de contorno cilindrica}
+    \begin{cases}
+        T(r = r_0) = T_{0} \\
+        T(r= r_i) = T_{i}
+    \end{cases}
+\end{equation}
+Resolvendo nossa equação diferencial para o caso unidimensional, temos
+\begin{align}
+    \frac{1}{r} \frac{\partial }{\partial r}  \left(r \partial\frac{\partial T}{\partial r} \right) &= 0\\
+    \frac{\partial }{\partial r}  \left(r \partial\frac{\partial T}{\partial r} \right) &= 0\\
+    \int\frac{\partial}{\partial r}   \left(r \partial\frac{\partial T}{\partial r} \right) &= 0\\
+    r \frac{\partial T}{\partial r} &= C_1\\
+    \frac{\partial T}{\partial r} &= \frac{C_1}{r}\\
+    \partial T &= \frac{C_1}{r} \partial r\\
+    \int \partial T &= \int \frac{C_1}{r} \partial r\\
+    T(r) &= C_1 \ln r + C_2
+\end{align}
+Aplicando \eqref{eq: condicoes de contorno cilindrica} temos
+\begin{align}
+    T_i &= C_1 \ln r_i + C_2\\
+    C_2 &= T_i - C_1 \ln r_i\\
+    T_0 &= C_1 \ln r_0 + C_2\\
+    &\therefore\\
+    T_0 &= C_i \ln r_0 + T_i - C_1 \ln r_i\\
+    T_0 - T_i &= C_1 \ln \frac{r_0}{r_i}\\
+    C_1 &= \frac{T_0 - T_i}{\ln \frac{r_0}{r_i}}
+\end{align}
+Portanto, substituindo na nossa solução temos
+\begin{align}
+    T(r) &= \frac{T_0 - T_i}{\ln \frac{r_0}{r_i}} \ln r + T_i - \frac{T_0 - T_i}{\ln \frac{r_0}{r_i}} \ln r_i
+    T - T_i &= \frac{T_0 - T_i}{\ln \frac{r_0}{r_i}} \ln \frac{r}{r_i}
+\end{align}
+Relembrando da nossa equação de Fourier para o caso cilíndrico, temos
+\begin{equation}
+    q_r = - k A \frac{\partial T}{\partial r}
+\end{equation}
+Onde \(A = 2 \pi r L\). Substituindo nossa solução para \(T(r)\) na equação de Fourier, temos
+\begin{equation}
+    q_r = - 2 k \pi L \left[\frac{T_i - T_0}{\ln \left(\frac{r_0}{r_i}\right)}\right]
+\end{equation}
+Para nossa associação em serie e em paralelo de paredes, nosso raciocínio se da o mesmo, então nao
+me destrincharei novamente. Lembrando que a resistência térmica tem formula
+\begin{equation}
+    R_T = \frac{\ln \frac{r_o}{r_i}  }{2\pi k l} 
+\end{equation}
+\subsection{Condução em um corpo esférico}
+Como o raciocínio se da extremamente similar aos outros casos, nao farei de novo, apenas dando as
+formulas ja deduzidas e fica a critério do leitor caso ele queira conferir. Nossa equação geral da
+condução em paredes esférica se da como
+\begin{equation}\label{eq: equacao geral da conducao em paredes esfericas}
+    \frac{1}{\alpha } \frac{\partial T}{\partial t} = \frac{\dot{q}_{GER} }{k} + \left[ \frac{1}{r^{2} } \frac{\partial}{\partial r} \left( r^2 \frac{\partial T}{\partial r} \right) + \frac{1}{r^{2} \sin \theta } \frac{\partial}{\partial \theta} \left( \sin \theta \frac{\partial T}{\partial \theta} \right) + \frac{1}{r^{2} \sin ^{2} \theta } \frac{\partial ^{2} T}{\partial \phi ^{2}} \right]
+\end{equation}
+Para o caso mais simples, onde o regime se da como permanente, sem geração de calor e com condução
+unidimensional, vamos ter a seguinte equação
+\begin{equation}
+    \frac{1}{r^2} \partial\frac{\partial }{\partial r} \left(r^2 partia\frac{\partial T}{\partial r} \right) = 0 
+\end{equation}
+Com as condições de contorno
+\begin{equation}
+    \begin{cases}
+        T(r = r_e) = T_{e} \\
+        T(r= r_i) = T_{i}
+    \end{cases}
+\end{equation}
+Logo, nossa equação de condução se da
+\begin{align}
+    q_r = \frac{T_i - T_e}{\left(\frac{\left(\frac{1}{r_i} - \frac{1}{r_e}  \right)}{4 \pi k}\right)} 
+\end{align}
+Similarmente com associação em serie e em paralelo, o raciocínio se da o mesmo, então nao farei o
+desenvolvimento. Lembrando apenas que a resistência térmica tem formula
+\begin{equation}
+    R_T = \frac{\left(\frac{1}{r_i} - \frac{1}{r_e}\right)}{4\pi k} 
+\end{equation}
+\section{O conceito de resistência térmica condutiva e convectiva}
+Suponha que tenhamos uma placa que esteja entre duas temperaturas diferentes. A temperatura maior
+tem valor \(T_{S1}\)  e a de menor valor \(T_{S2}\). A placa tem uma espessura \(L\). Ao longo da
+placa, o calor flui por meio da condução e o calor que chega a placa vem, majoritariamente, por meio
+da convecção. A resistência térmica da placa, \(R_{T. Cond}\), pode ser calculada da lei de Fourier
+tendo formula
+\begin{equation}\label{eq: resistencia termica condutiva placa}
+    R_{T. Cond} = \frac{L}{kA}
+\end{equation}
+A resistência térmica convectiva, \(R_{T. Conv}\), pode ser calculada da lei de newton tendo formula
+\begin{equation}\label{eq: resistencia termica convectiva placa}
+    R_{T. Conv} = \frac{1}{hA}
+\end{equation}
+A taxa de transferência total de calor, \(q_{x}\), pode ser dada pela consideração de cada elemento,
+ou seja, a taxa condutiva, a taxa convectiva do ambiente de maior temperatura e a taxa convectiva do
+ambiente de menor temperatura. A taxa de transferência total de calor, \(q_{x}\), pode ser dada por
+\begin{equation}\label{eq: taxa de transferencia total de calor}
+    q = \frac{T_{\infty_1} - T_{\infty_2}}{R_{T. Conv_1} + R_{T. Cond} + R_{T. Conv_2}}
+\end{equation}
+Onde \(T_{\infty_1 }, T_{\infty_2}\) sao respectivamente as temperaturas do ambiente de maior e
+menor. Substituindo \eqref{eq: resistencia termica condutiva placa} e \eqref{eq: resistencia termica
+convectiva placa} na \eqref{eq: taxa de transferencia total de calor} temos
+\begin{equation}\label{eq: taxa de transferencia total de calor 2}
+        q = \frac{T_{\infty_1} - T_{\infty_2}}{\frac{1}{h_1A} + \frac{L}{kA} + \frac{1}{h_2A}} = \frac{T_{\infty_1} - T_{\infty_2}}{\frac{1}{h_1} + \frac{L}{k} + \frac{1}{h_2}}
+\end{equation}
+Onde \(h_1,h_2\) sao as taxas de convecção do ambiente de maior e menor temperatura. Similarmente,
+para um tubo cilíndrico, a resistência térmica condutiva, \(R_{TCond}\), se da como
+\begin{equation}\label{eq: resistencia termica condutiva tubo}
+    R_{TCond} = \frac{\ln \left(\frac{r_0}{r_1} \right)}{2\pi k L}
+\end{equation}
+E suas resistências convectivas se dao de forma igual. Porem agora serão chamadas de \(T_1, T_2\)
+onde \(T_1\) se da como o mais quente e \(T_2\) como o mais frio. Nossa equação de \(q_x\) se da
+\begin{align}\label{eq: taxa de transferencia total de calor cilindrica nao global}
+    q &= \frac{T_1 - T_2}{R_{TConv_1} + R_{TCond} + R_{TConv_2}}\\
+    &= \frac{T_1 - T_2}{\left(\frac{1}{h_i A_i}\right) + \left(\frac{\ln \left(\frac{r_0}{r_1} \right)}{2\pi k L}\right) + \left(\frac{1}{h_0 A_0}\right)}
+\end{align}
+Ou de maneira global
+\begin{equation}\label{eq: taxa de transferencia total de calor global}
+    q = U_i A_i \left(T_1 - T_2\right) = \frac{\left(T_1 - T_2\right)}{\frac{1}{U_i A_i}} 
+\end{equation}
+Onde \(U_i\) se da como o coeficiente global de transferência de calor. Obtido quando igualamos
+\eqref{eq: taxa de transferencia total de calor cilindrica nao global} e \eqref{eq: taxa de transferencia total de calor global}
+\begin{equation}
+    \frac{1}{U_i} = \left(\frac{1}{h_i}\right) + \left(\frac{r_i \ln \left(\frac{r_0}{r_1} \right)}{k}\right) + \left(\frac{r_i}{h_0r_0}\right)
+\end{equation}
+O coeficiente global também pode estar baseado na área externa do tubo, dos dando a equação
+\begin{equation}\label{eq: equacao global para tubo area externa}
+    q = U_0 A_0 \left(T_1 - T_2\right) = \frac{\left(T_1 - T_2\right)}{\frac{1}{U_0 A_0}}
+\end{equation}
+Onde igualando \eqref{eq: equacao global para tubo area externa} e \eqref{eq: taxa de transferencia
+total de calor global} vamos obter
+\begin{equation}
+    \frac{1}{U_0 A_0} = \left(\frac{1}{h_i}\right) + \left(\frac{\ln \left( \frac{r_0}{r_i} \right) }{2 \pi K L}\right) + \left(\frac{1}{h_0 A_0}\right)
+\end{equation}
+Onde 
+\begin{equation}
+    \begin{dcases}
+        A_i = 2 \pi r_i L ;\\
+        A_0 = 2\pi r_0 L  ;\\
+    \end{dcases}
+\end{equation}
+Portanto
+\begin{equation}
+    \frac{1}{U_0} = \frac{r_0}{h_{i} r_{i} } + \frac{r_0 \ln \left( \frac{r_0}{r_i} \right)}{K} + \frac{1}{h_0}
+\end{equation}
+\subsection{Aletamento como forma de Aumentar eficiência}
+Da nossa equação \eqref{eq: taxa de transferencia total de calor cilindrica nao global} temos
+algumas formas de aumentar a eficiência do sistema, dentre elas
+\begin{itemize}
+    \item Reduzindo \(RT_{conv_i} \) 
+    \item Reduzindo \(RT_{cond} \)
+    \item Reduzindo \(RT_{conv_0} \)
+\end{itemize}
+Diminuir \(RT_{conv_i} \) diversas vezes não é muito viável, por mais que seja possível. Por sua
+vez, reduzir \(RT_{cond} \) envolve mudar a espessura da parede e possivelmente o material, o que
+também não é muito viável. Porém, se fossemos pegar \(RT_{cond_0} \) é mais possível, aumentando-se
+a área de contato externa da troca térmica. Isso pode ser feito através de aletas. Aletas são
+expansões, pequenas, nas paredes dos trocadores de calor. Vamos partir diretamente para o balanço de
+energia em uma aleta. \par
+
+Suponha uma aleta instalada numa superfície de temperatura \(T_s\) sendo ela resfriada ao longo de
+seu comprimento por uma temperatura \(T_\infty \). Pegando um elemento de volume dessa aleta e
+considerando que
+\begin{itemize}
+    \item Regime Permanente
+    \item Troca de calor Unidirecional
+    \item Ao longo do material temos uma condutividade térmica constante
+    \item Radiação desprezível
+    \item Efeitos de geração de calor ausentes
+    \item Coeficiente convectivo uniforme
+\end{itemize}
+No nosso elemento de volume, podemos escrever o balanço de energia como
+\begin{equation}
+    q_{cond_x} = q_{cond_{x + dx}} + q_{conv_x}
+\end{equation}
+Usando o conceito de derivada parcial, vamos ter que
+\begin{equation}
+    q_{cond_{x+dx} } = q_{cond_x} + \frac{\mathrm{d}q_{cond_x} }{\mathrm{d}x} \mathrm{d} x
+\end{equation} 
+Substituindo então, vamos ter
+\begin{align}
+    q_{cond_x} &= q_{cond_x} + \frac{\mathrm{d}q_{cond_x} }{\mathrm{d}x} \mathrm{d} x + q_{conv_x}\\
+    - \frac{\mathrm{d}q_{cond_x} }{\mathrm{d}x} \mathrm{d} x &= q_{conv_x}\\
+\end{align}
+Substituindo a Lei de Fourier e a Lei de Resfriamento de Newton, vamos ter
+\begin{align}
+    \frac{\mathrm{d}}{\mathrm{d}x} \left( -k A_{tr} \frac{\mathrm{d}T}{\mathrm{d}x}  \right) \mathrm{d} x &= h A_{tr} \left(T_s - T_\infty \right)\\
+    k A_{tr} \frac{\mathrm{d}^2 T}{\mathrm{d}x^2} + k \frac{\mathrm{d}T}{\mathrm{d}x} \frac{\mathrm{d}A_{tr} }{\mathrm{d}x} &= h \frac{\mathrm{d}A_s}{\mathrm{d}x} \left(T_s - T_\infty \right)\\
+\end{align}
+Onde \(A_{tr} \) é a área transversal ao fluxo e \(\mathrm{d} A_s\) é a area superficial do elemento
+diferencial. Dividindo nossos termos por \(k A_{tr} \)
+\begin{equation}
+    \frac{\mathrm{d}^2 T}{\mathrm{d}x^2} + \frac{1}{A_{tr} } \frac{\mathrm{d}T}{\mathrm{d}x} \frac{\mathrm{d}A_{tr} }{\mathrm{d}x} = \frac{h}{k A_{tr}} \frac{\mathrm{d}A_s}{\mathrm{d}x} \left(T_s - T_\infty \right)
+\end{equation}
+Para resolvermos essa equação, vamos precisar impor algumas condições sobre a geometria da aleta.
+Para aletas com seção transversal constante, como pinos, vamos ter que
+\begin{align}
+    \frac{\mathrm{d}^{2} T}{\mathrm{d}x^{2} } = \frac{h}{k A_{tr}} \frac{\mathrm{d}A_s}{\mathrm{d}x} \left(T_s - T_\infty \right)\\
+\end{align}
+Onde \(\frac{\mathrm{d}A_{s} }{\mathrm{d}x}  = P\), logo
+\begin{equation}
+    \frac{\mathrm{d}^{2} T}{\mathrm{d}x^{2} } - \frac{h P}{k A_{tr}} \left(T_s - T_\infty \right) = 0
+\end{equation}
+Para resolver essa equação, vamos adimensionaliza-la, transformando a variável dependente, ou seja,
+colocando uma temperatura de excesso
+\begin{equation}
+    \theta (x) = \left( T(x) - T_\infty  \right) \Rightarrow  T(x) = \theta (x) + T_\infty
+\end{equation}
+Substituindo na equação, vamos ter
+\begin{align}
+    \frac{\mathrm{d}}{\mathrm{d}x} \left( \frac{\mathrm{d}T}{\mathrm{d}x}  \right) - \frac{hP}{kA_{tr}}\left( T - T_\infty  \right) &= 0
+    \frac{\mathrm{d}}{\mathrm{d}x} \left( \frac{\mathrm{d}}{\mathrm{d}x} \left( \theta + T_\infty  \right)  \right) - \frac{hP}{kA_{tr}}\theta &= 0\\
+    \frac{\mathrm{d}\theta }{\mathrm{d}x}  - \frac{hP}{kA_{tr}}\theta &= 0\\
+\end{align}
+Agrupando os termos constantes, vamos ter 
+\begin{equation}
+    m^{2} = \frac{hP}{kA_{tr}} \Rightarrow m = \sqrt{(hP)/(kA_{tr})} 
+\end{equation}
+Onde esse é chamado o coeficiente da aleta. Substituindo na equação, vamos ter
+\begin{equation}
+    \frac{\mathrm{d}\theta }{\mathrm{d}x}  - m^{2}\theta = 0
+\end{equation}
+A solução dessa equação diferencial nos da
+\begin{equation}
+    \theta (x) = C_1 e^{mx} + C_2 e^{-mx}
+\end{equation}
+Nossas condições de contorno então são
+\begin{align}
+\begin{dcases}
+    x = 0, & \theta = \theta_s ;\\
+    x \to \infty , & \theta = 0 ;\\
+\end{dcases}
+\end{align}
+Onde nossa segunda condição de contorno pode se dar para 4 casos. O primeiro a ser tratado é esse,
+de aleta muito longa. Logo, podemos achar nossas constantes. Para a nossa primeira condição de contorno
+\begin{align}
+    \theta_s &= C_1 e^{m0}  + C_2 e^{-m0} \\
+    C_1 &= \theta_s - C_2
+\end{align}
+Substituindo na segunda condição de contorno, vamos ter
+\begin{align}
+    0 &= C_1 e^{m\infty} + C_2 e^{-m\infty}\\
+    C_1 &= 0\\
+    C_2 &= \theta_s
+    & \therefore\\
+    \theta (x) &= \theta_s e^{-mx}  
+\end{align}
+A partir dessa equação, se quisermos a taxa de transferência de calor através da aleta, vamos
+considerar que o calor conduzido na raiz da aleta é igual ao da convecção na superfície da haste
+para o fluido. Logo, vamos ter
+\begin{align}
+    q_{aleta} &= - k A_{tr} \frac{\mathrm{d}\theta}{\mathrm{d}x}|_{x = 0}\\
+    &= \int_{0}^{\infty} h P \mathrm{d}x \theta\\
+    &\therefore\\
+    q_{aleta} &= \sqrt{h p A_{tr} k} \theta_s
+\end{align}
+Para o nosso segundo caso, vamos considerar a extremidade da aleta como isolada. Nossas condições de
+contorno ficam, então
+\begin{align}
+    \begin{dcases}
+        x = 0 , & \theta = \theta_s ;\\
+        x = L , & \frac{\mathrm{d}\theta}{\mathrm{d}x} = 0 ;\\
+    \end{dcases}
+\end{align}
+Substituindo na nossas equações, vamos ter
+\begin{align}
+    \frac{\mathrm{d}\theta}{\mathrm{d}x} &= C_1 e^{mx} - C_2 e^{-mx}\\
+    0 &= mC_1 e^{mL} + mC_2 e^{-mL}\\
+\end{align}
+Onde \(C_1 = \frac{\theta_s}{1 + e^{2ml}} \) e \(C_2 = \frac{\theta_s}{1 + e^{ -}_2ml}  \), portanto
+\begin{equation}
+    \theta (x) = \theta_s \left( \frac{e^{mx}}{1 + e^{2ml}} + \frac{e^{-mx}}{1 + e^{- 2ml} }\right) \Rightarrow \theta = \theta_s \frac{\cosh \left[m \left(L - x\right)\right]}{\cosh \left(mL\right)} 
+\end{equation}
+E nossa taxa se da como
+\begin{equation}
+    q_{aleta} = \sqrt{h p A_{tr} k} \theta_s \frac{\tanh \left(mL\right)}{mL}
+\end{equation}
+Para a nossa proxima condição, vamos considerar que tenha convecção na extremidade da aleta, logo,
+nossas condições ficam
+\begin{equation}
+    \begin{dcases}
+        x = 0 ,& \theta = \theta_s ;\\
+        x = L ,& - k A_{tr} \frac{\mathrm{d}\theta}{\mathrm{d}x}|_{x = L} = h \theta\
+    \end{dcases}
+\end{equation}
+Nossas duas equações ficam
+\begin{align}
+\theta &= \theta_s \left[\frac{\cosh \left[m \left(L - x\right) + \left(k/mk\right) \sinh \left[m\left(L - x\right)\right]\right]}{\cosh \left(mL\right) + \left(k/mk\right)\sinh \left(mL\right)}  \right]\\
+q_{aleta} &= \sqrt{h p A_{tr} k} \theta_s \frac{\sinh \left(mL\right) + \left(h/mk\right)\cosh \left(mL\right)}{\cosh \left(mL\right) + \left(h/mk\right)\sinh \left(mL\right)}
+\end{align}
+Para o nosso ultimo caso, nossa temperatura na extremidade da aleta é especificada, logo, nossas
+condições de contorno ficam
+\begin{align}
+    \begin{dcases}
+        x = 0 ,& \theta = \theta_s ;\\
+        x = L ,& \theta = \left(T_L - T_\infty \right)
+    \end{dcases}
+\end{align}
+Nossas duas equações ficam
+\begin{align}
+    \theta &= \theta_s \left[\frac{\frac{\theta_L}{\theta_S}\sinh(mx) + \sinh \left[m\left(L - x\right)\right]}{\sinh \left(mL\right)} \right]\\
+    q_{aleta} &= \sqrt{h P k A_{tr}} \theta_s \left[\frac{\cosh \left(mL\right) - \left(\frac{\theta_L}{\theta_S}\right)}{\sinh\left(mL\right)}\right]
+\end{align}
+\subsubsection{m das Aletas}
+Para uma aleta retangular m vale. \(P\)  é o perímetro, \(A_{tr} \) é a área de seção transversal e
+\(e\) é a espessura.
+\begin{align}
+    P &= 2b + 2e \approx 2b\\
+    A_{tr} &= be\\
+    m &= \sqrt{\frac{2h}{ke}}
+\end{align}
+Para uma aleta curva, \(r\) é o raio da aleta e \(e\) é a espessura
+\begin{align}
+    P &= 2(2\pi r) + 2e \approx 4\pi r\\
+    A_{tr} &= 2\pi r e\\
+    m &= \sqrt{\frac{2h}{ke}} \left(1 + \frac{1}{2} \frac{e}{H} \right)
+\end{align}
+Para uma de pino
+\begin{align}
+    P &= 2\pi r\\
+    A_{tr} &= \pi r^2\\
+    m &= \sqrt{\frac{2h}{kr}}
+\end{align}
+\subsubsection{Desempenho Térmico de uma Aleta}
+A efetividade da aleta é definida como a razão entre a taxa de transferência de calor na aleta e a
+taxa de transferência de calor se a aleta nao estivesse la. Logo, vamos ter
+\begin{equation}
+    \varepsilon = \frac{q_{aleta}}{h A_{trb} \theta_s}
+\end{equation}
+Onde \(A_{trb}\) é a area da base da aleta. Para uma aleta infinita, vamos ter
+\begin{equation}
+    \varepsilon = \left(\frac{kP}{h A_tr}\right)^{\frac{1}{2}}
+\end{equation}
+Para a eficiência da aleta, vamos ter
+\begin{equation}
+    \eta = \frac{q_{aleta}}{h A_{aleta}\theta_s}
+\end{equation}
+Para uma aleta infinita, vamos ter
+\begin{equation}
+    \eta = \frac{\sqrt{hPkA_tr}\theta_S}{hPL\theta_s} \Rightarrow \eta = \sqrt{\frac{kA_{tr}}{hP}} \frac{1}{L}
+\end{equation}
+Para uma aleta de pino, vamos ter
+\begin{equation}
+    \eta = \frac{\tanh\left(mL\right)}{mL} 
+\end{equation}
+\subsubsection{Transferência de Calor em uma superfície aletada}
+Para uma superfície aletada, vamos ter
+\begin{equation}
+    q = q_R + q_{aleta}
+\end{equation}
+Vamos ter, no fim
+\begin{equation}
+    q = h \left(A_R + \eta A_{aleta}\right)\left(T_S - T_\infty\right)
+\end{equation}
+Onde \(A_R\) é a area da superfície sem a aleta, ou seja, vai ser a area da superfície menos a area
+da aleta.
+\section{Convecção Forcada}
+Relembrando nossa formula de convecção, vamos ter que \(q = hA(T_s - T_\infty)\), onde \(A\) é a
+area, \(T_s\) é a temperatura da superfície e \(T_\infty\) é a temperatura do fluido. O ponto
+importante é o coeficiente \(h\) que é o coeficiente de transferência de calor por convecção. Até o
+momento, tivemos valores dados, mas agora, vamos conseguir calcula-lo.\par
+
+Porem, esse calculo é difícil, pois depende de muitos fatores, como o movimento do fluido. Temos 2
+tipos de movimentos, os naturais e os forcados. 
+\begin{itemize}
+    \item {Os naturais se da com a convecção livre, como brisas e a densidade.}
+    \item {Os forcados se da com a convecção forçada, como ventiladores e bombas.}
+\end{itemize}
+Podemos relacionar alguns números  adimensionais com esse processo, como o numero de Reynolds,
+Prandtl e Nusselt. O numero de Reynolds é dado por
+\begin{equation}
+    R_e = \frac{\rho \upsilon d_c}{\mu}
+\end{equation}
+Para o escoamento no interior de um tubo, vamos ter
+\begin{equation}
+    R_e = \frac{4m}{\pi \mu D }
+\end{equation}
+Temos então a relação que
+\begin{align}
+    \begin{dcases}
+        R_e < 2100 ,& \text{escoamento laminar}\\
+        R_e > 4000 ,& \text{escoamento turbulento}\\
+        2100 \leq  R_e \leq  4000 ,& \text{transição}
+    \end{dcases} 
+\end{align}
+Para um escoamento sobre uma placa plana, vamos ter
+\begin{align}
+    \begin{dcases}
+        R_e \leq  500000 ,& \text{escoamento laminar}\\
+        R_e > 500000 ,& \text{escoamento turbulento}
+    \end{dcases}
+\end{align}
+O numero de Nusselt, por sua vez correlaciona as duas formas de transferência de calor. Por exemplo,
+\begin{align}
+    \begin{dcases}
+        q_{cond} = KA \frac{\Delta T}{l}
+        q_{conv} = hA\Delta T
+    \end{dcases} 
+\end{align}
+Dividindo as duas, vamos ter
+\begin{equation}
+    \frac{q_{conv}}{q_{cond}} = \frac{hA\Delta T}{KA \frac{\Delta T}{l}} = \frac{hl}{K} = N_u
+\end{equation}
+Portanto, o numero de Nusselt é a razão entre a convecção e a condução. Dado pela formula
+\begin{equation}
+    N_u = \frac{hd_c}{k}
+\end{equation}
+Onde \(d_c\) é o diâmetro característico. O numero de Prandtl  correlaciona as espessuras das
+camadas limite térmica e hidrodinâmica. É dado por
+\begin{equation}
+    P_r = \frac{\mu C}{k}
+\end{equation}
+\(C\) é o calor especifico do fluido \(K\) é a condutividade térmica do fluido.Para \(P_r = 1\) a
+camada limite térmica e hidrodinâmica tem a mesma espessura. Para \(P_r \ll 1\) a difusividade
+térmica \( \gg \) a difusividade de momentum (quantidade de movimento). 
+\subsection{Relação entre os adimensionais}
+A relação empírica entre os tres adimensionais se da
+\begin{equation}
+    N_u = C R_e^m P_r^n
+\end{equation}
+Onde \(C, m\) e \(n\) sao função da geometria da superfície e do tipo de escoamento. Para um
+escoamento laminar, na região de entrada ou escoamento completamente desenvolvido, vamos ter
+\begin{equation}
+    N_{Nu} = 1.86 \left(N_{Re} N_{Pr} \frac{d_c}{L} \right)^{0.33} \left(\frac{\mu_b}{\mu_w} \right)^{0.14}
+\end{equation}
+Com \(\mu_b\) sendo a viscosidade do fluido com temperatura igual na parede e \(\mu_w\) sendo a
+viscosidade do fluido com temperatura media do fluido. 
+Para escoamento transiente, vamos ter
+\begin{equation}
+    N_{Nu} = \frac{(\frac{f}{8})(N_{Re} - 1000)N_{pr}}{1 + 12.7(\frac{f}{8})^{1/2}(N_{pr}^{2/3} - 1)}
+\end{equation}
+Com \(f\) tendo equação:
+\begin{equation}
+    f = \frac{1}{(0.79 \ln(N_{Re}) - 1.64)^2}
+\end{equation}
+Para escoamento turbulento, vamos ter
+\begin{equation}
+    N_{Nu} = 0.023 N_{Re}^{0.8} N_{Pr}^{0.33}\left(\frac{\mu_b}{\mu_w} \right)
+\end{equation}
+Para o entorno de uma esfera, vamos ter
+\begin{equation}
+    N_{Nu} = 2 + 0.6 N_{Re}^{1/2} N_{Pr}^{0.33}
+\end{equation}
+\subsection{Metodologia para o calculo de h}
+Para o calculo de \(h\) é boa pratica seguirmos os passos
+\begin{enumerate}
+    \item {Identificar a geometria da superfície solida em contanto com o fluido e suas dimensões características}
+    \item {identificar o fluido e sua temperatura media do escoamento}
+    \item {Obter as propriedades físicas e térmicas do fluido na temperatura media de escoamento}
+    \item {Calcular o Numero de Reynolds}
+    \item {Selecionar a correlação empírica apropriada, de acordo com as informações disponíveis}
+\end{enumerate}
+
+\subsubsection{Exemplo}
+Água escoa a \(0.02 kg \cdot s\), sendo aquecida de 20 a 60 \(\degree C\). O tubo tem \(2.5 cm\) de
+diâmetro e \(1 m\) de comprimento. A parede do tubo esta a \(90\degree C\). \par
+
+A geometria é cilíndrica e a \(d_c\) é o diâmetro. O fluido escoando é a aguá, com \(T_m = 40\degree
+C\). As propriedades físicas e térmicas da aguá a \(40\degree C\) sao
+\begin{align}
+    \begin{dcases}
+        \mu_{40} = 0.625 \cdot 10^{-3} kg \cdot \frac{m}{s}\\
+        k = 0.540 W/m \cdot K\\
+        \rho = 992.2 \frac{kg}{m^3}\\
+        P_r = 4.34\\
+        \mu_{90} = 0.315 \cdot 10^{-3} kg \cdot \frac{m}{s}
+    \end{dcases}
+\end{align}
+O numero de Reynolds é
+\begin{equation}
+    N_{Re} = \frac{4m}{\pi \mu D} = \frac{4 \cdot 0.02}{\pi \cdot 0.625 \cdot 10^{-3} \cdot 0.025} = 1629.74
+\end{equation}
+Nosso escoamento é laminar, portanto vamos usar a correlação
+\begin{equation}
+    N_{Nu} = 1.86 \left(N_{Re} N_{Pr} \frac{d_c}{L} \right)^{0.33} \left(\frac{\mu_b}{\mu_w} \right)^{0.14}
+\end{equation}
+Portanto, temos
+\begin{equation}
+    N_{Nu} = 1.86 \left(1629.74 \cdot 4.34 \cdot \frac{0.025}{1} \right)^{0.33} \left(\frac{0.625 \cdot 10^{-3}}{0.315 \cdot 10^{-3}} \right)^{0.14} = 11.29
+\end{equation}
+Voltando na nossa relação, vamos ter então
+\begin{equation}
+    N_{Nu} = \frac{h d_c}{k} \Rightarrow h = \frac{N_{Nu} k}{d_c} = \frac{11.29 \cdot 0.627}{0.025} = 283 \frac{W}{m^2 \cdot K}
+\end{equation}
+\section{Determinação de h para processo de convecção livre}
+Para o caso de convecção livre tal fenômeno ocorre devido ao gradiente de densidade do fluido. Ou
+seja, por meio da variação do \(\rho \) ao longo do fluido, variação essa causada pela diferença de
+temperatura quando o fluido esta em contato com a superfície solida. \par
+
+Com o aumento da temperatura, a densidade do fluido diminui, fazendo com que apareçam forcas
+flutuantes que causam o movimento do fluido. Algumas equações empíricas uteis para predizer o h sao:
+\begin{equation}
+    N_{u} = \frac{H d_{c} }{k} = a (Ra)^n \begin{dcases}
+    Ra, &\quad Gr \cdot Pr ;\\
+    Gr, &\quad Gr = \frac{(d_{c} )^{3} \rho ^{2} g \beta \Delta T}{\eta ^{2} } .\\
+    \end{dcases}
+\end{equation}
+Onde o \(\beta \) é o coeficiente de expansão térmica, \(\Delta T\) é a diferença de temperatura
+entre a superfície solida e o fluido, \(d_c\) é a dimensão característica, \(g\) é a aceleração da
+gravidade, \(\eta \) é a viscosidade dinâmica, \(\rho \) é a densidade e \(k\) é a condutividade
+térmica e \(Ra\) é o numero de Grashof multiplicado pelo numero de Prandtl. \par
+
+\subsection{Correlações do Numero de Nusselt para convecção natural}
+\subsubsection{Placa vertical}
+Dimensão característica: \(L\)
+\begin{align}
+    10^4 < Ra < 10^9 &\Rightarrow N_{Nu} = 0.59 Ra^{1/4}\\
+    10^9 < Ra < 10^{13} &\Rightarrow N_{Nu} = 0.1 Ra^{1/3}
+\end{align}
+\subsubsection{Placa Inclinada}
+Dimensão característica: \(L\)
+Igualmente ao anterior, apenas multiplicamos por \(g\) e \(\cos \alpha \) para \(Ra < 10^9\)
+\begin{equation}
+    Gr = \frac{g \beta \Delta T L^3 \cos \alpha \rho ^{2} }{\eta ^{2} }
+\end{equation} 
+\subsubsection{Placa Horizontal com superficie quente superior}
+Dimensão característica: \(\frac{A}{P}\)
+\begin{align}
+    10^4 < Ra < 10^7 &\Rightarrow N_{Nu} = 0.54 Ra^{1/4}\\
+    10^7 < Ra < 10^{11} &\Rightarrow N_{Nu} = 0.15 Ra^{1/3}
+\end{align}
+\subsubsection{Placa Horizontal com superficie quente inferior}
+Dimensão característica: \(\frac{A}{P}\)
+\begin{align}
+    10^5 < Ra < 10^{11 } &\Rightarrow N_{Nu} = 0.27 Ra^{1/4}\\
+\end{align}
+\subsubsection{Cilindro vertical}
+Dimensão característica: \(L\)
+Pode ser tratado como placa vertical se
+\begin{equation}
+    D \geq \frac{35L}{Gr^{1/4} }    
+\end{equation}
+\subsubsection{Cilindro horizontal}
+Dimensão característica: \(D\)
+\begin{align}
+    10^{-5} < Ra < 10^{12} &\Rightarrow N_{Nu} =  0.6 + \frac{0.387 Ra^{1/6} }{\left[ 1 + \left( \frac{0.559}{Pr} \right)^{\frac{9}{16}}  \right]^{\frac{8}{27}} }
+\end{align}
+\subsubsection{Esfera}
+Dimensão característica: \(\frac{1}{2}\pi  D\)
+\begin{align}
+    Ra \leq 10^{11} &\Rightarrow N_{Nu} = 2 + \frac{0.589 Ra^{1/4} }{\left[ 1 + \left( \frac{0.469}{}Pr \right)^{9/16}  \right]^{4/9} }\\
+\end{align}
+\subsubsection{Exemplo}
+Estimar o coeficiente de convecção para um cilindro horizontal de 0.1 m de diâmetro. Sendo a
+temperatura de superfície do cilindro de \(130 \degree C\) e a temperatura do ar ambiente de
+\(30\degree C\).   
+\subsubsection{Solucao}
+A dimensão característica sera \(d_{c} = 0.1\). A temperatura media do ar sera \(T_{m} = 80\degree C\).
+Vamos obter as propriedades físicas e térmicas do fluido na temperatura media de escoamento.
+\begin{align}
+    \rho _{m} &= 1 \frac{kg}{m^{3} }\\
+    \eta _{m} &= 20.934 \cdot 10^{-6}  \frac{kg}{m \cdot s}\\ 
+    P_r &= 0.708\\
+    k_{m} &= 0.02984 \frac{W}{m \cdot \degree C}\\
+    \beta _{m} &= 0.00283 \frac{1}{\degree C}
+\end{align}
+Vamos calcular \(Gr\) e \(Ra\):
+\begin{align}
+    Gr &= ((d_{c} )^{3} \rho ^{2} g \beta \Delta T)/(\eta ^{2} )\\
+    &= ((0.1)^{3} (1)^{2} (9.81) (0.00283) (130 - 30))/((20.934 \cdot 10^{-6} )^{2} )\\
+    &= 6335063.95\\
+    Ra &= Gr \cdot Pr\\
+    &= 6335063.95 \cdot 0.708 = 4485225.2766\\
+\end{align}
+Vamos calcular \(N_{u} \)
+\begin{align}
+    N_{u} &= 0.6 + \frac{0.387 Ra^{1/4} }{\left[ 1 + \left( \frac{0.559}{Pr} \right)^{9/16}  \right]^{\frac{4}{9}} }\\
+    &= 0.6 + \frac{0.387 (4485225.2766)^{1/6} }{\left[ 1 + \left( \frac{0.559}{0.708} \right)^{9/16}  \right]^{\frac{8}{27}} } = 4.72492\\
+\end{align}
+Vamos calcular o coeficiente de convecção:
+\begin{align}
+    h &= \frac{N_{u} k}{d_{c} }\\
+    &= \frac{4.72492 (0.02984)}{0.1} = 1.404 \frac{W}{m^{2} \cdot \degree C}\\
+\end{align}
+\subsubsection{Exemplo 2}
+Calcule a taxa de perda de calor por convecção das partes superior e inferior de uma placa plana e
+horizontal de 1 \(m^{2} \) de area aquecida a \(220 \degree C\) em um ambiente a \(20 \degree C\).
+\subsubsection{Solução}
+A dimensão característica sera \(d_{c} = \frac{A}{P} = 1/4 = 0.25\). A temperatura media do ar sera \(T_{m} = 120\degree C\).
+Vamos obter as propriedades físicas e terminal do fluido na temperatura media de escoamento.
+\begin{align}
+    \rho _{m} &= 0.898 \frac{kg}{m^{3} }\\
+    \eta _{m} &= 22.671 \cdot 10^{-6}  \frac{kg}{m \cdot s}\\
+    P_r &= 0.7\\
+    K_{m} &= 0.03274 \frac{W}{m \cdot \degree C}\\
+    \beta _{m} &= 0.00255 \frac{1}{\degree C}
+\end{align}
+Vamos calcular \(Gr\) e \(Ra\):
+\begin{align}
+    Gr &= \frac{(d_{c} )^{3} \rho ^{2} g \beta \Delta T}{\eta ^{2}}\\
+    &= \frac{(0.25)^{3} (0.898)^{2} (9.81) (0.00255) (220 - 20)}{(22.671 \cdot 10^{-6} )^{2}} = 122650840.577339\\
+    &= 122650840.578\\
+    Ra &= Gr \cdot Pr\\
+    &= 122650840.578 \cdot 0.7 = 85855688.4048 \leq 10^7\\
+\end{align}
+Vamos calcular \(N_{u} \)
+\begin{align}
+    N_{u} &= 0.54 (Ra)^{1/4}\\
+    &= 0.54 (85855688.404137)^{1/4} = 51.9799704801454
+\end{align}
+Vamos calcular o coeficiente de convecção:
+\begin{align}
+    h &= \frac{N_{u} k}{d_{c} }\\
+    &= \frac{51.98 (0.03274)}{0.25} = 6.802 \frac{W}{m^{2} \cdot \degree C}\\
+\end{align}
+\section{Análise Transiente}
+O estudo de transferência de calor transiente é importante pois nos leva a entender a transferência
+e a variação da temperatura ao longo do tempo. Esse efeito acontece quando as condições de contorno
+se alteram com o tempo. \par
+A primeira coisa que veremos sera o \emph{Adimensional de Biot}. Esse adimensional e importante pois
+vai nos dizer qual taxa de transferência sera maior, ou seja, se a condução ou convecção
+prevalecera. Se definirmos \(T_i\) como a temperatura interna e \(T_{a} \) como a temperatura
+ambiente. Se tivermos \(T_{i} < T_{a} \) o adimensional sera definido como
+\begin{align}
+    B_{i} = \frac{\frac{L_{s} }{K}}{\frac{1}{h} } = \frac{h L_{s} }{K},
+    \begin{dcases}
+    B_{i} > 40 &\Rightarrow \; \frac{1}{h} \text{ é desprezível }  ;\\
+    0.1 < B_{i} < 40 &\Rightarrow \;  \text{ Resistências Finitas }  ;\\
+    B_{i} < 0.1, &\Rightarrow \; \frac{d_{c} }{k} \text{Desprezível } .
+    \end{dcases}
+\end{align}
+Em que \(L_{s} \) é volume por area e \(h\) é a condutividade térmica do solido.  Onde \(L_{s} \)  é
+definido como 
+\begin{equation}
+    L_{s} = \frac{V}{A}
+\end{equation}
+Onde \(V\) é o volume e \(A\) é a area. \par
+\subsection{Método da capacitância Global}
+\emph{So funciona se \(B_{i} < 0.1\) }
+Se tivermos um resfriamento de um corpo que começa em \(t=0\) a temperatura diminui com \(t > 0\)
+ate atingir o valor \(T_{\infty} \) e essa redução deve-se ao coeficiente de transferência de calor
+por convecção na interface solido-liquido. \par
+
+A hipótese do método da capacitância global e que a temperatura do corpo seja espacialmente uniforme
+em qualquer instante de tempo do processo transiente, admitindo que os gradientes de temperatura no
+interior do solido seja desprezível. \par
+
+A taxa de transferência de calor por convecção na interface solido-liquido é dada por
+\begin{equation}
+    \dot{Q} = \overline{h} A (T_{s} - T_{\infty} )
+\end{equation}
+A taxa de variação de energia interna do corpo é dada por
+\begin{equation}
+    \dot{Q}  \rho C V \frac{dT(t)}{dt}
+\end{equation}
+Igualando as duas equações acima temos
+\begin{equation}
+    \overline{h} A (T_{s} - T_{\infty} ) = \rho C V \frac{dT(t)}{dt}
+\end{equation}
+Introduzindo a temperatura adimensional
+\begin{equation}
+    \theta = \left( T(t) - T_\infty  \right) 
+\end{equation}
+Introduzindo a temperatura adimensional na equação temos
+\begin{equation}
+    \frac{\mathrm{d}\theta (t)}{\mathrm{d}t} = -\frac{\overline{h} A}{\rho  C V}\theta (t) 
+\end{equation}
+Fazendo a separação de variáveis e integrando temos
+\begin{align}
+    \int_{\theta _{0} }^{\theta} \frac{1}{\theta} \mathrm{d}\theta &= -\int_{0}^{t} \frac{\overline{h} A}{\rho  C V} \mathrm{d}t\\
+    \ln{(\theta)} - \ln{(\theta_{0})} &= -\frac{\overline{h} A}{\rho  C V} t\\
+    \ln{\left( \frac{\theta}{\theta_{0}} \right) } &= -\frac{\overline{h} A}{\rho  C V} t\\
+    \frac{\theta}{\theta_{0}} &= e^{-\frac{\overline{h} A}{\rho  C V} t}\\
+\end{align}
+Vamos definir que
+\begin{align}
+    \frac{\overline{h} At}{\rho  C V} &= \frac{\overline{h} t}{\rho C L} \cdot \left( \frac{k}{k} \right) \cdot \left( \frac{L}{L} \right) \\ 
+    &= \frac{\overline{h} L \alpha t}{kL^{2} } = B_{i} Fo
+\end{align}
+Em que \(Fo\) é o numero de Fourier Substituindo na nossa equação, vamos ter
+\begin{equation}\label{eq:capacitancia global}
+    \theta = \theta_0 e^{-B_{i} Fo}
+\end{equation}
+\subsubsection{Exemplo}
+Uma placa de alumínio de \(K = 160 \frac{W}{m \degree C}, \rho = 2790 \frac{kg}{m^{3} } , C = 0.88
+\frac{kJ}{kg \degree C} \) com \(3 cm\) de espessura e temperatura uniforme \(T_0 = 225 \degree C\) é
+atingindo por um fluido de \(T_\infty = 25 \degree C\) com \(h = 320 \frac{W}{m^2 \degree C}\).
+Determine \(t\) para que a temperatura da placa seja \(T = 50 \degree C\). \par
+\subsubsection{Solução}
+Primeiro vamos calcular o \(L_{s} \) 
+\begin{align}
+    L_{s} &= \frac{V}{2A_{s} }\\
+    &= \frac{A_{s} e}{2A_{s} }\\
+    &= \frac{e}{2} = 1.5 \cdot 10^{-2} m
+\end{align}
+Agora vamos calcular a difusividade térmica
+\begin{align}
+    \alpha &= \frac{k}{\rho  C}\\
+    &= \frac{160}{2790 \cdot 880} = 6.1 \cdot 10^{-5} \frac{m^{2} }{s}
+\end{align}
+Agora vamos calcular o numero de Biot
+\begin{align}
+    Bi &= \frac{h L_{s} }{k}\\
+    &= \frac{320 \cdot 1.5 \cdot 10^{-2} }{160} = 0.03
+\end{align}
+Podemos usar o método da capacitância global, pois \(Bi < 0.1\). \par
+Vamos calcular nosso \(\theta \) 
+\begin{align}
+    \theta &= 50 - 25 = 25 \degree C\\
+    \theta_{0} &= 225 - 25 = 200 \degree C
+    &\therefore\\
+    \theta &= 200 e^{-0.03 Fo}
+    \frac{25}{200} &= e^{-0.03 \cdot Fo} \\
+    Fo = \frac{-2.08}{-0.03} = 69.633
+\end{align}
+Agora vamos calcular o tempo
+\begin{align}
+    Fo &= \frac{\alpha t}{L^{2} } \\
+    t &= \frac{Fo L^{2} }{\alpha} \\
+    &= \frac{69.633 \cdot 0.015^{2} }{6.1 \cdot 10^{-5} } = 256.8430 \; s = 4.28 \; min 
+\end{align}
+\subsubsection{Exemplo 2}
+Uma esfera de \(1 \; mm\) de diâmetro, condutiva térmica de \(k = 25 \frac{W}{m \degree C}\) massa
+especifica de \(\rho  = 8400 \frac{kg}{m^{3} }\) e calor especifico de \(C = 0.4 \frac{kJ}{kg \degree
+C}\) \(h = 560 \frac{W}{m^{2} \degree C}\) e \(\frac{\theta}{\theta_0} = 0.01\). Qual o tempo que
+isso leva. Qual a temperatura do centro geométrico apos \(10 \; s\) com \(T_0 = 80\degree\) e
+\(T_\infty = 25\degree\)  ? \par
+\subsubsection{Solução}
+Calculando \(\alpha \) 
+\begin{align}
+    \alpha &= \frac{k}{\rho  C}\\
+    &= \frac{25}{8400 \cdot 0.4} = 7.44 \cdot 10^{-6} \frac{m^{2} }{s}
+\end{align}  
+Calculando \(L_{s} \)
+\begin{align}
+    L_{s} &= \frac{V}{A_{s} } \\
+    &= \frac{V}{4 \pi r^{2} } \\
+    &= \frac{\frac{4}{3} \pi r^{3} }{4 \pi r^{2} } \\
+    &= \frac{r}{3} = \frac{1}{3} \cdot \frac{10^{-3}}{2} = 1.67 \cdot 10^{-4} m 
+\end{align}
+Calculando \(Bi\)
+\begin{align}
+    Bi &= \frac{h L_{s} }{k}\\
+    &= \frac{560 \cdot 1.67 \cdot 10^{-4} }{25} = 0.0037408
+\end{align}
+Achando o \(Fo\)
+\begin{align}
+    \frac{\theta}{\theta_{0}} &= e^{-B_{i} Fo}\\
+    \ln{\left( \frac{\theta}{\theta_{0}} \right) } &= -B_{i} Fo\\
+    Fo &= \frac{-\ln{\left( \frac{\theta}{\theta_{0}} \right) }}{B_{i}} \\
+    &= \frac{-\ln{\left( 0.01 \right) }}{0.0037408} = 1231.066
+\end{align}
+Calculando o tempo
+\begin{align}
+    Fo &= \frac{\alpha t}{L^{2} } \\
+    t &= \frac{Fo L^{2} }{\alpha} \\
+    &= \frac{1231.066 \cdot (1.67 \cdot 10^{-4})^{2}  }{7.44 \cdot 10^{-6} } = 4.6146 \; s
+\end{align}
+Para sabermos a temperatura apos \(10 \; s\) vamos achar \(Fo\) novamente
+\begin{align}
+    Fo &= \frac{\alpha t}{L^{2} } \\
+    Fo &= \frac{7.44 \cdot 10^{-6} \cdot 10}{(1.67 \cdot 10^{-4})^{2} } = 2667.71845
+\end{align}
+Agora vamos achar \(\theta \) 
+\begin{align}
+    \frac{\theta}{\theta_{0}} &= e^{-B_{i} Fo}\\
+    \theta &= \theta_{0} e^{-B_{i} Fo}\\
+    &= 80 e^{-0.0037408 \cdot 2667.71845} = 0.0037
+\end{align}
+Substituindo na equação de temperatura
+\begin{align}
+    T &= \theta + T_{\infty} \\
+    &= 0.0037 + 25 = 25.0037 \degree C
+\end{align}  
+\section{Condição de contorno mista}
+Podemos estudar essa aplicação quando uma parte da fronteira esta sujeita a uma condição de
+convecção e a outra um fluxo de calor. \par
+
+Consideramos uma placa de espessura L, inicialmente a temperatura \(T_0\) e para qualquer instante
+\(t>0\) , recebe um calor em uma das suas superficies a um fluxo constante \(q^{\prime \prime}\) e
+ao mesmo tempo dissipe calor por convecção na outra superfície a uma temperatura \(T_{\infty}\) e
+um coeficiente de convecção \(h\). O balanco de energia pode ser dado por:
+\begin{align}
+    A \cdot q^{\prime \prime} + \overline{h} A (T_\infty - T(t)) &= \rho C A L \frac{\mathrm{d}T(t)}{\mathrm{d}t}\\
+    q^{\prime \prime} + \overline{h} (T_\infty - T(t)) &= \rho C L \frac{\mathrm{d}T(t)}{\mathrm{d}t}\\ 
+\end{align}
+Adimensionalizando, temos
+\begin{equation}
+    \theta (t) = T(t) - T_{\infty}
+\end{equation}
+Rearranjando a equação, temos
+\begin{align}
+    \frac{\mathrm{d}\theta (t)}{\mathrm{d}t} + m \theta (t) &= Q
+     \begin{dcases}
+     m, &= \frac{h}{\rho C} ;\\
+     Q, &=\frac{q^{\prime \prime}}{\rho C L} .\\
+     \end{dcases}
+\end{align}
+A solução da equação diferencial é dada por
+\begin{equation}
+    \theta (t) = \theta_0 e^{-mt} + 1 \left( 1 - e^{-mt} \right) \frac{q^{\prime\prime} }{h} 
+\end{equation}
+\subsubsection{Exemplo 3}
+Um ferro tem propriedades dadas por
+\begin{itemize}
+    \item \(C = 450 \; \frac{J}{Kg \degree C}\)
+    \item \(K = 70 \; \frac{W}{m \degree}\) 
+    \item \(\rho = 7840 \; \frac{kg}{m^{3} }\) 
+    \item \(m = 1 \; kg\)
+    \item \(A =\; m ^{2} \) 
+    \item \(h = 50 \; \frac{W}{m^{2} \degree C}\)
+    \item \(T_\infty = 20 \degree C\) 
+    \item \(T_0 = 20 \degree C\)
+    \item \(q = 250 \; W\)
+    \item \(t = 300.0 \; s\)    
+\end{itemize}
+Qual a temperatura do ferro? Qual a temperatura de equilíbrio do ferro? 
+\subsubsection{Solução}
+Calculando \(L\)
+\begin{align}
+    L &= \frac{V}{A}\\
+    L &= \frac{m}{A\rho} = \frac{1}{A \rho} = \frac{1}{0.025 \cdot 7840}\\
+    &= 0.0051 \; m
+\end{align}
+Calculando \(Bi\)
+\begin{align}
+    Bi &= \frac{h L}{K}\\
+    &= \frac{50 \cdot 0.0051}{70}  = 0.003643
+\end{align}  
+\(Bi \; < \; 0.1\). Vamos calcular \(m\) 
+\begin{align}
+    m &= \frac{h}{\rho C}\\
+    &= \frac{50}{7840 \cdot 450 \cdot 0.0051} = 0.00278
+\end{align}
+Calculando \(q^{\prime\prime}\)
+\begin{align}
+    q^{\prime\prime} &=  q \cdot \frac{1}{A}\\
+    &= \frac{250}{0.025} = 10000
+\end{align}
+Achando \(\theta _0\) 
+\begin{align}
+    \theta _0 &= T_0 - T_\infty \\
+    &= 20 - 20 = 0
+\end{align}
+Calculando \(\theta (t)\)
+\begin{align}
+    \theta (t) &= \theta_0 e^{-mt} + 1 \left( 1 - e^{-mt} \right) \frac{q^{\prime\prime} }{h} \\
+    &= 0 + 1 \left( 1 - e^{-0.00278 \cdot 300} \right) \frac{10000}{50} = 113.14 \; \degree C \\
+\end{align}
+Calculando \(T\) 
+\begin{align}
+    T &= \theta + T_\infty \\
+    &= 113.14 + 20 = 133.14 \; \degree C
+\end{align}
+Nossa temperatura de equilíbrio é dada por
+\begin{align}
+    \theta (\infty ) &= \lim_{t \to \infty}  \theta_0 e^{-mt} + 1 \left( 1 - e^{-mt} \right) \frac{q^{\prime\prime} }{h} \\
+    \theta _\infty &= \frac{q^{\prime\prime} }{h} \\
+    &= \frac{10000}{50} = 200 \; \degree C
+\end{align}
+Por fim, \(T\)
+\begin{align}
+    T &= \theta _\infty + T_\infty \\
+    &= 200 + 20 = 220 \; \degree C
+\end{align} 
+\subsection{Uso de cartas de Temperaturas Transientes}
+Em muitas situações, os gradientes de temperaturas no interior dos sólidos nao pode ser desprezado e
+nao pode ser aplicado uma analise global do sistema ( \(Bi > 0.1\) ). Nesse caso, a analise dos
+problema envolver descobrir o gradiente de temperatura dentro do solido, fazendo o problema ficar
+extremamente mais complexo. \par
+
+Para resolver esse problema, podemos usar o método dos ábacos, a partir dos adimensionais \(Bi\),
+\(Fo\) e temperatura adimensional \(\frac{\theta}{\theta _0}\). \par
+
+%adicionar os gráficos aqui
+
+\subsubsection{Exemplo 4}
+Uma placa de ferro com \(5 \; cm\) com \(C= 460\; \frac{J}{kg\degree C}, \; K = 60 \; \frac{W}{m
+\degree C}, \rho = 7850 \; \frac{kg}{m^3}\)  esta a \(T_{i} = 225 \degree C\) e \(T_{\infty} = 25 \degree C\), com \(h = 500 \; \frac{W}{m^{2} \: \degree C}\)  
+Calcule a temperatura do centro em \(t = 120 \; s\), a temperatura a \(1 \; cm\) no mesmo tempo e a
+energia removida por metro quadrado da placa. \par
+\subsubsection{Solução}
+Calculando \(\alpha \) 
+\begin{align}
+    \alpha &= \frac{K}{\rho C}\\
+    &= \frac{60}{7850 \cdot 460}  = 1.662 \cdot 10^{-5}
+\end{align}
+Calculando \(L\)
+\begin{align}
+    L &= \frac{V}{A}\\
+    &= \frac{A_{s} e}{2A_{s} }\\
+    &= \frac{e}{2} = \frac{0.05}{2} = 0.025 \; m
+\end{align}
+Calculando \(Bi\)
+\begin{align}
+    Bi &= \frac{h L}{K}\\
+    &= \frac{500 \cdot 0.025}{60}  = 0.208333
+\end{align}
+\(Bi > 0.1\) temos que utilizar o ábaco. Vamos calcular o \(Fo\)
+\begin{align}
+    Fo &= \frac{\alpha t}{L^{2} }\\
+    &= \frac{1.662 \cdot 10^{-5} \cdot 120}{0.025^{2} } = 3.19104
+\end{align}
+Para o ábaco, vamos precisar do inverso de \(Bi\)
+\begin{align}
+    \frac{1}{Bi} &= \frac{K}{h L}\\
+    &= \frac{60}{500 \cdot 0.025} = 4.8
+\end{align}
+Pelo ábaco, vamos achar o \(\frac{\theta}{\theta _0}\) para \(Fo = 3.19104\) e \(\frac{1}{Bi} =
+4.8\) que vai ser \(0.55\). \par
+Vamos ter então que
+\begin{align}
+    \theta_0 = T_i - T_\infty = 225 - 25 = 200 \; \degree C
+\end{align}
+Portanto temos que
+\begin{align}
+    \frac{\theta}{\theta _0} &= 0.55\\
+    \theta &= 0.55 \cdot 200 = 110 \; \degree C
+\end{align}
+Calculando \(T\)
+\begin{align}
+    T &= \theta + T_\infty \\
+    &= 110 + 25 = 135 \; \degree C
+\end{align}
+Vamos achar a temperatura a \(1 \; cm\) da placa. Para isso, vamos usar o outro ábaco, onde vamos
+precisar do inverso de \(Bi\) que vale \(4.81\) e vamos precisar de \(\frac{x}{L} =
+\frac{0.015}{0.025} = 0.6\) onde \(x\) é a distancia do centro da placa. \par Pelo ábaco, vamos
+achar o \(\frac{\theta}{\theta _0}\) para \(\frac{1}{Bi}, \frac{x}{L}\), com valor de \(0.95\) \par
+Vamos ter que
+\begin{align}
+    \frac{\theta}{\theta _0} &= 0.95 \cdot 0.55\\
+    = 0.5225
+\end{align}
+Pois vai ser \(0.95\) em relação a distância do centro da placa. Podemos achar \(\theta \)
+\begin{align}
+    \theta &= 0.5225 \cdot 200 = 104.5 \; \degree C
+\end{align}
+E agora \(T\)
+\begin{align}
+    T &= \theta + T_\infty \\
+    &= 104.5 + 25 = 129.5 \; \degree C
+\end{align}
+Vamos achar a energia removida por metro quadrado da placa. Para isso, vamos usar o outro ábaco,
+onde vamos precisar de \(Bi, \;Bi^{2} Fo\), portanto vamos precisar de \(Bi^{2} Fo = 0.208333^{2}
+\cdot 3.19104  = 0.1385\). Olhando pelo ábaco, vamos achar o \(\frac{Q}{Q_0} = 0.4\). Portanto, por
+meio da equação \(Q = mc \Delta T\), conseguimos substituir na nossa equação, nos dando
+\begin{align}
+    Q_0 &= m C \left( T_0 - T_\infty  \right)\\
+    &= \rho V C \left( T_0 - T_\infty  \right)\\
+    &= \rho A_s e C \left( T_0 - T_\infty  \right)\\
+    &= 7850 \cdot 0.05 \cdot 460 \left( 225 - 25  \right) = 36110000\\
+\end{align}
+Portanto, temos que
+\begin{align}
+    Q &= 0.4 \cdot 36110000 = 14444000 \; J
+\end{align}
+\subsubsection{Exemplo 5}
+Uma esfera de \(5 \; cm\) de diâmetro com \(C= 460\; \frac{J}{kg\degree C}, \; K = 60 \; \frac{W}{m}
+\degree C, \rho = 7850 \; \frac{kg}{m^3}\)  esta a \(T_{i} = 225 \degree C\) e \(T_{\infty} = 25
+\degree C\), com \(h = 1000 \; \frac{W}{m^{2} \: \degree C}\) \par
+Calcule a temperatura do centro em \(t = 120 \; s\), a temperatura a \(1 \; cm\) do centro no mesmo
+tempo.
+\subsubsection{Solução}
+Primeiros vamos calcular \(\alpha \)
+\begin{align}
+    \alpha &= \frac{K}{\rho C}\\
+    &= \frac{60}{7850 \cdot 460} = 1.662 \cdot 10^{-5}
+\end{align}
+Vamos calcular \(L\)
+\begin{align}
+    L &= \frac{V}{A}\\
+    &= \frac{\frac{4}{3} \pi r ^{3}  }{4 \pi r^{2} }
+    &= \frac{r}{3} = \frac{0.025}{3} = 0.00833 
+\end{align}
+Vamos calcular \(Bi\)
+\begin{align}
+    Bi &= \frac{h L}{K}\\
+    &= \frac{1000 \cdot 0.00833}{60} = 0.1388
+\end{align}
+\(Bi > 0.1\) temos que utilizar o ábaco. Por ser geometria esférica, vamos ignorar o que fizemos e
+vamos recalcular \(Bi\) com a dimensão sendo o \(r\). Portanto
+\begin{align}
+    Bi &= \frac{h r}{K}\\
+    &= \frac{1000 \cdot 0.025}{60} = 0.4167
+\end{align}
+\(Bi > 0.1\) temos que utilizar o ábaco. Vamos calcular o inverso de \(Bi\)
+\begin{align}
+    \frac{1}{Bi} &= \frac{K}{h r}\\
+    &= \frac{60}{1000 \cdot 0.025} = 2.4
+\end{align}
+Vamos calcular \(Fo\)
+\begin{align}
+    Fo &= \frac{\alpha t}{r^{2} }\\
+    &= \frac{1.662 \cdot 10^{-5} \cdot 120}{0.025^{2} } = 3.19104
+\end{align}
+Pelo ábaco da esfera, vamos achar o \(\frac{\theta}{\theta _0}\) para \(Fo = 3.19104\) e
+\(\frac{1}{Bi} = 2.4\), vamos ter um valor de \(0.026\)  
+\subsubsection{Exemplo 6 }
+Qual o tempo necessário em segundos para que uma placa cilíndrica de diâmetro \(D = 0.05 m\)
+inicialmente a \(20 \degree C\) seja aquecida a \(300 \degree C\) se a temperatura do ar ambiente
+vale \(T_{\infty} =800\). \(h = 85 \frac{W}{m^{2} \degree C}\,, k= 60.37 \; W \;, \alpha = 1.75 \cdot 10^{-5} \frac{m^2}{s} \)
+\subsubsection{Solução}
+Primeiro vamos calcular \(L\)
+\begin{align}
+    L &= \frac{D}{4}\\
+    &= \frac{0.05}{4} = 0.0125  
+\end{align}
+Vamos calcular \(Bi\)
+\begin{align}
+    Bi &= \frac{h L}{k}\\
+    &= \frac{85 \cdot 0.0125}{60.37} = 0.0175998012257744
+\end{align}
+Temos que \(Bi < 0.1\), portanto vamos utilizar a equação
+\begin{align}
+    \theta &= \frac{T - T_\infty}{T_0 - T_\infty}\\
+    &= \frac{300 - 20}{800 - 20}  = 0.358974358974359
+\end{align}
+Vamos achar \(Fo\)
+\begin{align}
+    \theta_0 = e^{-Bi Fo} \implies Fo = \frac{\ln \left( \frac{\theta_0}{\theta} \right)}{-Bi}\\
+    &= \frac{\ln  (0.356) }{-0.0175998012257744} = 25.26
+\end{align}
+Pela formula \(Fo = \frac{\alpha t}{L^{2} }\), vamos achar \(t\)
+\begin{align}
+    t &= \frac{Fo L^{2} }{\alpha}\\
+    &= \frac{25.26 \cdot 0.0125^{2} }{1.75 \cdot 10^{-5} } = 225.535714285714
+\end{align}
+\section{Projeto de Trocador de Calor}
+Um trocador de calor (TC) é um dispositivo para implementar a troca de calor entre 2 fluidos, que estão
+em diferentes temperaturas. Os projetos de TC dependem da analise térmica, projetos mecânico
+preliminar e o projeto de fabricação. \par
+
+\subsection{Media Logarítmica da Diferença de Temperatura (MLDT)}
+A MLDT é uma media ponderada das diferenças de temperatura entre os fluidos. A MLDT é definida como
+\begin{equation}\label{eq: MLDT}
+    MLDT = \frac{\Delta T_{\max } - \Delta T_{\min }}{\ln \left( \frac{\Delta T_{\max }}{\Delta T_{\min }} \right)} 
+\end{equation}
+Para correntes paralelas e correntes opostas, a temperatura assume os seguintes comportamentos
+% Colocar o Gráfico
+\subsubsection{Exemplo}
+Um fluido quente entra num TC a \(900 \degree C\) e sai a \(600 \degree C\). Um fluido frio entra a
+\(100 \degree C\) e sai a \(500 \degree C\) qual o MLDT para correntes paralelas e oposta,
+respectivamente?
+\subsubsection{Solucao}
+Para correntes paralelas o \(\Delta T_{\max }\) vale
+\begin{align}
+    \Delta T_{\max } &= T_{h,i} - T_{c,i}\\
+    &= 900 - 100 = 800
+\end{align}
+E \(\Delta T_{\min }\) vale
+\begin{align}
+    \Delta T_{\min } &= T_{h,o} - T_{c,o}\\
+    &= 600 - 500 = 100
+\end{align}
+Por fim MLDT vale
+\begin{align}
+    MLDT &= \frac{\Delta T_{\max } - \Delta T_{\min }}{\ln \left( \frac{\Delta T_{\max }}{\Delta T_{\min }} \right)} \\
+    &= \frac{800 - 100}{\ln \left( \frac{800}{100} \right)} = 336.6288
+\end{align}
+Para correntes opostas o \(\Delta T_{\min }\) vale
+\begin{align}
+    \Delta T_{\min } &= T_{h,i} - T_{c,o}\\
+    &= 900 - 500 = 400
+\end{align}
+E \(\Delta T_{\max }\) vale
+\begin{align}
+    \Delta T_{\max } &= T_{h,o} - T_{c,i}\\
+    &= 600 - 100 = 500
+\end{align}
+Portanto MLDT vale
+\begin{align}
+    MLDT &= \frac{\Delta T_{\max } - \Delta T_{\min }}{\ln \left( \frac{\Delta T_{\max }}{\Delta T_{\min }} \right)} \\
+    &= \frac{500 - 400}{\ln \left( \frac{500}{400} \right)} = 448.1420
+\end{align}
+\subsection{Balanço de Energia}
+Supondo que oTC esteja bem isolado, o balanco de energia da taxa de calor cedido para a taxa de
+calor recebido vale
+\begin{equation}
+    -\dot{q}_{ced} = \dot{q}_{rec}
+\end{equation}
+Onde
+\begin{equation}
+    \dot{q} = \dot{m} c (t_{s} - t_{e} )
+\end{equation}
+Logo
+\begin{equation}
+    \dot{m}c(t_{e} - t_{s} ) = \dot{M}C(T_{s} - T_{e} )
+\end{equation}
+O calor trocado entre os fluidos através das superficies dos tubos pode ser obtido através das
+resistências térmicas 
+\begin{equation}
+    \dot{q} = \frac{T_{s} - T_{e} }{R_{t} } = \frac{(\Delta T)_{total}}{\frac{1}{h_{i} A_{i} } + R_{cond} + \frac{1}{h_{e} A_{e}  }}
+\end{equation}
+Ou ainda
+\begin{equation}
+    \dot{q} = U_{0c}A_{e} (\Delta T)_{total} \Rightarrow \dot{q} = U_{0c}A_{i} MLDT
+\end{equation}
+Onde \(U_{0c}\) é o coeficiente global de transferência de calor, \(A_{e}\) é a area de troca de
+calor e \(MLDT\) é a media logarítmica da diferença de temperatura.
+\subsubsection{Exemplo}
+Um fluido líquido \(C_{p} = 4 \frac{kj}{Kg \degree C}\) escoa a 0.5 \(Kg/s\) em um TC, entrando a
+\(20 \degree C\) e saindo a \(60 \degree C\). No espaço anular, escoa água quente a 1
+\(\frac{Kg}{s}\) a qual entra a \(90 \degree C\). Sabendo que as correntes sao paralelas e que o
+calor especifico da água é \(4.18 \frac{kJ}{kg \degree C}\), determine a temperatura de saída da
+água, MLDT, comprimento do trocador de calor, sabendo que \(U_{0C} = 2000 \frac{w}{m ^{2} \degree C}
+\) e o diâmetro externo do tubo é \(0.05 m\).
+\subsubsection{Solução}
+Primeiro vamos achar a temperatura de saída da água
+\begin{align}
+    -\dot{q}_{\acute{a}gua} &= \dot{q}_{l\acute{i}quido}\\
+    \dot{m}_{\acute{a}gua} c_{\acute{a}gua} (t_{\acute{a}gua,e} - t_{\acute{a}gua,s} ) &= \dot{m}_{l\acute{i}quido} c_{l\acute{i}quido} (t_{l\acute{i}quido,s} - t_{l\acute{i}quido,e} )\\
+    1 \cdot 4180 \cdot (90 - t_{\acute{a}gua,s} ) &= 0.5 \cdot 4000 \cdot (60 - 20) \\
+    t_{\acute{a}gua, s}= 70.86124 \; \degree C
+\end{align} 
+Portando, podemos achar o MLDT
+\begin{align}
+    MLDT &= \frac{\Delta T_{max} - \Delta T_{min}}{\ln \left( \frac{\Delta T_{max}}{\Delta T_{min}} \right)} \\
+    &= \frac{70 - 10.86124}{\ln \left( \frac{70}{10.86124} \right)} = 31.7388 \; \degree C
+\end{align}
+Agora podemos achar o comprimento do TC. Primeiro vamos achar o calor trocado
+\begin{align}
+    \dot{q} &= \dot{M} C (T_{s} - T_{e} )\\
+    &= 0.5 \cdot 4000 (60 - 20) = 80000 \; W
+\end{align}
+Achando o comprimento agora
+\begin{align}
+    \dot{q} &= U_{0c} A_{i} MLDT\\
+    \dot{q} &= U_{0c} \pi D L MLDT\\
+    L &= \frac{\dot{q}}{U_{0c} \pi D MLDT}\\
+    &= \frac{80000}{2000 \pi 0.05 \cdot 31.7388} = 8.02323 \; m
+\end{align}
+%Fazer para o outro caso
+\subsection{Fator de Fuligem (Incrustação)}
+O fator de fuligem é um fator que leva em conta a incrustação que ocorre nas superficies dos tubos
+devido a deposição de fuligem. A incrustação reduz a condutividade térmica do material e aumenta a
+resistência térmica. A resistência pode ser calculada por
+\begin{equation}
+    \dot{q} = \frac{A_{e} (\Delta T)_{total}}{\frac{1}{h_{i} } + \frac{1}{h_{e} } + R_{d} }
+\end{equation}
+Onde \(R_{d}\) é a soma do fator de fuligem interno e externo. O coeficiente global de transferência
+de calor, levando em conta a fuligem é dado por
+\begin{align}
+    U_{0d} &= \frac{1}{\frac{1}{h_{i} } + \frac{1}{h_{e} } + R_{d} }\\
+    \frac{1}{U_{0d} } &= \frac{1}{U_{0c} } + R_{d} = \frac{1}{U_{0c} } + R_{di} + R_{de}
+\end{align}
+Onde \(R_{di}\) e \(R_{de}\) sao os fatores de fuligem interno e externo, respectivamente. Para o
+calculo de transferência de calor, vamos usar o coeficiente global sujo, sendo assim temos
+\begin{equation}
+    \dot{q} = U_{0d} A_{e} (MLDT)
+\end{equation}
+\subsubsection{Exemplo}
+Um Tc vai aquecer 9820 \(\frac{Kg}{s}\) de benzeno (\(c = 0.425 \frac{J}{kg \degree  C}\) ) de \(80 \degree c\)
+para \( 120 \degree C \), utilizando o tolueno (\(c = 0.44 \frac{J}{kg\degree c}\) ), o qual é
+resfriado de \(160 \degree  C\) para \(100 \degree C\). O fator de fuligem é
+\(0.001 \left( \frac{W}{m^{2} \degree c} \right)^{-1}  \) e deve ser considerado para cada fluxo. O 
+coeficiente limpo é \(U_{0c} = 149 \frac{W}{m^{2} \degree c} \). Se tem trocadores bi-tubulares de 
+20 metros de comprimento com tubos de area \(0.435 m^{2} \). Qual a vazão de tolueno necessária e 
+quantos trocadores sao necessários?
+\subsubsubsection{Solucao}
+Primeiro vamos achar a masa de tolueno necessário
+\begin{align}
+    \dot{M}C(T_{s} - T_{e} ) &= \dot{m}c(t_{e} - t_{s} )
+\end{align}   
+   
+
+

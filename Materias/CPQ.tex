@@ -1,0 +1,102 @@
+\chapter{Controle de Processos Químicos}
+\label{chap:cpq}
+\section{Introdução}
+\label{sec:cpq-intro}
+Esse professor é maluco da cabeça, ele não segue nenhuma linha de raciocínio então o que será
+escrito aqui é apenas uma tentativa de organizar as ideias dele. \par
+
+Imaginemos que tenhamos uma planta com uma entrada mássica com valor \(w\), de um fluido qualquer.
+Ele possui uma temperatura \(T_i(t)\) de entrada. Dentro do tanque de armazenamento, existe um
+aquecedor, que aquece o fluido até uma temperatura \(T\), qualquer. Se estivermos um regime
+estacionário, nossa vazão mássica também sera \(w\). Queremos que nosso regime seja estacionário,
+logo, que a temperatura de estado estacionário, \(T_{is}\), que essa será a mais importante de
+entendermos. Se formos colocar em variável desvio, teremos que \(T_i(t) = T_i(s) - T_{is}\). \par
+
+Na nossa saída do tanque, nosso líquido terá uma temperatura \(T_{s} = T_R\), ou em variável desvio
+\(T^{\prime} (t) = T(t) - T_R\). \footnote{O linha (\(^{\prime} \) ), geralmente utilizada para derivada, nesse caso é
+para significar variável desvio, porém, nem sempre isso será verdade.}
+
+%Honestamente é preferível a morte
+
+Se tivermos uma introdução de uma pertubação do estilo degrau, teremos que \(T_i(t) = T_i(s) -
+T_{is} + \Delta T_i\), onde
+\begin{equation}
+    \Delta T_i = \begin{cases}
+        T_{is} , & t < 0 \\
+        T_{is} + \Delta T_i, & t \geq 0
+    \end{cases}
+\end{equation}
+Vamos querer sempre fazer com que essa variação seja a mais abrupta possível, para que se tenha nos
+aproximar o máximo possível de um degrau. Mas claro, que vamos ter um tempo de resposta, que terá um
+erro associado, ou seja, para uma dada equação, temos
+\begin{align}
+    \dot{q}(t) &= \dot{q}_s + k_{c} e(t)\\
+    \dot{q}(t) - \dot{q}_s = k_{c} e(t) &= \dot{Q}(t)\\
+    k_{c} &> 0\\
+    e(t) &= T_R - T(t)\\
+\end{align}
+Para essa equação em particular, estamos tratando de energia, calor. Se formos fazer um balanço de
+energia, temos
+\begin{align}
+    \dot{q}(t) - w_{c} \left( T(t) - T_{i} (t) \right) = \rho v_{c} \frac{\mathrm{d}T(t)}{\mathrm{d}t}  
+\end{align}
+Onde em facilmente é apenas a taxa que entra é a taxa que sai.
+\section{Transformada de Laplace}
+A transformada de Laplace é uma das mais importantes ferramentas matemáticas para a análise de
+sistemas dinâmicos. Ela é uma ferramenta que nos permite transformar uma equação diferencial em uma
+equação algébrica. Ela é definida como:
+\begin{equation}\label{eq: equacao de laplace}
+    \mathcal{L} \left\{ f(t) \right\} = F(s) = \int_{0}^{\infty} f(t) e^{-st} \mathrm{d}t
+\end{equation}
+Onde \(s\) é um número complexo. A transformada de Laplace é uma transformada linear, ou seja,
+\begin{equation}
+    \mathcal{L} \left\{ a f(t) + b g(t) \right\} = a F(s) + b G(s)
+\end{equation}
+A transformada de Laplace é uma transformada de uma função de tempo para uma função de frequência,
+geralmente com a variável \(s\). Vamos ver alguns exemplos.
+\subsection{Exemplo 1}
+Seja o PVI dado por
+\begin{align}
+    \begin{dcases}
+        2 \frac{\mathrm{d}\xi (t)}{\mathrm{d}t} + \xi (t) &= 1;\\
+        \xi (0) &= 0\\
+    \end{dcases}
+\end{align}
+Resolva esse PVI utilizando a transformada de Laplace. \par
+\textbf{Solução:} Aplicando a transformada de Laplace na equação diferencial, temos
+\begin{align}
+    \mathscr{L} \left\{ 2 \frac{\mathrm{d}\xi (t)}{\mathrm{d}t} + \xi (t) &= 1 \right\}\\
+    2 \mathscr{L} \left\{ \frac{\mathrm{d}\xi (t)}{\mathrm{d}t} \right\} + \mathscr{L} \left\{ \xi (t) \right\} &= \mathscr{L} \left[ 1 \right]\\
+    2 s \left[\mathscr{L} \left\{ \xi (t) \right\} - \xi (0)\right] + \mathscr{L} \left\{ \xi (t) \right\} &= \frac{1}{s}\\
+    2 s \left[\mathscr{L} \left\{ \xi (t) \right\} - 0\right] + \mathscr{L} \left\{ \xi (t) \right\} &= \frac{1}{s}\\
+    \mathscr{L} \left\{ \xi (t) \right\} \left( 2s + 1 \right) &= \frac{1}{s}\\
+    \mathscr{L} \left\{ \xi (t) \right\} &= \frac{1}{s \left( 2s + 1 \right)}\\
+    \mathscr{L} \left\{ \xi (t) \right\} &= \frac{1}{s} - \frac{2}{2s + 1}
+\end{align}
+%Falta aplicar a inversa
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Exemplo 2}
+Seja o PVI dado por
+\begin{align}
+    \begin{dcases}
+        \frac{\mathrm{d}^2  T(t)}{\mathrm{d}t^2} + 2 \frac{\mathrm{d} T(t)}{\mathrm{d}t} + T(t) = 2 \\
+        T(0) = 3\\
+        \frac{\mathrm{d} T(t)}{\mathrm{d}t} \bigg|_{t=0} = 1\\
+    \end{dcases}
+\end{align}
+Resolva esse PVI utilizando a transformada de Laplace. \par
+\textbf{Solução:} Aplicando a transformada de Laplace na equação diferencial, temos
+\begin{align}
+    \mathscr{L} \left\{ \frac{\mathrm{d}^2  T(t)}{\mathrm{d}t^2} + 2 \frac{\mathrm{d} T(t)}{\mathrm{d}t} + T(t) = 2 \right\}\\
+    \mathscr{L} \left\{ \frac{\mathrm{d}^2  T(t)}{\mathrm{d}t^2} \right\} + 2 \mathscr{L} \left\{ \frac{\mathrm{d} T(t)}{\mathrm{d}t} \right\} + \mathscr{L} \left\{ T(t) \right\} &= \mathscr{L} \left\{ 2 \right\}\\
+    s^2 \mathscr{L} \left\{ T(t) \right\} - s T(0) - \frac{\mathrm{d} T(t)}{\mathrm{d}t} \bigg|_{t=0} + 2 s \mathscr{L} \left\{ T(t) \right\} - T(0) + \mathscr{L} \left\{ T(t) \right\} &= \frac{2}{s}\\
+    s^2 \mathscr{L} \left\{ T(t) \right\} - 3 s + 1 + 2 s \mathscr{L} \left\{ T(t) \right\} - 3 + \mathscr{L} \left\{ T(t) \right\} &= \frac{2}{s}\\
+    \left( s^2 + 2s + 1 \right) \mathscr{L} \left\{ T(t) \right\} &= \frac{2}{s} + 3 s - 4\\
+    \left( s + 1 \right)^2 \mathscr{L} \left\{ T(t) \right\} &= \frac{2}{s} + 3 s - 4\\
+    \mathscr{L} \left\{ T(t) \right\} &= \frac{2}{s \left( s + 1 \right)^2} + \frac{3 s - 4}{\left( s + 1 \right)^2}\\
+\end{align}
+% Faltar aplicar a inversa
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Exemplo 3}
+Seja o PVI dado por
+

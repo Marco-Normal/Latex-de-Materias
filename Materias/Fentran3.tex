@@ -1,0 +1,644 @@
+\chapter{Fenômenos de Transporte III}
+\section{Introdução a Fundamentos da Transferência de Massa}
+\subsection{Definição}
+Transferência de massa é aquela massa em trânsito resultante da diferença de concentração de alguma
+espécie na mistura. Logo, a diferença de concentração pode ser vista como a força motriz, assim a
+diferença de temperatura era a força motriz para transferência de calor. \par
+
+Necessariamente tem que haver uma diferença de concentração para que ocorra movimentação de massas.
+Ela pode ocorrer por meio de difusão, onde naturalmente a massa vai migrar de uma região de maior
+concentração para aquela de menor, ou por convecção, onde a massa é forçadamente movimentada para a
+região de interesse. \par
+
+\section{Concentrações}
+\subsection{Concentração mássica}
+A concentração mássica é definida como
+\begin{equation}\label{eq:conc_massica}
+    \rho_i = \frac{m_i}{V}
+\end{equation}
+Onde \(\rho _{i} \) é a concentração mássica da espécie \(i\), \(m_i\) é a massa da espécie \(i\) e
+\(V\) é o volume do sistema. \par
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\subsection{Concentração molar}
+A concentração molar é definida como
+\begin{equation}\label{eq:conc_molar}
+    C_i = \frac{n_i}{V} = \frac{\rho _i}{M_i}
+\end{equation}
+Onde \(C_i\) é a concentração molar da espécie \(i\), \(n_i\) é o número de mols, \(\rho _{i} \) é a
+concentração mássica e \(M_{i} \) é a massa molar. \par
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Fração Mássica}
+A fração mássica é definida como
+\begin{equation}\label{eq:frac_massica}
+    \omega _{i} = \frac{\rho _{i} }{\rho }
+\end{equation}
+Onde \(\rho = \sum_{i} \rho _{i} \) é a soma das concentrações mássicas de todas as espécies. \par
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Fração Molar}
+A fração molar para líquidos é definida como
+\begin{equation}\label{eq:frac_molar_liquidos}
+    x _{i} = \frac{C_{i} }{C}
+\end{equation}
+Para gases é definida como
+\begin{equation}\label{eq:frac_molar_gas}
+    y _{i} = \frac{C_{i} }{C}
+\end{equation}
+Em que para ambos \(C = \sum_{i} C_{i} \) é a soma das concentrações molares de todas as espécies.
+\par
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Definições Básicas para Uma Mistura Binária}
+Para uma mistura binária, ficam definidos que:
+\begin{align}
+    \text{Concentração mássica da solução} \quad & \rho = \rho _{a} + \rho _{b} \label{eq:conc_massica_solucao} \\
+    \text{Concentração molar da mistura} \quad & C = C_{a} + C_{b} \label{eq:conc_molar_mistura} \\
+    \text{Concentração mássica de uma das substâncias} \quad & \rho_{a / b} = C_{a / b} M_{a / b} \label{eq:conc_massica_substancia} \\
+    \text{Concentração molar de uma das substâncias} \quad & C_{a / b} = \frac{\rho_{a / b}}{M_{a / b}} \label{eq:conc_molar_substancia} \\
+    \text{Concentração molar da mistura} \quad & C = \frac{\rho }{M} \label{eq:conc_molar_mistura_{total}}\\
+    \text{Fração mássica de uma das misturas} \quad & \omega _{a / b} = \frac{\rho _{a / b} }{\rho } \label{eq:frac_massica_substancia} \\
+    \text{Fração molar de uma das misturas para líquidos} \quad & x_{a / b} = \frac{C_{a / b} }{C} \label{eq:frac_molar_substancia_liq} \\
+    \text{Fração molar de uma das misturas para gases} \quad & y_{a / b} = \frac{C_{a / b} }{C} \label{eq:frac_molar_substancia_gas}
+\end{align}
+Algumas relações adicionais são:
+\begin{align}
+    \omega _{a} + \omega _{b} = 1 \label{eq: relacao_frac_massica} \\
+    \frac{\omega _{a} }{M_{a} } + \frac{\omega _{b} }{M_{b} } = \frac{1}{M} \label{eq:relacao_frac_massica_massa_molar} \\
+    \omega _{a} = \frac{x_{a} M_{a} }{x_{a} M_{a} + x_{b} M_{b} } \label{eq:relacao_frac_massica_frac_molar} \\
+    x_{a} + x_{b} = 1 \label{eq:relacao_frac_molar_liq} \\
+    y_{a} + y_{b} = 1 \label{eq:relacao_frac_molar_gas} \\
+    x_{a} M_{a} + x_{b} M_{b} = M \label{eq:relacao_frac_molar_massa_molar} \\
+    x_{a} = \frac{\frac{\omega _{a} }{M_{a} } }{\frac{\omega _{a} }{M_{a} } + \frac{\omega _{b} }{M_{b} } } \label{eq:relacao_frac_molar_frac_massica} \\
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Exemplo 1}\label{subsec:ex1}
+Determine o peso molecular da mistura abaixo:
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c|c}
+\toprule
+Componente & Peso Molecular &  y \\
+ \midrule
+ CO & 28 &  0.05 \\
+ \ch{H20} & 18 &  0.20 \\
+ \ch{O2} & 32 &  0.04 \\
+ \ch{N2} & 28 &  0.71 \\
+\bottomrule
+\end{tabular}
+\caption{Componentes da Mistura}
+\label{tab:comp_mist_ex1}
+\end{table}
+\subsubsection{Solução}
+O peso molecular é dado pela seguinte formula:
+\begin{equation}
+    M = \sum_{i} y_{i} M_{i}
+\end{equation}
+Logo, vamos ter:
+\begin{align}
+    M &=  0.05 \cdot 28 + 0.20 \cdot 18 + 0.04 \cdot 32 + 0.71 \cdot 28 \\
+    M &= 26.16 \; \frac{g}{mol}
+\end{align}
+Para achar a fração mássica de cada componente, vamos usar a seguinte formula:
+\begin{equation}
+    \omega _{i} = \frac{y_{i} M_{i} }{M}
+\end{equation}
+Logo, vamos ter:
+\begin{align}
+    \omega _{CO} &= \frac{0.05 \cdot 28}{26.16} = 0.053 \\
+    \omega _{\ch{H2O}} &= \frac{0.20 \cdot 18}{26.16} = 0.138 \\
+    \omega _{\ch{O2}} &= \frac{0.04 \cdot 32}{26.16} = 0.049 \\
+    \omega _{\ch{N2}} &= \frac{0.71 \cdot 28}{26.16} = 0.760
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Exemplo 2}
+Calcule a fração molar de cada espécie, da mistura abaixo:
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c}
+\toprule
+Componente &  \% mássica \\
+ \midrule
+ \ch{O2} &  16 \\
+ \ch{CO} &  4 \\
+ \ch{CO2}  &  17 \\
+ \ch{N2} &  63 \\
+\bottomrule
+\end{tabular}
+\caption{Mistura Exemplo 2}
+\label{tab:mist_tab_ex2}
+\end{table}
+\subsubsection{Solução}
+Para calcularmos a fração molar de cada espécie, vamos usar a seguinte formula:
+\begin{equation}
+    y_{i} = \frac{\omega _{i} M}{M_{i} }
+\end{equation}
+Portanto, vamos calcular \(M\):
+\begin{align}
+    M &=  \omega _{O_{2}} M_{O_{2}} + \omega _{CO} M_{CO} + \omega _{CO_{2}} M_{CO_{2}} + \omega _{N_{2}} M_{N_{2}} \\
+    &=  0.16 \cdot 32 + 0.04 \cdot 28 + 0.17 \cdot 44 + 0.63 \cdot 28 \\
+    &=  31.36 \; \frac{g}{mol}
+\end{align}
+Por fim, vamos calcular as frações molares:
+\begin{align}
+    y_{O_{2}} &= \frac{0.16 \cdot 31.36}{32} = 0.156 \\
+    y_{CO} &= \frac{0.04 \cdot 31.36}{28} = 0.045 \\
+    y_{CO_{2}} &= \frac{0.17 \cdot 31.36}{44} = 0.121 \\
+    y_{N_{2}} &= \frac{0.63 \cdot 31.36}{28} = 0.678
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\section{Velocidades}
+A velocidade média das espécies é a médias das velocidades de cada espécie, ponderadas sobre o valor
+que queremos, ou seja:
+\begin{equation}\label{eq:velocidade_media_massica}
+    \overline{\upsilon } = \frac{\sum_{i} \rho _{i} \overline{\upsilon }_{i} }{\sum_{i} \rho _{i} }
+\end{equation}
+Onde essa é a velocidade média mássica pois está ponderada sobre a massa das espécies. Já a
+velocidade média molar é dada por:
+\begin{equation}\label{eq:velocidade_media_molar}
+    \overline{\Upsilon } = \frac{\sum_{i} C_i \overline{\upsilon }_{i} }{\sum_{i} C_i }
+\end{equation}
+Onde temos que as quantidades \(C_{i} \overline{\upsilon }, \; \rho _{i} \overline{\upsilon } _{i}
+\) são as velocidades locais a qual a massa atravessa uma seção unitária. Essas velocidades pode
+estar associadas a outros tipos de velocidade, como a velocidade dos eixos estacionários
+\(\overline{\upsilon } = 0\) ou à velocidade de solução \(\overline{\upsilon } _{i} -
+\overline{\upsilon } \), para a mássica e \(\overline{\upsilon } _{i} - \overline{\Upsilon } \) para
+a molar. Podemos pensar nelas como a velocidade de difusão das nossas massas, ou seja, a velocidade
+das espécias relativas à solução.
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Exemplo 3}
+Sabendo que as velocidades médias das espécies do exemplo 1 são:
+\begin{table}[H]
+\centering
+\begin{tabular}{c|c|c}
+\toprule
+Espécie & Velocidade (\(\frac{cm}{s}\) ) &  y \\
+ \midrule
+ \ch{CO} &  10 &  0.05 \\
+ \ch{H2O} & 19 & 0.20  \\
+ \ch{O2} & 13 &  0.04 \\
+ \ch{N2} & 11 & 0.71  \\
+\bottomrule
+\end{tabular}
+\caption{Velocidade médias das espécies}
+\label{tab:vel_med_tab}
+\end{table}
+Calcule:
+\begin{enumerate}
+    \item Velocidade Média Molar da Mistura \label{item:ex3_q1}
+    \item Velocidade Média Mássica da Mistura \label{item:ex3_q2}
+    \item Velocidade de difusão de cada espécie na mistura, tendo em conta a velocidade molar da mistura \label{item:ex3_q3}
+    \item Velocidade de difusão de cada espécie na mistura, tendo em conta a velocidade mássica da mistura \label{item:ex3_q4}
+\end{enumerate}
+\subsubsection{Solução}
+\ref{item:ex3_q1} Tendo em conta que \(M = 26.16 \; \frac{g}{gmol}\) conseguimos calcular a
+velocidade média molar da mistura
+\begin{align}
+    \overline{\Upsilon } &= \frac{\sum_{i} C_i \overline{\upsilon }_{i} }{\sum_{i} C_i }\\
+    & = \sum_{i} y_{i} \overline{\upsilon }_{i} \\
+    & = 0.05 \cdot 10 + 0.20 \cdot 19 + 0.04 \cdot 13 + 0.71 \cdot 11 \\
+    & = 12.63 \; \frac{cm}{s}
+\end{align}
+\ref{item:ex3_q2} Para calcularmos a velocidade média mássica da mistura, vamos usar a equação
+\ref{eq:velocidade_media_massica}:
+\begin{align}
+    \overline{\upsilon } &= \frac{\sum_{i} \rho _{i} \overline{\upsilon }_{i} }{\sum_{i} \rho _{i} } \\
+    & = \sum_{i} \omega _{i} \overline{\upsilon } _{i} \\
+    & = 0.054 \cdot 10 + 0.138 \cdot 19 + 0.049 \cdot 13 + 0.759 \cdot 11 \\
+    & = 12.148 \; \frac{cm}{s}
+\end{align}
+\ref{item:ex3_q3} Para calcularmos a velocidade de difusão de cada espécie na mistura, em relação à
+velocidade molar da mistura, vamos apenas subtrair a velocidade da espécie pela velocidade média molar
+\begin{align}
+    \overline{\upsilon } _{i} - \overline{\Upsilon } &= 10 - 12.63 = -2.63 \\
+    \overline{\upsilon } _{i} - \overline{\Upsilon } &= 19 - 12.63 = 6.37 \\
+    \overline{\upsilon } _{i} - \overline{\Upsilon } &= 13 - 12.63 = 0.37 \\
+    \overline{\upsilon } _{i} - \overline{\Upsilon } &= 11 - 12.63 = -1.63
+\end{align}
+\ref{item:ex3_q4} Para calcularmos a velocidade de difusão de cada espécie na mistura, em relação à
+velocidade mássica da mistura, vamos apenas subtrair a velocidade da espécie pela velocidade média
+mássica
+\begin{align}
+    \overline{\upsilon } _{i} - \overline{\upsilon } &= 10 - 12.148 = -2.148 \\
+    \overline{\upsilon } _{i} - \overline{\upsilon } &= 19 - 12.148 = 6.852 \\
+    \overline{\upsilon } _{i} - \overline{\upsilon } &= 13 - 12.148 = 0.852 \\
+    \overline{\upsilon } _{i} - \overline{\upsilon } &= 11 - 12.148 = -1.148
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\section{Fluxos} 
+O fluxo de uma espécie é definido como a quantidade de massa que atravessa uma seção unitária por
+unidade de tempo. Para uma determinada espécie \(i\) o fluxo é dado por:
+\begin{equation}\label{eq:fluxo}
+    J = \upsilon C
+\end{equation}
+Onde \(\upsilon \) é a velocidade média da espécie \(i\) e \(C\) é a concentração da espécie. Se
+imaginarmos um rio, com vários peixes nadando, a velocidade de um cardume vai ser determinado pela
+contribuição que o rio tem, mais a velocidade do peixe. Ou seja, a velocidade de fluxo mais a
+velocidade do próprio peixe. Logo, podemos escrever a contribuição do difusiva, ou seja, a
+velocidade da espécie como:
+\begin{equation}\label{eq:contribuição_espécie}
+    J_{a,z} = C_a(\upsilon_{a,z} + \Upsilon_{z} )
+\end{equation}
+Onde \(J_{a,z}\) é o fluxo da espécie \(a\) na direção \(z\), \(C_a\) é a concentração da espécie \(a\),
+\(\upsilon_{a,z}\) é a velocidade da espécie \(a\) na direção \(z\) e \(\Upsilon_{z}\) é a
+velocidade de fluxo na direção \(z\). Para a velocidade do fluxo, temos que:
+\begin{equation}\label{eq:contribuição_fluxo}
+    J_{a,z}^C =  C_{a} \Upsilon _{z} 
+\end{equation}
+Onde por fim, nossa equação de fluxo fica:
+\begin{equation}\label{eq:fluxo_final}
+    N_{a,z} = J_{a,z} + J_{a,z}^C = C_a(\upsilon_{a,z} + \Upsilon_{z} ) + C_{a} \Upsilon _{z}
+\end{equation}
+Onde temos algumas notações de índices, colocadas na tabela abaixo
+\begin{table}[H]
+\centering
+\begin{adjustbox}{width=1\textwidth, center=\textwidth}
+\begin{tabular}{c|c|c|c}
+\toprule
+Velocidade Mássica  & Velocidade média Mássica & Velocidade Molar & Velocidade média Molar  \\
+ \midrule
+\(J_{a,z} = C_a(\upsilon_{a,z} - \Upsilon_{z} )\)   & \(J_{a,z}^{\star}  = C_a(\upsilon_{a,z} - \upsilon_{z} )\)  & \(j_{a,z} = \rho _a(\upsilon_{a,z} - \Upsilon_{z} )\)   & \(j_{a,z}^{\star}  = \rho _a(\upsilon_{a,z} - \upsilon_{z} )\)  \\
+\(J_{a,z}^C =  C_{a} \Upsilon _{z}\)   & \(J_{a,z}^{\star C}  =  C_{a} \upsilon _{z} \)   &  \(j_{a,z}^C =  \rho _{a} \Upsilon _{z}\)   & \(j_{a,z}^{\star C}  =  \rho _{a} \upsilon _{z} \)\\
+\(N_{a,z} =C_a(\upsilon_{a,z} - \Upsilon_{z} ) + C_{a} \Upsilon _{z}\)   & \(N_{a,z}^{\star} = C_a(\upsilon_{a,z} - \upsilon_{z} ) + C_{a} \upsilon _{z}\) &  \(n_{a,z} = \rho _a(\upsilon_{a,z} - \Upsilon_{z} ) + \rho _{a} \Upsilon _{z}\)   & \(n_{a,z}^{\star} = \rho _a(\upsilon_{a,z} - \upsilon_{z} ) + \rho _{a} \upsilon _{z}\)\\
+\bottomrule
+\end{tabular}
+\end{adjustbox}
+\caption{Notações de índices}
+\label{tab:not_indices}
+\end{table}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\subsection{Exemplo}
+Sabendo que a mistura da \ref{subseq:ex1} está a \(105 \; \degree C\) e a pressão de \(1 \; atm\),
+calcule 
+\begin{enumerate}
+    \item O fluxo difusivo molar de cada espécie \label{item:ex4_q1}
+    \item O fluxo difusivo mássico de cada espécie \label{item:ex4_q2}
+    \item A contribuição do fluxo convectivo molar de cada espécie \label{item:ex4_q3}
+    \item A contribuição do fluxo convectivo mássico de cada espécie \label{item:ex4_q4}
+    \item Fluxo mássico total referenciado a um eixo estacionário \label{item:ex4_q5}
+    \item Fluxo molar total referenciado a um eixo estacionário \label{item:ex4_q6}
+\end{enumerate}
+
+\subsubsection{Resolução}
+Para resolver a questão \ref{item:ex4_q1} vamos precisar da primeira parte da nossa equação, ou
+seja, \ref{eq:contribuição_espécie}, para cada uma delas, vamos calcular o valor de \(J\) lembrando
+que \(\upsilon  - \Upsilon \) foi calculado em \ref{item:ex3_q3}. Vamos precisa da concentração molar e da
+concentração mássica, calculadas por meio da equação geral dos gases
+\begin{align}
+        C = \frac{P}{RT} = \frac{1}{82 \cdot (105 + 273)} = 3.22 \cdot 10^{-5} \; \frac{gmol}{cm^{3}}\\
+        \rho = \frac{PM}{RT} = \frac{1 \cdot 26.16}{82 \cdot (105 + 273)} = 8.44 \cdot 10^{-4} \; \frac{g}{cm^{3}} 
+\end{align}
+Lembrando que \(C_{i} = C  y_{i} \) e \(\rho _{i} = \omega _{i} \rho \) 
+\begin{align}
+    J_{\ch{CO}} &= y_{\ch{CO}} C (\upsilon_{\ch{CO}} - \Upsilon ) = 0.05 \cdot 3.22 \cdot 10^{-5} \left( -2.63 \right)  = -4.2343 \cdot 10^{-6} \; \frac{gmol}{cm^{2} s}\\
+    J_{\ch{H2O}} &= y_{\ch{H2O}} C (\upsilon_{\ch{H2O}} - \Upsilon ) = 0.20 \cdot 3.22 \cdot 10^{-5} \left( 6.37 \right)  = 4.0924 \cdot 10^{-5} \; \frac{gmol}{cm^{2} s}\\
+    J_{\ch{O2}} &= y_{\ch{O2}} C (\upsilon_{\ch{O2}} - \Upsilon ) = 0.04 \cdot 3.22 \cdot 10^{-5} \left( 0.37 \right) = 4.7656 \cdot 10^{-7} \; \frac{gmol}{cm^{2} s}\\
+    J_{\ch{N2}} &= y_{\ch{N2}} C (\upsilon_{\ch{N2}} - \Upsilon ) = 0.71 \cdot 3.22 \cdot 10^{-5} \left( -1.63 \right) = -3.726506 \cdot 10^{-5}\; \frac{gmol}{cm^{2} s}
+\end{align}
+Para resolver a questão \ref{item:ex4_q2} vamos usar o \(j_{a} ^{\star} \), ou seja, vamos ter, com
+valores calculados na questão \ref{item:ex3_q4}
+\begin{align}
+    j_{\ch{CO}} ^{\star} &= \omega_{\ch{CO}} \rho (\upsilon_{\ch{CO}} - \upsilon ) = 0.054 \cdot 8.44 \cdot 10^{-4} \left( -2.159 \right) = -9.8398584 \cdot 10^{-5} \; \frac{g}{cm^{2} s}\\
+    j_{\ch{H2O}} ^{\star} &= \omega_{\ch{H2O}} \rho (\upsilon_{\ch{H2O}} - \upsilon ) = 0.138 \cdot 8.44 \cdot 10^{-4} \left( 6.841 \right) = 07.967 \cdot 10^{-4}  \; \frac{g}{cm^{2} s}\\
+    j_{\ch{O2}} ^{\star} &= \omega_{\ch{O2}} \rho (\upsilon_{\ch{O2}} - \upsilon ) = 0.049 \cdot 8.44 \cdot 10^{-4} \left( 0.841 \right) = 3.4780396 \cdot 10^{-5} \; \frac{g}{cm^{2} s}\\
+    j_{\ch{N2}} ^{\star} &= \omega_{\ch{N2}} \rho (\upsilon_{\ch{N2}} - \upsilon ) = 0.76 \cdot 8.44 \cdot 10^{-4} \left( -1.159 \right) = -7.43\cdot 10^{-4} \; \frac{g}{cm^{2} s}
+\end{align}
+Para resolver a questão \ref{item:ex4_q3} vamos usar a equação \ref{eq:contribuição_fluxo},
+lembrando que a velocidade de fluxo molar foi calculada na questão \ref{item:ex3_q1}, temos
+\begin{align}
+    J_{\ch{CO}} ^{c} &= \rho v_{\ch{CO}} = 3.22 \cdot 10^{-5} \cdot 0.05 \cdot 12.63  = 2.03343 \cdot 10^{-5} \; \frac{gmol}{cm^{2} s}\\
+    J_{\ch{H2O}} ^{c} &= \rho v_{\ch{H2O}} = 3.22 \cdot 10^{-5} \cdot 0.2 \cdot 12.63 = 8.13372 \cdot 10^{-5}  \; \frac{gmol}{cm^{2} s}\\
+    J_{\ch{O2}} ^{c} &= \rho v_{\ch{O2}} = 3.22 \cdot 10^{-5} \cdot 0.04 \cdot 12.63  = 1.626744 \cdot 10^{-5} \; \frac{gmol}{cm^{2} s}\\
+    J_{\ch{N2}} ^{c} &= \rho v_{\ch{N2}} = 3.22 \cdot 10^{-5} \cdot 0.71 \cdot 12.63 = 2.887\cdot 10^{-4}   \; \frac{gmol}{cm^{2} s}
+\end{align}
+
+Para resolver a questão \ref{item:ex4_q3} vamos usar a equação \ref{eq:contribuição_fluxo},
+calculando \(j_a ^{\star C} \) lembrando que a velocidade de fluxo mássica foi calculada na questão
+\ref{item:ex3_q2}, temos
+
+\begin{align}
+    j_{\ch{CO}} ^{\star C} &= \omega_{\ch{CO}} v_{\ch{CO}} = 0.054 \cdot 8.44 \cdot 10^{-4}  \cdot 12.159 = 5.54\cdot 10^{-4}    \; \frac{g}{cm^{2} s}\\
+    j_{\ch{H2O}} ^{\star C} &= \omega_{\ch{H2O}} v_{\ch{H2O}} = 0.138 \cdot 8.44 \cdot 10^{-4} \cdot 12.159 = 1.416\cdot 10^{-3}  \; \frac{g}{cm^{2} s}\\
+    j_{\ch{O2}} ^{\star C} &= \omega_{\ch{O2}} v_{\ch{O2}} = 0.049 \cdot 8.44 \cdot 10^{-4} \cdot 12.159 = 5.028\cdot 10^{-4}    \; \frac{g}{cm^{2} s}\\
+    j_{\ch{N2}} ^{\star C} &= \omega_{\ch{N2}} v_{\ch{N2}} = 0.76 \cdot 8.44 \cdot 10^{-4} \cdot 12.159 = 7.799 \cdot 10^{-3}  \; \frac{g}{cm^{2} s}
+\end{align}
+O fluxo mássico total, pedido em \ref{item:ex4_q5} é apenas a soma dos fluxos mássicos calculados, ou seja,
+\begin{align}
+    n^{\star} = \sum_{i} n_i ^{\star}  = -9.84\cdot 10^{-5} + 5.54 \cdot 10^{-4} + 7.967 \cdot 10^{-4} + 1.42 \cdot 10^{-3}  + 3.478 \cdot 10^{-5} + 5.03 \cdot 10^{-4}\\
+    - 7.43 \cdot 10^{-4}  + 7.799 \cdot 10^{-3} = 0.01026608 \; \frac{g}{cm^{2} s}
+\end{align}
+Por fim, o fluxo molar total, pedido em \ref{item:ex4_q6} é apenas a soma dos fluxos molares
+calculados, ou seja,
+\begin{align}
+    N = \sum_{i} N_i  = -4.23 \cdot 10^{-5} + 2.03343 \cdot 10^{-5} + 2.38 \cdot 10^{-6} + 8.13372 \cdot 10^{-5} + 8.20 \cdot 10^{-6} + 1.626744 \cdot 10^{-5}\\
+    - 3.73 \cdot 10^{-5} + 2.887 \cdot 10^{-4}  = 0.00033761894 \; \frac{gmol}{cm^{2} s}
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+% Exercício 5
+\subsection{Exemplo 5}
+Demonstre que para uma mistura binaria a relação \(J_A ^{\star} = N_{A}^{\star} - \omega_A \left(
+N_A^{\star}+ \frac{M_B}{M_A} N_B ^{\star} \right)   \)
+
+\subsubsection{Solução}
+Iniciando com o lado esquerdo da equação, temos
+\begin{align}
+    J_A ^{\star} &= \rho _{a} \left( \upsilon_{A, Z}-\upsilon  \right) \\
+    &= \rho \omega_A \left( \upsilon_{A, Z}-\upsilon  \right) \\
+\end{align}
+%to do
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+\section{Difusão: Lei de Fick e Gases Apolares}
+O fenômeno de difusão é o transporte de massa devido a um gradiente de concentração. A lei de Fick
+descreve a difusão de um componente \(A\) em um meio \(B\) como, pelo gradiente de concentração molar
+\begin{equation}\label{eq:lei de fick_J}
+    J_A = -D_{AB} \frac{\partial C_A}{\partial x}
+\end{equation}
+ou, para o caso de concentração mássica, temos
+\begin{equation}\label{eq:lei de fick_j}
+    j_A = -D_{AB} \frac{\partial \rho_A}{\partial x}
+\end{equation}
+Onde \(D_{AB}\) é o coeficiente de difusão, que depende da temperatura, pressão e composição da
+mistura. Ele é escrito dessa forma pois é a difusão do elemento \(A\) em \(B\). Em termos de fração
+molar ou mássica, temos
+\begin{align}
+    J_{A,z} &= -D_{AB} \frac{\partial y_A}{\partial z} \\
+    j_{A,z} &= -D_{AB} \frac{\partial \omega_A}{\partial z}
+\end{align}
+As unidades do coeficiente difusivo são \(\frac{m^2}{s}\), ou \(\frac{cm^2}{s}\). Já que em geral
+são bastante pequenos. Um dos grandes pontos que temos é fazer a estimativa desse coeficiente,
+existindo dois métodos, \textit{\textbf{para gases apolares}}  para isso, a \emph{Equação de Chapman-Enskog} ou a \emph{Equação de
+Wilke-Lee}. Antes de enunciarmos as leis, vamos definir algumas relações e variáveis.
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\subsection{Distância Limite}
+Se existir uma molécula \(B\) vindo em direção a uma molécula \(A\), parada, a distância limite é a
+menor distância que as duas moléculas estarão uma da outra. A colisão não ocorrerá, pois a força de
+repulsão é muito grande para que isso ocorra. A distância limite é dada por
+\begin{equation}\label{eq:distancia_limiteAB}
+    \sigma_{AB} = \frac{\sigma_A + \sigma_B}{2}
+\end{equation}
+Onde \(\sigma_A\) e \(\sigma_B\) são os diâmetros moleculares de \(A\) e \(B\), respectivamente,
+calculados por
+\begin{equation}\label{eq:diametro molecular}
+    \sigma_i =  1.18 V_{b}^{\frac{1}{3}}
+\end{equation} 
+onde \(V_{b}\) é o volume molar de \(i\), dado em \(\frac{cm^{3}}{gmol}\).
+\subsubsection{Exemplo}\label{ex:distancia_limite}
+ Calcule a distância limite para o \ch{H2} e \ch{N2} a \(15\degree C\) e \(1 atm\).
+\paragraph{Solução}
+Primeiro, vamos precisar do volume molar de cada gás. Para isso, podemos recorrer à literatura, em
+geral o Cremasco, que possui diversas tabelas com esses valores. Para o \ch{H2}, temos \(14.3 \;
+\frac{cm^{3}}{gmol}\), para o \ch{N2}, temos \(31.2 \; \frac{cm^{3}}{gmol}\). Com isso, podemos
+calcular os diâmetros moleculares de cada gás:
+\begin{align}
+    \sigma_{H2} &= 1.18 \cdot 14.3^{\frac{1}{3}} = 2.8641 \; \mathring{A} \\
+    \sigma_{N2} &= 1.18 \cdot 31.2^{\frac{1}{3}} = 3.7148 \; \mathring{A}
+\end{align}
+E a distância limite é dada por
+\begin{align}
+    \sigma_{H2-N2} &= \frac{\sigma_{H2} + \sigma_{N2}}{2} \\
+    &= \frac{2.8641 + 3.7148}{2} \\
+    &= 3.28945 \; \AA
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\subsection{Integral de Colisão}
+Essa integral representa a máxima energia de atração entre as moléculas \(A,B\), expressando a
+dependência do diâmetro de colisão com a temperatura. Ela é dada por
+\begin{equation}\label{eq:integral de colisão}
+    \Omega_{AB} = \frac{A}{T^{\star B} } + \frac{C}{\exp \left( D T^{\star}  \right) } + \frac{E}{\exp \left( F T^{\star}  \right) } + \frac{G}{\exp \left(H T^{\star}\right) }
+\end{equation}
+Onde \(T^{\star} = \frac{Tk}{\epsilon_{AB}}\), sendo \(\epsilon_{AB}\) a energia de atração entre
+duas moléculas. o valor de \(\frac{\epsilon_{AB}}{k} \) é dado por
+\begin{equation}\label{eq:epsilon_AB}
+    \frac{\epsilon_{AB}}{k} = \sqrt{\frac{\epsilon_{A}}{k} \frac{\epsilon_B}{k}}
+\end{equation}
+Onde \(\epsilon_A\) e \(\epsilon_B\) são calculados por
+\begin{equation}\label{eq:energia de ativação indvidual}
+    \frac{\epsilon_{i}}{k} = 1.15 T_{b} 
+\end{equation}
+Onde \(T_b\) é a temperatura de ebulição do gás \(i\), dada em Kelvin. Os valores de
+\(A,B,C,D,E,F,G,H\) são dados na tabela abaixo:
+\begin{table}[H]
+    \centering
+    \caption{Valores de \(A,B,C,D,E,F,G,H\) para gases apolares}
+    \begin{tabular}{c|c|c|c|c|c|c|c}
+        \toprule
+        \(A\) & \(B\) & \(C\) & \(D\) & \(E\) & \(F\) & \(G\) & \(H\) \\
+        \midrule
+        1.06036 & 0.15610 & 0.19300 & 0.47635 & 1.03587 & 1.52996 & 1.76474 & 3.89411 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+\subsection{Exemplo}\label{ex:integral_colisao}
+Calcule a integral de colisão para o \ch{H2} e \ch{N2} a \(15\degree C\) e \(1 atm\).
+\paragraph{Solução}
+Primeiro, vamos precisar da temperatura de ebulição dos gases. Recorrendo ao Cremasco, temos que 
+\(T_{b,H2} = 20.4 \; K\) e \(T_{b,N2} = 77.4 \; K\). Com isso, podemos calcular a energia de
+ativação para cada gás:
+\begin{align}
+    \frac{\epsilon_{H2}}{k} &= 1.15 \cdot 20.4 = 23.46 \; K \\
+    \frac{\epsilon_{N2}}{k} &= 1.15 \cdot 77.4 = 89.01 \; K
+\end{align}
+Com isso, podemos calcular a energia máxima de atração entre as moléculas:
+\begin{align}
+    \frac{\epsilon_{H2-N2}}{k} &= \sqrt{\frac{\epsilon_{H2}}{k} \frac{\epsilon_{N2}}{k}} \\
+    &= \sqrt{23.46 \cdot 89.01} \\
+    &= 45.69 \; K
+\end{align}
+Agora, podemos calcular \(T^{\star}\):
+\begin{align}
+    T^{\star} &= \frac{T \cdot k}{\epsilon_{H2-N2}} \\
+    &= \frac{288.15}{45.69} \\
+    &= 6.3
+\end{align}
+Por fim, nossa integral de colisão é dada por
+\begin{align}
+    \Omega_{H2-N2} &= \frac{A}{T^{\star B} } + \frac{C}{\exp \left( D T^{\star}  \right) } + \frac{E}{\exp \left( F T^{\star}  \right) } + \frac{G}{\exp \left(H T^{\star}\right) } \\
+    &= \frac{1.06036}{6.3^{0.15610} } + \frac{0.19300}{\exp \left( 0.47635 \cdot 6.3  \right) } + \frac{1.03587}{\exp \left( 1.52996 \cdot 6.3  \right) } + \frac{1.76474}{\exp \left(3.89411 \cdot 6.3 \right)} \\
+    &= 0.8052
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\section{Equação de Chapman-Enskog}
+A equação de Chapman-Enskog é enunciada como
+\begin{equation}\label{eq:chapman-enskog}
+    D_{AB} = 1.858 \cdot 10^{-3} \frac{T^{\frac{3}{2}} }{P \sigma_{AB}^{2} \Omega_{AB}} \cdot \sqrt{\frac{1}{M_A} + \frac{1}{M_{B} }} 
+\end{equation}
+Onde \(D_{AB}\) é o coeficiente de difusão, \(T\) é a temperatura em Kelvin, \(P\) é a pressão em
+atm, \(\sigma_{AB}\) é a distância limite, \(\Omega_{AB}\) é a integral de colisão, \(M_A\) e
+\(M_B\) são as massas molares dos gases \(A\) e \(B\), respectivamente.
+\subsection{Exemplo}
+Calcule o coeficiente de difusão do \ch{H2} e \ch{N2} a \(15\degree C\) e \(1 atm\).
+\subsubsection{Solução}
+Como já calculado os valores de \(\sigma_{AB} \) em \ref{ex:distancia_limite} e \(\Omega_{AB}\) em
+\ref{ex:integral_colisao}. Vamos precisar apenas das massas moleculares, em \(g/mol\), recorrendo ao
+Cremasco, para o \ch{H2} temos \(M_{H2} = 2.016 \; g/mol\) e para o \ch{N2} temos \(M_{N2} = 28.013
+\; g/mol\). Com isso, podemos calcular o coeficiente de difusão:
+\begin{align}
+    D_{H2-N2} &= 1.858 \cdot 10^{-3} \frac{T^{\frac{3}{2}} }{P \sigma_{H2-N2}^{2} \Omega_{H2-N2}} \cdot \sqrt{\frac{1}{M_{H2}} + \frac{1}{M_{N2} }} \\
+    &= 1.858 \cdot 10^{-3} \frac{288.15^{\frac{3}{2}} }{1 \cdot 3.28^{2} \cdot 0.8052} \cdot \sqrt{\frac{1}{2.016} + \frac{1}{28.013} } \\
+    &= 0.7650 \; \frac{cm^2}{s}
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\section{Equação de Wilke-Lee}
+A equação de Wilke-Lee é enunciada como
+\begin{equation}\label{eq:wilke-lee}
+    D_{AB} = \frac{b \cdot 10^{-3} T^{\frac{3}{2}}  }{P \sigma_{AB}^{2} \Omega_{AB}} \cdot \sqrt{\frac{1}{M_A} + \frac{1}{M_{B} }}
+\end{equation}
+Onde \(b\) é calculado como
+\begin{equation}\label{eq:termo_extra_b}
+    b = 2.17 - \frac{1}{2} \sqrt{\frac{1}{M_A} + \frac{1}{M_{B} }}
+\end{equation}
+Essa substituição no valor de \(b\) fornece uma estimativa para gases com pelo menos um dos gases
+com massa molar maior que \(45 \; g/mol\).
+\subsection{Exemplo}
+Calcule o coeficiente de difusão do \ch{H2} e \ch{N2} a \(15\degree C\) e \(1 atm\). Compare com o
+valor obtido na equação de Chapman-Enskog.
+\subsubsection{Solução}
+Como já calculado os valores de \(\sigma_{AB} \) em \ref{ex:distancia_limite} e \(\Omega_{AB}\) em
+\ref{ex:integral_colisao}. Vamos precisar apenas do valor do coeficiente \(b\), que é calculado como
+\begin{align}
+    b &= 2.17 - \frac{1}{2} \sqrt{\frac{1}{M_{H2}} + \frac{1}{M_{N2} }} \\
+    &= 2.17 - \frac{1}{2} \sqrt{\frac{1}{2.016} + \frac{1}{28.013} } \\
+    &= 1.8054
+\end{align}
+Com isso, podemos calcular o coeficiente de difusão:
+\begin{align}
+    D_{H2-N2} &= \frac{b \cdot 10^{-3} T^{\frac{3}{2}}  }{P \sigma_{H2-N2}^{2} \Omega_{H2-N2}} \cdot \sqrt{\frac{1}{M_{H2}} + \frac{1}{M_{N2} }} \\
+    &= \frac{1.8054 \cdot 10^{-3} 288.15^{\frac{3}{2}}  }{1 \cdot 3.28^{2} \cdot 0.8052} \cdot \sqrt{\frac{1}{2.016} + \frac{1}{28.013} } \\
+    &= 0.7434 \; \frac{cm^2}{s}
+\end{align}
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\subsection{Estimativa de \(V_b\) }
+Caso não se tenha tabelado o valor de \(V_b\), pode-se estimar o valor de \(V_b\) como a soma dos
+volumes atômicos das espécies químicas que compõe a molécula. Ou seja, a soma da contribuição dos
+átomos, proporcional ao número de vezes que aparecem na fórmula molecular. Por exemplo, para o
+\ch{C2H6}, vamos ter \(2 \cdot V_{C} + 6 \cdot V_{H} = 2 \cdot 14.8 + 6 \cdot  3.7 = 51.8 \;
+\frac{cm^{3}}{gmol}\). Para casos de conter um ciclo, temos
+\begin{itemize}
+    \item Anel constituído de 3 membros: Subtraímos 6
+    \item Anel constituído de 4 membros: Subtraímos 8.5
+    \item Anel constituído de 5 membros: Subtraímos 11.5
+    \item Anel Benzênico: Subtraímos 15
+    \item Anel Naftalênico: Subtraímos 30
+    \item Anel Antracênico: Subtraímos 47.5
+\end{itemize}
+Para o tolueno, por exemplo, temos \(V_{b} = 7 \cdot 14.8 + 8 \cdot 3.7 - 15 = 118.2 \;
+\frac{cm^{3}}{gmol}\)
+%────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+\section{Correlação de Brokaw Para Gases Polares}
+As equações que vimos até agora so serviam para gases apolares, aqueles com momento dipolar
+\(\mu_{Pi} = 0\). Vamos agora aprender algumas correlações para gases polares. A primeira será a de
+Brokaw. Ela se foca principalmente arrumando a integral de colisão. O primeiro item que ele adiciona
+é um fator de correção para a integral de colisão calculada, enunciada como:
+\begin{equation}\label{eq:correlacao_brokaw}
+    \Omega_{D} = \Omega^{\star} + \left( 0.196 \frac{\delta_{AB}^{2} }{T^{\star} } \right)
+\end{equation}
+Onde \(\Omega ^{\star} \) é o mesmo calculado pela fórmula \refeq{eq:integral_colisao}, o termo
+\(\delta_{AB} \) é a velocidade de difusão do gás \(B\) no gás \(A\), calculado como
+\begin{equation}\label{eq:velocidade_difusao_tot}
+    \delta_{AB} = \sqrt{\delta_A \delta_{B}}
+\end{equation} 
+Onde os \(\delta_{i} \) são calculados da seguinte forma:
+\begin{equation}\label{eq:velocidade_difusao_individual}
+    \delta_{i} = \frac{1.94 \cdot 10^{3} \mu_{Pi}^{2} }{V_{Bi} T_{Bi}  }
+\end{equation}
+Onde \(V_{Bi} \) é o volume molar do gás \(i\) e \(T_{Bi} \) é a temperatura de ebulição do gás
+\(i\). O termo \(T^{\star} \) é a temperatura reduzida. O novo diâmetro de colisão individual é dado por
+\begin{equation}\label{eq:diametro_colisao_individual_brokaw}
+    \sigma_{i} = \left[ \frac{1.585 V_{Bi} }{\left( 1 + 1.3 \delta_i ^{2}\right) } \right]^{\frac{1}{3}}  
+\end{equation}
+Com o diâmetro de colisão sendo calculado como
+\begin{equation}\label{eq:diametro_colisao_brokaw}
+    \sigma_{AB} = \sqrt{\sigma_A \sigma_B} 
+\end{equation}
+A nova energia máxima de atração de Brokaw é
+\begin{equation}\label{eq:energia_atracao_brokaw_individual}
+    \frac{\epsilon_{i}}{k} = 1.18 \left( 1 + 1.3 \delta_{i} ^{2}  \right) T_{Bi}
+\end{equation}
+E a energia máxima de atração é igual, ou seja:
+\begin{equation}\label{eq:energia_atracao_brokaw}
+    \frac{\epsilon_{AB}}{k} = \sqrt{\frac{\epsilon_{A}}{k}{\epsilon_{B}{k}}}
+\end{equation} 
+\subsection{Exemplo}
+Calcule a integral de colisão para o \ch{H2O} em ar seco a \(25\degree C\) e \(1 atm\). Estime o
+coeficiente de difusão.
+\subsubsection{Solução}
+Primeiro, vamos calcular a velocidade de difusão do \ch{H2O} no ar seco. Para isso, vamos precisar
+do valor de \(\mu_{H2O} \), que é \(1.8 \; D\) e também do ar seco, que é \(0 \; D\). Precisamos
+também do volume molar da água que vale \(18.7 \; \frac{cm^{3}}{gmol}\). Com isso, vamos calcular o
+\(\delta_{\ch{H20}}\)
+\begin{align}
+    \delta_{\ch{H2O}} &= \frac{1.94 \cdot 10^{3} \mu_{\ch{H2O}}^{2} }{V_{\ch{H2O}} T_{\ch{H2O}}  } \\
+    &= \frac{1.94 \cdot 10^{3} \cdot 1.8^{2} }{18.7 \cdot 373.15} \\    
+    &= 0.9008
+\end{align}
+Como o ar seco é apolar, ele possui um valor de \(\delta=0 \). Temos que \(\delta_{AB}=0 \). Vamos
+calcular nosso \(\sigma_{\ch{H2O} }\)
+\begin{align}
+    \sigma_{\ch{H2O}} &= \left[ \frac{1.585 V_{\ch{H2O}} }{\left( 1 + 1.3 \delta_{\ch{H2O}} ^{2}\right) } \right]^{\frac{1}{3}} \\
+    &= \left[ \frac{1.585 \cdot 18.7 }{\left( 1 + 1.3 \cdot 0.9008 ^{2}\right) } \right]^{\frac{1}{3}} \\
+    &=  2.4342
+\end{align}
+O valor do ar seco é tabelado para essa temperatura, valendo \(3.711 \). Vamos calcular o nosso
+\(\sigma_{AB} \)
+\begin{align}
+    \sigma_{AB} &= \sqrt{\sigma_{\ch{H2O}} \sigma_{\ch{ar}}} \\
+    &= \sqrt{2.4342 \cdot 3.711} \\
+    &= 3.005
+\end{align}
+Agora, vamos calcular nossa energia máxima de atração. Primeiro, vamos calcular a energia máxima de 
+atração individual
+\begin{align}
+    \frac{\epsilon_{\ch{H2O}}}{k} &= 1.18 \left( 1 + 1.3 \delta_{\ch{H2O}} ^{2}  \right) T_{\ch{H2O}} \\
+    &= 1.18 \left( 1 + 1.3 \cdot 0.9008 ^{2}  \right) \cdot 373.15 \\
+    &= 904.7954 \; K
+\end{align}
+Nossa energia do ar é tabelada, valendo \(\frac{\epsilon_B }{k} = 78.60 \; K\). Portanto, nossa
+energia máxima de atração vale
+\begin{align}
+    \frac{\epsilon_{AB}}{k} &= \sqrt{\frac{\epsilon_{\ch{H2O}}}{k} \frac{\epsilon_{\ch{ar}}}{k}} \\
+    &= \sqrt{904.7954 \cdot 78.60} \\
+    &= 266.6775 \; K
+\end{align}
+Nossa temperatura reduzida vale
+\begin{align}
+    T^{\star} &= \frac{T}{\epsilon_{AB}} \\
+    &= \frac{298.15}{266.6775} \\
+    &= 1.12
+\end{align}
+Por fim, nossa integral de colisão, vale:
+\begin{align}
+    \Omega_{D}^{\star}  &= \Omega^{\star} + \left( 0.196 \frac{\delta_{AB}^{2} }{T^{\star} } \right) \\
+    &= \frac{1.06036}{1.12^{0.1561} } + \frac{0.193}{\exp \left( 0.47635 \cdot 1.12 \right) } + \frac{1.03587}{\exp \left( 1.52996 \cdot 1.12 \right) } + \frac{1.76474}{\exp \left( 3.89411 \cdot 1.12 \right) }\\
+    &= 1.3642
+\end{align}
+Por isso, nosso coeficiente de difusão vale
+
+\begin{align}
+    D_{\ch{H2O-ar}} &= 1.858 \cdot 10^{-3} \frac{T^{\frac{3}{2}} }{P \sigma_{\ch{H2O-ar}}^{2} \Omega_{\ch{H2O-ar}}} \cdot \sqrt{\frac{1}{M_{\ch{H2O}}} + \frac{1}{M_{\ch{ar}}}} \\
+    &= 1.858 \cdot 10^{-3} \frac{298.15^{\frac{3}{2}} }{1 \cdot 3.005^{2} \cdot 1.3642} \cdot \sqrt{\frac{1}{18.015} + \frac{1}{28.97}} \\
+    &= 0.233 \; \frac{cm^2}{s}
+\end{align}
+%──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────── 
+\section{Estimativa de um coeficiente baseado em outro já conhecido}
+
+Caso se tenha um coeficiente de difusão já conhecido, pode-se estimar o coeficiente de difusão de
+outro gás, podendo ser utilizada duas equações
+
+\begin{equation}\label{eq:estimativa_coeficiente_difusao_1}
+\frac{D_{AB(T_{2},P_2)} }{D_{AB(T_{1},P_1)} } = \frac{P_2}{P_1} \cdot \left(\frac{T_1}{T_2}\right)^{\frac{3}{2}}  \frac{\Omega_{DT_{1}} }{\Omega_{DT_{2}} }
+\end{equation}
+Ou pela equação
+\begin{equation}\label{eq:estimativa_coeficiente_difusao_2}
+    \frac{D_{AB(T_{2},P_2)} }{D_{AB(T_{1},P_1)} } = \frac{P_2}{P_1} \cdot \left(\frac{T_1}{T_2}\right)^{1.75}
+\end{equation}
+
+\subsection{Exemplo}
+Estime o coeficiente de difusão de vapor de água em ar seco a \(40 \; \degree C\) e \(1 atm\),
+utilizando as equações \refeq{eq:estimativa_coeficiente_difusao_1} e
+\refeq{eq:estimativa_coeficiente_difusao_2}, sabendo que o coeficiente de difusão de vapor de água
+em ar seco a \(25 \; \degree C\) e \(1 atm\) vale \(0.233 \; \frac{cm^2}{s}\).
+

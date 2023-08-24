@@ -1,0 +1,62 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\contentsline {chapter}{\chapternumberline {1}Operações Unitárias II}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Relembrando}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Fenômenos de Transporte II}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Condução}{7}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Radiação}{7}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}Convecção}{8}{subsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {1.1.4.1}Convecção Natural}{8}{subsubsection.1.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.1.4.2}Convecção Forçada}{8}{subsubsection.1.1.4.2}%
+\contentsline {section}{\numberline {1.2}Propriedades Termofísicas}{8}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Condutividade Térmica}{8}{subsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.1}Exexmplo 1}{9}{subsubsection.1.2.1.1}%
+\contentsline {paragraph}{\numberline {1.2.1.1.1}Solução}{9}{paragraph.1.2.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.2.1.2}Exemplo 2}{9}{subsubsection.1.2.1.2}%
+\contentsline {paragraph}{\numberline {1.2.1.2.1}Solução}{10}{paragraph.1.2.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Calor Específico}{10}{subsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.2.1}Exemplo 1}{11}{subsubsection.1.2.2.1}%
+\contentsline {paragraph}{\numberline {1.2.2.1.1}Solução}{11}{paragraph.1.2.2.1.1}%
+\contentsline {subsection}{\numberline {1.2.3}Difusividade Térmica}{11}{subsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.3.1}Exemplo 1}{11}{subsubsection.1.2.3.1}%
+\contentsline {paragraph}{\numberline {1.2.3.1.1}Solução}{12}{paragraph.1.2.3.1.1}%
+\contentsline {subsection}{\numberline {1.2.4}Densidade}{12}{subsection.1.2.4}%
+\contentsline {chapter}{\chapternumberline {2}Bioquímica}{15}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {3}Fenômenos de Transporte III}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Fundamentos da Transferência de Massa}{17}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Definição}{17}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Concentrações}{17}{subsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Concentração mássica}{17}{subsubsection.3.1.2.1}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Concentração molar}{17}{subsubsection.3.1.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}Fração Mássica}{17}{subsubsection.3.1.2.3}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}Fração Molar}{17}{subsubsection.3.1.2.4}%
+\contentsline {subsection}{\numberline {3.1.3}Definições Básicas para Uma Mistura Binária}{18}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Exemplo 1}{18}{subsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Solução}{18}{subsubsection.3.1.4.1}%
+\contentsline {subsection}{\numberline {3.1.5}Exemplo 2}{19}{subsection.3.1.5}%
+\contentsline {subsubsection}{\numberline {3.1.5.1}Solução}{19}{subsubsection.3.1.5.1}%
+\contentsline {subsection}{\numberline {3.1.6}Velocidades}{19}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Exemplo 3}{20}{subsection.3.1.7}%
+\contentsline {subsubsection}{\numberline {3.1.7.1}Solução}{20}{subsubsection.3.1.7.1}%
+\contentsline {subsection}{\numberline {3.1.8}Fluxos}{21}{subsection.3.1.8}%
+\contentsline {subsection}{\numberline {3.1.9}Exemplo }{21}{subsection.3.1.9}%
+\contentsline {subsubsection}{\numberline {3.1.9.1}Resolução}{22}{subsubsection.3.1.9.1}%
+\contentsline {subsection}{\numberline {3.1.10}Exemplo 5}{23}{subsection.3.1.10}%
+\contentsline {subsubsection}{\numberline {3.1.10.1}Solução}{23}{subsubsection.3.1.10.1}%
+\contentsline {chapter}{\chapternumberline {4}Cinética Química}{25}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introdução à Cinética}{25}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Reação Química: Definições e Classficações}{25}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Fatores que influenciam a velocidade de reação}{25}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Velocidade de reação}{26}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Tempo de meia-vida e tempo infinito.}{26}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Lei da Ação das Massas de Guldberg-Waage}{27}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Reações Elementares}{27}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Reações não-elementares}{27}{subsection.4.6.2}%
+\contentsline {subsection}{\numberline {4.6.3}Molecularidade}{27}{subsection.4.6.3}%
+\contentsline {section}{\numberline {4.7}Lei de Arrhenius}{28}{section.4.7}%
+\contentsline {section}{\numberline {4.8}Exercícios}{28}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Exercício 1}{28}{subsection.4.8.1}%
+\contentsline {subsection}{\numberline {4.8.2}Resolução}{28}{subsection.4.8.2}%
+\contentsline {subsection}{\numberline {4.8.3}Exercício 2}{28}{subsection.4.8.3}%
+\contentsline {subsection}{\numberline {4.8.4}Resolução}{29}{subsection.4.8.4}%

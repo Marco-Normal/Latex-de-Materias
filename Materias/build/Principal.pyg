@@ -1,0 +1,29 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import stats
+
+T = np.array([2, 10, 20, 25, 35, 40]) + 273.15
+k = np.array([0.0126, 0.017, 0.020, 0.027, 0.028, 0.038])
+
+y = np.log(k)
+x = 1/T
+
+slope, intercept, r_value, p_value, std_err = stats.linregress(x,y)
+
+print("slope: %f    intercept: %f" % (slope, intercept))
+print("R-squared: %f" % r_value**2)
+fig = plt.figure()
+ax = fig.add_subplot()
+ax.plot(x, y, 'o', label='Dados Originais')
+ax.plot(x, intercept + slope*x, 'r', label='Linha de regressão')
+plt.xlabel(r'$\frac{{1}}{{T}}$')
+plt.ylabel(r'$\ln(k)$')
+ax.text(0.52, 0.77, r'$\ln(k) = -\frac{E_a}{R} \frac{1}{T} + \ln(A)$', fontsize=15,
+         transform=ax.transAxes)
+ax.text(0.52, 0.70, r'$y = {} + {}x$'.format(round(intercept, 4),
+                                             round(slope, 4)), fontsize=15,
+                                            transform=ax.transAxes)
+ax.text(0.52, 0.63, r'$R^2 = {}$'.format(round(r_value**2, 4)), fontsize=15,
+                                            transform=ax.transAxes)
+plt.legend()
+plt.show()

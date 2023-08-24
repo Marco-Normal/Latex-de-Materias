@@ -1,0 +1,322 @@
+\chapter{Termodinâmica}
+\section{TDQ 2}
+\subsection{Termodinâmica de Soluções}
+Inicialmente vamos fazer analise para o caso mais simples que é o de gases ideal. Se faz de extrema
+importância a analise do caso ideal pelo fato de servir de base para eventualmente levarmos para o
+caso real. Quase todas as equações e essas analises vem da equação fundamental \(P\Bar{V}=RT\).
+Quando fazemos a analise real geralmente colocamos como \(Z=\frac{P\Bar{V}}{RT}=1\) Para o caso
+real, claro, esse valor vale 1. Para qualquer outro caso o valor varia. Esse comportamento é ideal
+em casos de pressão baixa, onde elas estão muito afastadas e pode-se desconsiderar forcas
+intra-moleculares. Para casos \(Z<1\) as pressões são altas, onde tem de se considerar as forças
+intra-moleculares. Vamos analisar à equação de van der walls, de formula:
+\begin{equation}\label{eq:eq de van der walls}
+    P=\frac{RT}{V-b}-\frac{a}{V^2}
+\end{equation}
+Onde \(b\) é o co-volume que é quase como um fator corretivo, de mesma unidade de \(V\), onde ele
+caracteriza o fator de repulsão. \(a\) é o fator das forças de intermoleculares, onde serve para a
+correção de pressão, junto com o termo \(\frac{1}{V^2}\). \(a,b\) são especificas para cada
+substancia. Rearranjando \eqref{eq:eq de van der walls}, multiplicando-a por \(\frac{V}{T}\), temos:
+\begin{equation}
+    Z=\frac{V}{V-b}-\frac{a}{RTV}
+\end{equation}
+Para substancias puras, teremos um ponto de inflexão na isotérmica critica,ou seja
+\begin{equation}
+    (\frac{\partial p}{\partial V})_T=(\frac{\partial^2}{\partial V^2})_T=0
+\end{equation}
+Tal relação pode ser utilizada para fazer uma equação em função das propriedades do ponto critico.
+\par
+
+Estados correspondentes: Essa teoria corresponde que dois estados terão \(Z\) iguais se possuírem
+\(T_r,V_r,P_r\) iguais, onde:
+\begin{align}
+    \phi&=\frac{V}{V_C}=V_r\\
+    \pi&=\frac{P}{P_c}=P_r\\
+    \theta&=\frac{T}{T_c}=T_r
+\end{align}
+A equação de estados reduzidos é
+\begin{equation}\label{eq:eq dos gases correspondentes}
+    \pi=\frac{8 \theta}{3 \phi -1} - \frac{3}{\phi^2} 
+\end{equation}
+\subsection{Casos do Diagrama Generalizado dos Gases}
+\begin{itemize}
+    \item Caso 1: tendo-se \(\pi, \theta \), podemos calcular \(z\) diretamente sendo o caso mais simples de
+    ser analisado
+    \item Caso 2: Quando não temos \(\pi\), vamos ter que criar uma função \(z=z(\pi)\), tendo-se T
+    \begin{align}
+        Z&=\frac{P_cV}{nRT}\pi\\
+        &=k\pi
+    \end{align}
+    Onde é uma reta e \(k\) é uma constante. Atribuindo dois valores à pressão, e traçando uma reta.
+    Calculando \(\theta\), conseguimos então saber onde ela intercepta na curva desejada.
+    Se \ \(\theta=1.1\), olhamos onde a reta corta essa curva em especifico.
+
+    \item  Caso 3: Quando não temos \(T\), vamos precisar criar uma equação \(z=z(\theta)\), onde teremos
+    \begin{align}
+        z&=\frac{PV}{nRT_c \theta}\\
+        &=\frac{h^\prime}{\theta}
+    \end{align}
+    Escolhendo um mínimo de 3 pontos, conseguimos fazer nossa função. Na interseção com o valor
+    conhecido da reta, conseguimos descobrir nosso valor desejado. Essa curva vai ter 2 pontos,a direita
+    e esquerda, então ficar esperto. Novamente, com o gráfico, calculamos \(\pi\) e vemos onde o gráfico
+    vai bater na curva do nosso \(\pi\) especifico. Se tivermos \(\pi=1.5\) vamos ver onde nosso gráfico
+    \(z=\frac{h^\prime}{\theta}\) intercepta a curva de \(\pi=1.5\)
+\end{itemize}
+\subsection{Misturas}
+Quando temos uma mistura de \(n\) substancias, para calcular a \(P_c^\prime,T_c^\prime\) é dado por
+\begin{align}
+    P_c^\prime&=\sum_i x_i P_{ci}\\
+    T_c^ \prime&= \sum_i x_i P_{ci}
+\end{align}
+Onde \(x_i\) é a fracão molar da substancia na mistura e \(P_{ci}, T_{ci}\) são as pressões e
+temperaturas criticas de cada substancia.
+\subsection{Relacoes fundamentais entre propriedades}
+`E importatnte relembrar que algumas propriedades do gas sao dependentes ou independentes do caminho
+ou seja, de forma que independente do caminho, o valor sera o mesmo ou nao. Funcoes dependentes de
+caminho sao o calor e trabalho que dependendem da rota que levamos o gas, mas entalpia, entropia e energia 
+interna sao independentes do caminho. Retomando a primeira lei da termodinamica podemos escreve-la como \(\mathrm{d}U=\mathrm{d}q \mathrm{w}\),
+onde \(\mathrm{d}w_r{rev}=p\mathrm{d}V\) e \(\mathrm{d}{rev}=T\mathrm{d}S\), portanto
+\(\mathrm{d}U=T\mathrm{d}S-p\mathrm{d}V\), onde para um trabalho reversivel `e maior que o irreversivel, pois nao se tem perda.
+Pela desigualdade de Clausis, para irreversiveis, isso fica claro, ela fala que \(T\mathrm{d}s > \mathrm{d}q\).
+Por consequencia de \(U\) ser funcao de \(S,V\), podemos escreve-la em funcao de derivadas parcials
+\begin{equation}
+    \mathrm{d}U=(\frac{\partial U}{\partial S})v\mathrm{d}S+(\frac{\partial U}{\partial V})_s \mathrm{d}V
+\end{equation}
+Se a composicao do sistema  for a mesma, vemos que
+\begin{align}
+    (\frac{\partial U}{\partial S})_V&=T\\
+    (\frac{\partial U}{\partial V})_s&=-p
+\end{align}
+Como sabemos que a forma diferencial da primeira lei da termodinamica `e uma equacao exata, temos que
+\begin{equation}
+    (\frac{\partial T}{\partial V})_s=-(\frac{\partial P}{\partial s})_v
+\end{equation}
+Onde temos diversas outras equacoes que relacionam diferentes quantidades, de deducao semelhante.
+\subsection{Potencial Quimico}
+O potencial quimico \(\mu\) `e chamado tambem de tendencia de escape, tal que em condicoes de se um potencial
+quimico for maior que o outro, o de maior tem tendencia a sair do tanque. O \(\mu\) de uma substancia pura se define como
+\begin{equation}
+    \mu =(\frac{\partial G}{\partial n})_{T,p}
+\end{equation}
+onde podemos tambem exprimir o potencial quimico de uma reacao como
+\begin{equation}
+    \mu =\mu _0 +RT \ln (\frac{p}{p_0})
+\end{equation}
+Onde \(p\) `e a pressao de um gas, \(p_0\) `e a pressao em que \(\mu _0\) `e medido. \(\mu _0\) `e o potencial padrao da substancia . Se tivermos uma mistura, teremos que fazer a media ponderada do \(\mu\) para a mistura.
+\subsection{Fugacidade}
+A fugaciade \(f\) `e definida como a tendencia de escape de uma determinada fase, ou seja, o quanto ele quer
+sair de um determinado estado. Ele tem as mesmas dimensoes da pressao.
+\begin{equation}\label{eq:tdq2 mi com fugacidade}
+    mu =\mu _0 +RT \ln (\frac{f}{p_0})
+\end{equation}
+Vamos definir a fugacidade como
+\begin{equation} \label{eq:tdq2 fugacidade}
+    f=\phi p
+\end{equation}
+Substituindo-a em \eqref{eq:tdq2 mi com fugacidade}, temos
+\begin{equation}
+    mu =\mu _0 +RT \ln (\frac{p}{p_0}) + RT \ln \phi
+\end{equation}
+Lembrando que \(\phi\) `e adimensional. O valor de \(\ln \phi\) pode ser calculado como
+\begin{equation}
+    \ln \phi = \int_0^p (\frac{Z-1}{p}) \ \mathrm{d}p
+\end{equation}
+Onde \(Z\) `e o nosso fator de compressibilidade do nosso gas. \par
+Estime a fugacidade do nitrogenio \(500 \ atm, 0 ^\circ \). \(P_c=33,5 \ atm, 126 \ k\)  
+\begin{align}
+    \theta &= \frac{0+273}{126,2}\\
+    &=2.1632\\
+    \pi &= \frac{500}{33,5}\\ 
+    &= 14.9253
+    \intertext{Por estimacao no grafico,\(\phi \approx 1.24\)}\notag \\
+    &\therefore\\
+    f&= \phi \cdot P\\
+    &=1.24 \cdot 500\\
+    &=620 \ \text{atm}
+\end{align}
+\subsection{A solucao Ideal}
+A solucao ideal pode ser definida como aquela solucao que segue o comportamento linear na relacao pressao x fracao molar.
+Ou seja, \(p =p^\circ(1-x_2), x + x_2 =1\) onde \(x\) é a fracao molar do solvente e \(x_2\) e a fracao molar do soluto. Isso vem de que a adicao
+de um soluto nao volatil a um nao volatil faz com que se altere a pressao da solucao. A adicao de um soluto nao volatil faz com que
+se diminua a pressao de vapor da solucao. Pela Lei de Raoult \(p = xp^{\circ}\) e substituindo que \(x +x_2 =1\), temos nossa relacao 
+anteriormente dita. Ademais \(p^\circ\) é a pressao de vapor do liquido puro. Para uma solucao ideal com \(n\) componentes a pressao
+total se da por 
+\begin{equation}
+    P = \sum^n p_n
+\end{equation}
+Onde nossa Lei de Raoult se da
+\begin{equation}
+    p_n = x_n P^\circ
+\end{equation}
+\subsection{Modelos para a energia de Gibbs}
+A ideia de fugacidade se encaixa muito bem pois para o criteiro de equilibrio mesmo é tao simples quanto ao de potencial.
+Para obter a relacao com a fugacidade basta igualar os potenciais quimicos das fases \(\alpha, \beta\)
+\begin{equation}
+    \mu_i^\alpha = \mu_i^\beta
+\end{equation}
+Nos lembrando de
+\begin{align}
+    \mu_1 - \mu_0 &= Rt \ln \left[\frac{f_1}{f_1^\alpha}\right]\\
+    \mu_1^{\alpha,0} +RT \ln \left[ \frac{f_f^{\alpha}}{f_i^{\alpha}} \right] &= \mu_i^{\beta,0} + RT \ln \left[ \frac{f_f^\beta}{f_i^{\beta}}\right]\\
+    \mu_1^{\alpha,0} - \mu_1^{\beta,0} &= RT \ln \left[ \frac{f_f^{\alpha,0}}{f_f^{\beta,0}} \right] + RT \ln \left[ \frac{f_i^{\beta,0}}{f_i^{\alpha,0}}\right]\\
+\end{align}
+Como definimos a primeira parte da equacao como 0, temos que
+\begin{align}
+    0 &= RT \ln \left[ \frac{f_i^\beta}{f_i^\alpha} \right]
+    &\therefore
+    f_i^\alpha &= f_i^\beta
+\end{align}
+Portanto, podemos definir que 
+\begin{align}
+    T^\alpha &= T^\beta\\
+    P^\alpha &= P^\beta\\
+    f_i^\alpha &= f_i^\beta
+\end{align}
+Para trabalharmos com isso, podemos  preferencialmente escolher a fase gasosa com pressao baixa,
+fazendo com que a fugacidade seja igual a pressao. Assim, podemos definir que
+\begin{align}
+    f_i \to P\\
+    \phi_i \to 1
+\end{align}
+Podemos escrever a expresao da fugacidade para uma substancia pura como
+\begin{align}
+    g_i \to g_i^\circ = RT \ln \left[\frac{f_i^\circ}{P_{baixa}} \right]\\
+    P^\circ = P_{baixa}\\
+    T^\circ = T_{sis}
+\end{align}
+E tambem
+\begin{equation}
+    \varphi = (f_i^\circ / P_{sis})
+\end{equation}
+\subsubsection{Propriedades de mistura de uma gas ideal}
+O gas ideial fornece o estado de referencia para a fase vapor. Vamos relembrar as propriedades de mistura
+de um gas ideal. Desejamos determinar \(\Delta \upsilon_{mist}, \Delta h_{mist}, \Delta s_{mist}, 
+\Delta g_{mist} \). Para uma mistura vamos ter que
+\begin{align}
+    \Delta \upsilon_{mist}^{ideal} &= 0\\
+    \Delta h_{mist}^{ideal} &= 0\\
+    \Delta s_{mist}^{ideal} &= -R \sum y_i \ln y_i\\
+    \Delta g_{mist}^{ideal} &= RT \sum y_i \ln y_i
+\end{align}
+A variacao da energia livre de Gibbs se da como
+\begin{equation}
+    \Delta G_{mist} = nrT \sum_i x_i \ln x_i
+\end{equation}
+Por fim, a entropia para misturas se da como 
+\begin{equation}
+    \Delta S_{mist} = -nr \sum_i x_i \ln x_i
+\end{equation}
+E \(\Delta H_{mist} = 0\)
+\subsection{Equilíbrio Liquido-Vapor}
+Vamos inicialmente colocar a Regra de Duhem, enunciado como
+\begin{equation}
+    F = C - P + 2
+\end{equation}
+Onde \(F\) é o numero de graus de liberdade, \(C\) é o numero de componentes e \(P\) é o numero de
+fases. Vamos ter que \(F\) sao as quantidades de variáveis intensivas que podem ser alteradas sem
+alterar o número de fases em equilíbrio. \par
+
+O teorema de Duhem, por sua vez, enuncia que, se em um sistema com um componente, como a agua pura,
+fixamos \(C = 1\), então nossa regra de fases se reduz a \(F = 3- P\). Se apenas uma fase estiver
+presente, \(F = 2\), implicando que podemos alterar \(p, T\). Se no sistema tivermos duas fases,
+\(F = 1\), implicando que podemos alterar \(p\) ou \(T\), apenas 1 por ver. Com tres fases, \(F =
+0\), implicando que nao podemos alterar \(p\) ou \(T\), virando um ponto no nosso diagrama. \par
+
+\subsection{Equilíbrio Liquido-Vapor}
+Definimos o ponto de bolha como quando nosso liquido esta na iminência de se vaporizar ou seja,
+quando o primeiro traco de vapor se forma. O ponto de orvalho, por sua vez, é quando o primeiro
+traco de liquido se forma. \par
+
+Se tivermos um sistema com duas fases, liquido e vapor, em equilibrio, podemos fazer o grafico do
+equilibrio do diagrama em funcao \(P, x, y\) ou  \(T, x, y\), onde \(x, y\) sao as fracoes molares
+da fase liquida e gasosa respectivamente.\par
+%Colocar imagem depois
+\subsection{Misturas Azeotropicas}
+Existem diversos sistemas binarios que nao seguem a lei de Raoult, apresentando diversos disvios de
+forma que nao podemos descrever o sistema como uma mistura ideal. Para sistemas reais, as curvas de
+ponto de ebulicao apresentam maximos ou minimos, que correspondem ao maximo e minimo de pressao de
+vapor. \par
+
+Quando temos um sistema com um maximo de pressao de vapor, chamamos de azeotropo positivo, e quando
+temos um minimo, chamamos de azeotropo negativo. Para os desvios poitivos a lei de Raoult nosso
+azeotropo te ponto de ebulicao minimo, ja para desvios negativos, nosso azeotropo tem ponto de
+ebulicao maximo.\par
+
+Para sistemas com ponto de ebulicao maior que o das substancias que as formam, temos o azeotrodo de
+maximo. Porem, se nosso azeotropo tiver ponto de ebulicao menor que o das substancias que o formam,
+ele é chamado de azeotropo de minimo.\par 
+
+Numa coluna de destilacao, se tivermos um azeotropo de maximo, ele sobrara como residuo, enquanto se
+tivermos um azeotropo de minimo, ele sera destilado. Caso queiramos saber a composicao a uma
+determinada temperatura ou pressao, vamos ignorar um dos lados e nos importar apenas com o outro.
+\par
+
+\subsection{Destilacao em Recipientes Abertos}
+Para a destilacao com retirada de vapor, sera considerado que todo vapor recolhido tera composicao
+final media do primiero traco de vapor, PTV, e do vapor final, durante o intervalo de temperaturas
+inicial e final, logo:
+\begin{equation}
+    y_{medio} = \frac{y_{i} + y_{final}}{2}
+\end{equation}
+Onde \(y_{i}\) é a composicao do primeiro traco de vapor e \(y_{final}\) é a composicao do vapor
+na temperatura final. \par
+%colocar exemplos e imagens aqui depois
+\subsection{Equilibrio de Fases}
+Inicialmente é valido comentar sobre a condicao de equilibro, em que é necessario que \emph{O
+potencial quimico de cada constituinte deve possuir o mesmo valor em todas as fases em equilibrio}.
+Se uma fase tiver mais de um constituinte, o potencial quimico de cada constituinte deve possuir o
+mesmo valor em todas as fases em equilibrio. Se um constituente estiver presente em mais de uma
+fase, o potencial quimico desse constituinte deve possuir o mesmo valor em todas as fases. \par
+
+Por exemplo, se tivermos um sistema agua e seu vapor, em equilibrio vamos ter que:
+\begin{equation}
+    \mu_{agua}^{liquido} = \mu_{agua}^{vapor}\\
+\end{equation}
+Se o sistema for constituido apenas de um componente, temos que 
+\begin{align}
+    \mu &= \frac{G}{n}\\
+    \mathrm{d}G &= - S\mathrm{d}T + V\mathrm{d}P \cdot \left( \frac{1}{n} \right)\\
+    \mathrm{d}\mu  &= - \overline{S} \mathrm{d}T + \overline{V} \mathrm{d}P\\
+    \begin{dcases}
+    -\overline{S} , &\quad \left( \frac{\mathrm{d}\mu }{\mathrm{d}T}  \right)_{p}   ;\\
+    \overline{V} , &\quad\left( \frac{\mathrm{d}\mu }{\mathrm{d}p}  \right) _{T} ;\\
+    \end{dcases}
+\end{align}
+\subsection{Estabilidade das fases formadas por uma substancia pura-Influencia da Temperatura}
+De acordo com a terceira lei da termodinamica, a entropia de uma substancia é sempre positiva, logo
+\begin{equation}
+    \left( \frac{\mathrm{d}\mu }{\mathrm{d}T}  \right) _{p} = -\overline{S} < 0
+\end{equation}
+O grafico de \(\mu \) em funcao de \(T\) é uma reta decrescente, logo, a inclinacao da reta é sempre
+negativa. Para os diferentes estados da substancia, vamos ter que
+\begin{align}
+    \left(\frac{\partial \mu_{solido} }{\partial {d}T}\right)_{p} &= -\overline{S}_{solido} \\
+    \left( \frac{\partial \mu_{liquido}}{\partial T}  \right)_{p} &= -\overline{S}_{liquido} \\ 
+    \left( \frac{\partial \mu_{gas} }{\partial T}  \right)_{p} &= -\overline{S}_{gas} \\
+\end{align}
+Onde
+\begin{equation}
+    \overline{S}_{gas} \gg \overline{S}_{liquido} > \overline{S}_{solido}
+\end{equation} 
+%Colocar grafico
+
+\subsection{Estabilidade das fases formadas por uma substancia pura-Influencia da Pressao}
+Para a influencia da pressao, olhamos a nossa equacao de \(\overline{V} \) ja enunciada, podendo ser
+reescrita como
+\begin{equation}
+    \mathrm{d} \mu = \overline{V} \mathrm{d}P
+\end{equation}
+Se a pressao diminui, \(\mathrm{d}p \) é negativo, \(\overline{V} \) é positivo, logo,
+\(\mathrm{d}\mu \) diminui. Logo, a inclinacao da reta é negativa. \par
+%Colocar grafico
+Concluimos que quando variamos a pressao, altera-se a temperatura de fusao e ebulicao de uma das
+substantancias. Ademais, as temperaturas de ebulicao é muito maior que a de fusao. Se a pressao for
+reduzido a um valor suficiententemente baixo de forma que a temperatura de ebulicao seja menor que a
+de fusao, o liquido nao tera estabilidade e ocorrera sublimacao do solido. \par
+
+A pressao a qual ocorre a sublimacao pode ser determinada pela equacao chamada Regra de Trouton:
+\begin{equation}
+    \ln p = -10.8 \left( \frac{T_{eb} -T_{f}}{T_{f}} \right)
+\end{equation}
+\subsection{Equacao de Clapeyron} 
+
+

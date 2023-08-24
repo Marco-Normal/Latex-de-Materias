@@ -1,0 +1,64 @@
+\chapter{IEQ}
+\section{Inicio e exemplos}
+\subsection{A ideia da instrumentação}
+Vamos levar nossas mentes para uma época anterior, antes da mecanização do trabalho podemos imaginar
+como era, onde tudo era manual, demorava muito tempo para se fazer as coisas. Eventualmente com o
+avanço da tecnologia, não é difícil ver que as coisas foram se tornando mais fáceis, ou seja, a
+maquina foi substituindo o trabalho do homem e hoje, mais do que nunca, vemos como a automação vem
+fazendo o nosso trabalho.\par
+
+Vamos fazer uma distinção:
+\begin{itemize}
+    \item Mecanização: substituição dos trabalhos manuais por maquinas, ou seja, bombas, transporte
+    de fluidos
+    \item Automatização: substituição do trabalho mentais por maquinas, ou seja, utilizar
+    computadores, maquinas pneumáticas, mecânicas para fazer nosso trabalho.
+\end{itemize}
+Claro que naturalmente, todas nossas automatizações e mecanizações vieram como modo de deixar a vida
+e o trabalho humano mais fácil. Mas por mais que uma grande parte do nosso trabalho tem sido
+automatizado, ainda se é necessário que especialista ou alguém em algum nível consiga entender
+tanto a maquina tanto o processo, para que se posso entender caso aconteça algo errado ou se
+identifique uma forma de melhoria no processo. \par
+
+Um dos grandes avanços que tivemos foi a utilização de sensores que nos ajudam a monitorar as
+principais variáveis do nosso processo, como pressão, temperatura, vazão, etc. Esses sensores tomam
+medidas ao longo do tempo e retornam os valores, para que sejam analisados, seja por humanos sejam
+por outras maquinas que regulariam nosso processo. Com uma implementação de sensores e outros tipos
+de automatizações, podemos integra-los ao nosso sistema e aumentar nossa produção. Ademais, ate
+mesmo em sentido de segurança, sensores sao extremamente precisos, ou seja, conseguimos medir
+variáveis com um grau de precisão altíssima, fazendo com que caso haja, por exemplo, um aumento de
+pressão, seja pequena ou grande, conseguimos fazer com que esse aumento, passado um valor de
+threshold, ou um valor de segurança, podemos automaticamente desligar nossa caldeira, ou regular sua
+temperatura, etc. \par
+
+Vamos agora nos focar um pouco sobre esses aumentos, ou também comumente chamadas de pertubações.
+Imaginemos que num sistema sem ter sido perturbada a um tempo grande, ou seja, esta num estado
+estacionário, podemos representar sua variável de controle, temperatura, por exemplo, como uma linha
+continua ao longo do tempo. Se decidirmos pertusa-la, aumentando ou diminuindo sua temperatura,
+vamos ver uma linha reta, ou levemente curvada sob o período de tempo que estamos perturbando-o. Se
+fizermos uma pertubação longa, dobrando sua temperatura, por exemplo, veremos uma longa linha
+crescente durante o tempo necessário para esse aquecimento. Mas vamos imaginar que desejamos
+aumentar em \(0.5\) nossa temperatura. Dado um meio suficientemente potente, conseguimos subir essa
+temperatura em um intervalo \(\Delta t\) muito pequeno. Fazendo-o tender a zero, teremos uma função
+degrau, que seria uma pertubação ideal para engenharia. Se tivéssemos \(n\) dessas funções, teríamos
+uma variação instantânea para nossa temperatura desejada. Porem, isso nao é possível no mundo real,
+logicamente, e nossa função degrau é continua e suave ao longo do intervalo \(t+ \Delta t\). Logo,
+tendo \(n\) dessas transformações, cada uma com sua variação \(\Delta t\), nao necessariamente
+iguais, teremos nosso tempo para atingirmos a variação desejada. \par
+
+\subsection{Diferenças}
+\paragraph{Automacão vs Instrumentacao Industrial}
+Automação é o estudo técnico para conseguirmos diminuir um menor uso de mao de obra humana e uma
+maior participação das maquinas \par
+
+Instrumentação, por sua vez, é o estudo e aperfeiçoamento de controles de processos industriais,
+assim como aumentando a segurança das maquinas e consequentemente das pessoas ao redor
+\par
+
+\paragraph{Malha baerta vs Fechada}
+Malha aberta é aquela na qual o sistema esta agindo sem nenhuma especie de controle, ou seja, nao
+tem nenhuma alteração dentro do sistema. Isso nao significa, necessariamente, que o sistema esta
+estacionário, podendo ser dinâmico, apenas nao tendo variações.\par
+
+Malha fechada, por sua vez, esta agindo sobre uma condição de controle, ou seja, a variável
+controlada é utilizada para controlar e gerir qualquer outras variáveis.
